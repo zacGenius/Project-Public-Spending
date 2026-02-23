@@ -1,4 +1,5 @@
 /venv 
-
+.env 
+ingestion/__pycache__
 
 
