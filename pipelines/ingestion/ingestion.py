@@ -6,10 +6,9 @@ from datetime import datetime
 from config import API_URL, API_KEY, bronze_path, ano, pagina_tamanho
 
 
-
 logging.basicConfig(
     level = logging.INFO,
-    format = %(asctime)s [%(levelname)s] %(message)s", 
+    format = "%(asctime)s [%(levelname)s] %(message)s", 
     handlers = [
         logging.StreamHandler(),
         logging.FileHandler("data/logs/ingestion.log")
@@ -20,9 +19,14 @@ logger = logging.getLogger(__name__)
 
 def buscar_pagina(ano: int, pagina: int) -> list[dict]:
     headers = {
+        "chave-api-dados": API_KEY,
+        "Accept": "application/json"
+    }
+
+    params = {
         "ano": ano,
         "pagina": pagina,
-        "tamanhoPagina": pagina_tamanho,
+        "tamanhoPagina": pagina_tamanho
     }
 
     url = f"{API_URL}/despesas/por-orgao"
@@ -45,7 +49,7 @@ def data_ingestion(ano: int) -> pd.DataFrame:
 
     logger.info(f"Iniciando ingestao -  Ano: {ano}")
 
-    while True
+    while True:
         logger.info(f"Buscando pagina {pagina}...")
         dados = buscar_pagina(ano, pagina)
 
@@ -54,14 +58,14 @@ def data_ingestion(ano: int) -> pd.DataFrame:
             break
 
         todas_as_paginas.extend(dados)
-        logger.info(f"Pagina {pagina} - {len{dados}} registros recebidos")
+        logger.info(f"Pagina {pagina} - {len(dados)} registros recebidos")
         paginas += 1
 
-    df = pd.Dataframe(todas_as_paginas)
+    df = pd.DataFrame(todas_as_paginas)
     logger.info(f"Total de registros baixados: {len(df)}")
     return df
 
-def save_bronze(df: pd.Dataframe, ano: int) -> str:
+def save_bronze(df: pd.DataFrame, ano: int) -> str:
     os.makedirs(bronze_path, exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -74,7 +78,17 @@ def save_bronze(df: pd.Dataframe, ano: int) -> str:
     return caminho
 
 def exec_ingestion():
-    logger.info("------- End ")
+    logger.info("------- Start Ingestion -------")
+
+    df = data_ingestion(ano)
+    caminho = bronze_path(df, ano)
+
+    logger.info("------- End of Ingestion -------")
+    return caminho 
+
+if __name__ == "__main__":
+    exec_ingestion()
+
 
 
 

@@ -1,0 +1,31 @@
+2026-02-22 21:21:30,687 [INFO] ------- Start Ingestion -------
+2026-02-22 21:21:30,687 [INFO] Iniciando ingestao -  Ano: 2024
+2026-02-22 21:21:30,687 [INFO] Buscando pagina 1...
+2026-02-22 21:27:24,374 [INFO] ------- Start Ingestion -------
+2026-02-22 21:27:24,374 [INFO] Iniciando ingestao -  Ano: 2024
+2026-02-22 21:27:24,374 [INFO] Buscando pagina 1...
+2026-02-22 21:27:24,726 [ERROR] Erro HTTP na pagina 1: 401 Client Error: Unauthorized for url: https://api.portaldatransparencia.gov.br/api-de-dados/despesas/por-orgao?ano=2024&pagina=1&tamanhoPagina=500
+2026-02-22 21:27:43,023 [INFO] ------- Start Ingestion -------
+2026-02-22 21:27:43,023 [INFO] Iniciando ingestao -  Ano: 2024
+2026-02-22 21:27:43,023 [INFO] Buscando pagina 1...
+2026-02-22 21:27:43,145 [ERROR] Erro HTTP na pagina 1: 401 Client Error: Unauthorized for url: https://api.portaldatransparencia.gov.br/api-de-dados/despesas/por-orgao?ano=2024&pagina=1&tamanhoPagina=500
+2026-02-22 21:30:25,140 [INFO] ------- Start Ingestion -------
+2026-02-22 21:30:25,140 [INFO] Iniciando ingestao -  Ano: 2024
+2026-02-22 21:30:25,140 [INFO] Buscando pagina 1...
+2026-02-22 21:30:25,304 [ERROR] Erro HTTP na pagina 1: 401 Client Error: Unauthorized for url: https://api.portaldatransparencia.gov.br/api-de-dados/despesas/por-orgao?ano=2024&pagina=1&tamanhoPagina=500
+2026-02-22 21:30:55,922 [INFO] ------- Start Ingestion -------
+2026-02-22 21:30:55,922 [INFO] Iniciando ingestao -  Ano: 2024
+2026-02-22 21:30:55,922 [INFO] Buscando pagina 1...
+2026-02-22 21:30:56,040 [ERROR] Erro HTTP na pagina 1: 401 Client Error: Unauthorized for url: https://api.portaldatransparencia.gov.br/api-de-dados/despesas/por-orgao?ano=2024&pagina=1&tamanhoPagina=500
+2026-02-22 21:31:07,495 [INFO] ------- Start Ingestion -------
+2026-02-22 21:31:07,495 [INFO] Iniciando ingestao -  Ano: 2024
+2026-02-22 21:31:07,495 [INFO] Buscando pagina 1...
+2026-02-22 21:31:07,619 [ERROR] Erro HTTP na pagina 1: 401 Client Error: Unauthorized for url: https://api.portaldatransparencia.gov.br/api-de-dados/despesas/por-orgao?ano=2024&pagina=1&tamanhoPagina=500
+2026-02-22 21:33:40,413 [INFO] ------- Start Ingestion -------
+2026-02-22 21:33:40,413 [INFO] Iniciando ingestao -  Ano: 2024
+2026-02-22 21:33:40,413 [INFO] Buscando pagina 1...
+2026-02-22 21:33:40,579 [ERROR] Erro HTTP na pagina 1: 401 Client Error: Unauthorized for url: https://api.portaldatransparencia.gov.br/api-de-dados/despesas/por-orgao?ano=2024&pagina=1&tamanhoPagina=500
+2026-02-22 21:33:48,789 [INFO] ------- Start Ingestion -------
+2026-02-22 21:33:48,789 [INFO] Iniciando ingestao -  Ano: 2024
+2026-02-22 21:33:48,789 [INFO] Buscando pagina 1...
+2026-02-22 21:33:48,911 [ERROR] Erro HTTP na pagina 1: 401 Client Error: Unauthorized for url: https://api.portaldatransparencia.gov.br/api-de-dados/despesas/por-orgao?ano=2024&pagina=1&tamanhoPagina=500
