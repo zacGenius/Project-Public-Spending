@@ -29,3 +29,7 @@
 2026-02-22 21:33:48,789 [INFO] Iniciando ingestao -  Ano: 2024
 2026-02-22 21:33:48,789 [INFO] Buscando pagina 1...
 2026-02-22 21:33:48,911 [ERROR] Erro HTTP na pagina 1: 401 Client Error: Unauthorized for url: https://api.portaldatransparencia.gov.br/api-de-dados/despesas/por-orgao?ano=2024&pagina=1&tamanhoPagina=500
+2026-02-23 19:46:58,556 [INFO] ------- Start Ingestion -------
+2026-02-23 19:46:58,556 [INFO] Iniciando download - Ano: 2024
+2026-02-23 19:49:54,717 [INFO] ====== INÍCIO DA INGESTÃO ======
+2026-02-23 19:49:54,717 [INFO] Iniciando download - Ano: 2024

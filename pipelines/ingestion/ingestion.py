@@ -16,75 +16,84 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+HEADERS = {
+    "chave-api-dados": API_KEY,
+    "Accept": "application/json"
+}
 
-def buscar_pagina(ano: int, pagina: int) -> list[dict]:
-    headers = {
-        "chave-api-dados": API_KEY,
-        "Accept": "application/json"
-    }
-
-    params = {
-        "ano": ano,
-        "pagina": pagina,
-        "tamanhoPagina": pagina_tamanho
-    }
-
-    url = f"{API_URL}/despesas/por-orgao"
-
-    try:
-        response = requests.get(url, headers = headers, params = params, timeout = 30)
+def buscar_orgaos() -> list[str]:
+    orgaos = []
+    pagina = 1
+    while True:
+        url = f"{API_URL}/orgaos-siafi"
+        params = {"pagina": pagina}
+        response = requests.get(url, headers=HEADERS, params=params, timeout=30)
         response.raise_for_status()
-        return response.json()
-    
-    except requests.exceptions.HTTPError as e:
-        logger.error(f"Erro HTTP na pagina {pagina}: {e}")
-        raise
-    except requests.exceptions.Timeout:
-        logger.error(f"Erro de conexao: {e}")
-        raise
+        dados = response.json()
+        if not dados:
+            break
+        # Filtra códigos inválidos
+        validos = [o["codigo"] for o in dados if "INVALIDO" not in o["descricao"].upper()]
+        orgaos.extend(validos)
+        logger.info(f"Órgãos - página {pagina}: {len(validos)} válidos de {len(dados)}")
+        pagina += 1
+    logger.info(f"Total de órgãos válidos encontrados: {len(orgaos)}")
+    return orgaos
+
+def buscar_despesas_orgao(ano: int, orgao: str) -> list[dict]:
+    todas = []
+    pagina = 1
+    url = f"{API_URL}/despesas/por-orgao"
+    while True:
+        params = {
+            "ano": ano,
+            "pagina": pagina,
+            "tamanhoPagina": pagina_tamanho,
+            "orgaoSuperior": orgao
+        }
+        try:
+            response = requests.get(url, headers=HEADERS, params=params, timeout=30)
+            response.raise_for_status()
+            dados = response.json()
+            if not dados:
+                break
+            todas.extend(dados)
+            logger.info(f"  Órgão {orgao} - página {pagina}: {len(dados)} registros")
+            pagina += 1
+        except requests.exceptions.HTTPError as e:
+            logger.warning(f"  Órgão {orgao} - erro na página {pagina}: {e}")
+            break
+    return todas
 
 def data_ingestion(ano: int) -> pd.DataFrame:
-    todas_as_paginas = [1]
-    pagina = 1
+    logger.info(f"Iniciando download - Ano: {ano}")
+    orgaos = buscar_orgaos()
+    todos_os_registros = []
 
-    logger.info(f"Iniciando ingestao -  Ano: {ano}")
+    for i, orgao in enumerate(orgaos, 1):
+        logger.info(f"[{i}/{len(orgaos)}] Baixando órgão: {orgao}")
+        registros = buscar_despesas_orgao(ano, orgao)
+        todos_os_registros.extend(registros)
+        logger.info(f"  Total acumulado: {len(todos_os_registros)} registros")
 
-    while True:
-        logger.info(f"Buscando pagina {pagina}...")
-        dados = buscar_pagina(ano, pagina)
-
-        if not dados:
-            logger.info(f"Paginacao completad, total de paginas: {pagina - 1}")
-            break
-
-        todas_as_paginas.extend(dados)
-        logger.info(f"Pagina {pagina} - {len(dados)} registros recebidos")
-        paginas += 1
-
-    df = pd.DataFrame(todas_as_paginas)
-    logger.info(f"Total de registros baixados: {len(df)}")
+    df = pd.DataFrame(todos_os_registros)
+    logger.info(f"Download concluído. Total de registros: {len(df)}")
     return df
 
 def save_bronze(df: pd.DataFrame, ano: int) -> str:
     os.makedirs(bronze_path, exist_ok=True)
-
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    nome_arquivo = f"gastos_{ano}_{timestamp}.csv"
-    caminho = os.path.join(bronze_path, nome_arquivo)
-
+    caminho = os.path.join(bronze_path, f"gastos_{ano}_{timestamp}.csv")
     df.to_csv(caminho, index=False, encoding="utf-8-sig")
-
     logger.info(f"Arquivo salvo em: {caminho}")
     return caminho
 
 def exec_ingestion():
-    logger.info("------- Start Ingestion -------")
-
+    logger.info("====== INÍCIO DA INGESTÃO ======")
     df = data_ingestion(ano)
-    caminho = bronze_path(df, ano)
-
-    logger.info("------- End of Ingestion -------")
-    return caminho 
+    caminho = save_bronze(df, ano)
+    logger.info("====== FIM DA INGESTÃO ======")
+    return caminho
 
 if __name__ == "__main__":
     exec_ingestion()
