@@ -1,0 +1,158 @@
+# -------------------------------------------------------
+# VOLUMES — persistem dados mesmo se containers forem destruídos
+# -------------------------------------------------------
+volumes:
+  postgres_pipeline_data: # dados do banco do pipeline
+  airflow_logs:
+  airflow_plugins:
+
+# -------------------------------------------------------
+# NETWORKS — containers se comunicam pelo nome do serviço
+# -------------------------------------------------------
+networks:
+  pipeline_network:
+    driver: bridge
+
+# -------------------------------------------------------
+# CONFIG COMPARTILHADA DO AIRFLOW
+# -------------------------------------------------------
+x-airflow-common: &airflow-common
+  image: apache/airflow:2.8.1
+  environment: &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-postgres/airflow
+    AIRFLOW__CORE__FERNET_KEY: ""
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "true"
+    AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: "true"
+    # Variáveis do pipeline
+    POSTGRES_HOST: public_spend_postgres # nome do container do pipeline
+    POSTGRES_PORT: 5432
+    POSTGRES_DB: public_spend_postgres
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: postgres
+  volumes:
+    - ./pipelines/orchestration/dags:/opt/airflow/dags
+    - ./pipelines:/opt/airflow/pipelines
+    - ./data:/opt/airflow/data
+    - ./analytics/dbt:/opt/airflow/dbt
+    - airflow_logs:/opt/airflow/logs
+    - airflow_plugins:/opt/airflow/plugins
+  networks:
+    - pipeline_network
+  depends_on:
+    airflow-postgres:
+      condition: service_healthy
+
+services:
+  # =====================================================
+  # POSTGRES DO AIRFLOW
+  # =====================================================
+  airflow-postgres:
+    image: postgres:16
+    container_name: airflow-postgres-1
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    ports:
+      - "5433:5432"
+    volumes:
+      - /var/lib/postgresql/data
+    networks:
+      - pipeline_network
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =====================================================
+  # POSTGRES DO PIPELINE — dados do projeto
+  # Banco: gastos_publicos
+  # Usuário: postgres / postgres
+  # Porta: 5432
+  # =====================================================
+  gastos-postgres:
+    image: postgres:15-alpine
+    container_name: gastos_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: gastos_publicos
+    ports:
+      - "5434:5432" # porta padrão, sem conflito com o Airflow (5433)
+    volumes:
+      - postgres_pipeline_data:/var/lib/postgresql/data
+      - ./docker/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - pipeline_network
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =====================================================
+  # AIRFLOW
+  # =====================================================
+  airflow-init:
+    <<: *airflow-common
+    container_name: airflow-init
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        airflow db migrate
+        airflow users create \
+          --username admin \
+          --firstname Admin \
+          --lastname User \
+          --role Admin \
+          --email admin@gastos.local \
+          --password admin
+        echo "Airflow inicializado com sucesso"
+    restart: "no"
+
+  # =====================================================
+  # AIRFLOW — WEBSERVER (interface: http://localhost:8080)
+  # =====================================================
+  airflow-webserver:
+    <<: *airflow-common
+    container_name: airflow-webserver
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
+
+  # =====================================================
+  # AIRFLOW — SCHEDULER (executa as DAGs)
+  # =====================================================
+  airflow-scheduler:
+    <<: *airflow-common
+    container_name: airflow-scheduler
+    command: scheduler
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "airflow",
+          "jobs",
+          "check",
+          "--job-type",
+          "SchedulerJob",
+          "--hostname",
+          "$${HOSTNAME}",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped

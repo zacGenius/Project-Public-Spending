@@ -5,11 +5,10 @@ import logging
 from datetime import datetime 
 from config import API_URL, API_KEY, bronze_path, ano, pagina_tamanho
 
-
 logging.basicConfig(
-    level = logging.INFO,
-    format = "%(asctime)s [%(levelname)s] %(message)s", 
-    handlers = [
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s", 
+    handlers=[
         logging.StreamHandler(),
         logging.FileHandler("data/logs/ingestion.log")
     ]
@@ -32,7 +31,6 @@ def buscar_orgaos() -> list[str]:
         dados = response.json()
         if not dados:
             break
-        # Filtra códigos inválidos
         validos = [o["codigo"] for o in dados if "INVALIDO" not in o["descricao"].upper()]
         orgaos.extend(validos)
         logger.info(f"Órgãos - página {pagina}: {len(validos)} válidos de {len(dados)}")
@@ -54,28 +52,43 @@ def buscar_despesas_orgao(ano: int, orgao: str) -> list[dict]:
         try:
             response = requests.get(url, headers=HEADERS, params=params, timeout=30)
             response.raise_for_status()
+
+            if not response.text.strip():
+                logger.warning(f"  Órgão {orgao} - página {pagina}: resposta vazia, pulando...")
+                break
+
             dados = response.json()
+
             if not dados:
                 break
+
             todas.extend(dados)
             logger.info(f"  Órgão {orgao} - página {pagina}: {len(dados)} registros")
             pagina += 1
+
         except requests.exceptions.HTTPError as e:
-            logger.warning(f"  Órgão {orgao} - erro na página {pagina}: {e}")
+            logger.warning(f"  Órgão {orgao} - erro HTTP na página {pagina}: {e}")
             break
+
+        except requests.exceptions.JSONDecodeError as e:
+            logger.warning(f"  Órgão {orgao} - resposta inválida na página {pagina}: {e}")
+            break
+
+        except requests.exceptions.RequestException as e:
+            logger.error(f"  Órgão {orgao} - erro de requisição na página {pagina}: {e}")
+            break
+
     return todas
 
 def data_ingestion(ano: int) -> pd.DataFrame:
     logger.info(f"Iniciando download - Ano: {ano}")
     orgaos = buscar_orgaos()
     todos_os_registros = []
-
     for i, orgao in enumerate(orgaos, 1):
         logger.info(f"[{i}/{len(orgaos)}] Baixando órgão: {orgao}")
         registros = buscar_despesas_orgao(ano, orgao)
         todos_os_registros.extend(registros)
         logger.info(f"  Total acumulado: {len(todos_os_registros)} registros")
-
     df = pd.DataFrame(todos_os_registros)
     logger.info(f"Download concluído. Total de registros: {len(df)}")
     return df
@@ -97,8 +110,3 @@ def exec_ingestion():
 
 if __name__ == "__main__":
     exec_ingestion()
-
-
-
-
-
