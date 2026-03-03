@@ -5373,3 +5373,1638 @@
 2026-02-26 22:32:47,643 [INFO] Iniciando download - Ano: 2024
 2026-02-26 22:32:53,705 [INFO] ====== INÍCIO DA INGESTÃO ======
 2026-02-26 22:32:53,705 [INFO] Iniciando download - Ano: 2024
+2026-03-02 21:15:03,407 [INFO] ====== INÍCIO DA INGESTÃO ======
+2026-03-02 21:15:03,407 [INFO] Iniciando download - Ano: 2024
+2026-03-02 21:15:03,592 [INFO] Órgãos - página 1: 6 válidos de 15
+2026-03-02 21:15:03,712 [INFO] Órgãos - página 2: 1 válidos de 15
+2026-03-02 21:15:03,830 [INFO] Órgãos - página 3: 0 válidos de 15
+2026-03-02 21:15:03,958 [INFO] Órgãos - página 4: 0 válidos de 15
+2026-03-02 21:15:04,078 [INFO] Órgãos - página 5: 0 válidos de 15
+2026-03-02 21:15:04,205 [INFO] Órgãos - página 6: 10 válidos de 15
+2026-03-02 21:15:04,316 [INFO] Órgãos - página 7: 4 válidos de 15
+2026-03-02 21:15:04,439 [INFO] Órgãos - página 8: 13 válidos de 15
+2026-03-02 21:15:04,575 [INFO] Órgãos - página 9: 14 válidos de 15
+2026-03-02 21:15:04,699 [INFO] Órgãos - página 10: 15 válidos de 15
+2026-03-02 21:15:04,815 [INFO] Órgãos - página 11: 13 válidos de 15
+2026-03-02 21:15:04,941 [INFO] Órgãos - página 12: 14 válidos de 15
+2026-03-02 21:15:05,055 [INFO] Órgãos - página 13: 12 válidos de 15
+2026-03-02 21:15:05,167 [INFO] Órgãos - página 14: 14 válidos de 15
+2026-03-02 21:15:05,281 [INFO] Órgãos - página 15: 14 válidos de 15
+2026-03-02 21:15:05,394 [INFO] Órgãos - página 16: 15 válidos de 15
+2026-03-02 21:15:05,531 [INFO] Órgãos - página 17: 15 válidos de 15
+2026-03-02 21:15:05,647 [INFO] Órgãos - página 18: 15 válidos de 15
+2026-03-02 21:15:05,766 [INFO] Órgãos - página 19: 15 válidos de 15
+2026-03-02 21:15:05,889 [INFO] Órgãos - página 20: 15 válidos de 15
+2026-03-02 21:15:06,004 [INFO] Órgãos - página 21: 15 válidos de 15
+2026-03-02 21:15:06,132 [INFO] Órgãos - página 22: 15 válidos de 15
+2026-03-02 21:15:06,258 [INFO] Órgãos - página 23: 15 válidos de 15
+2026-03-02 21:15:06,389 [INFO] Órgãos - página 24: 15 válidos de 15
+2026-03-02 21:15:06,505 [INFO] Órgãos - página 25: 15 válidos de 15
+2026-03-02 21:15:06,630 [INFO] Órgãos - página 26: 10 válidos de 15
+2026-03-02 21:15:06,756 [INFO] Órgãos - página 27: 15 válidos de 15
+2026-03-02 21:15:06,868 [INFO] Órgãos - página 28: 15 válidos de 15
+2026-03-02 21:15:06,995 [INFO] Órgãos - página 29: 13 válidos de 15
+2026-03-02 21:15:07,110 [INFO] Órgãos - página 30: 13 válidos de 15
+2026-03-02 21:15:07,236 [INFO] Órgãos - página 31: 13 válidos de 15
+2026-03-02 21:15:07,359 [INFO] Órgãos - página 32: 13 válidos de 15
+2026-03-02 21:15:07,480 [INFO] Órgãos - página 33: 13 válidos de 15
+2026-03-02 21:15:07,595 [INFO] Órgãos - página 34: 13 válidos de 15
+2026-03-02 21:15:07,711 [INFO] Órgãos - página 35: 13 válidos de 15
+2026-03-02 21:15:07,828 [INFO] Órgãos - página 36: 15 válidos de 15
+2026-03-02 21:15:07,960 [INFO] Órgãos - página 37: 14 válidos de 15
+2026-03-02 21:15:08,086 [INFO] Órgãos - página 38: 14 válidos de 15
+2026-03-02 21:15:08,204 [INFO] Órgãos - página 39: 15 válidos de 15
+2026-03-02 21:15:08,322 [INFO] Órgãos - página 40: 13 válidos de 15
+2026-03-02 21:15:08,447 [INFO] Órgãos - página 41: 15 válidos de 15
+2026-03-02 21:15:08,586 [INFO] Órgãos - página 42: 12 válidos de 15
+2026-03-02 21:15:08,704 [INFO] Órgãos - página 43: 13 válidos de 15
+2026-03-02 21:15:08,818 [INFO] Órgãos - página 44: 15 válidos de 15
+2026-03-02 21:15:08,966 [INFO] Órgãos - página 45: 14 válidos de 15
+2026-03-02 21:15:09,086 [INFO] Órgãos - página 46: 13 válidos de 15
+2026-03-02 21:15:09,220 [INFO] Órgãos - página 47: 12 válidos de 15
+2026-03-02 21:15:09,335 [INFO] Órgãos - página 48: 13 válidos de 15
+2026-03-02 21:15:09,455 [INFO] Órgãos - página 49: 14 válidos de 15
+2026-03-02 21:15:09,566 [INFO] Órgãos - página 50: 15 válidos de 15
+2026-03-02 21:15:09,679 [INFO] Órgãos - página 51: 14 válidos de 15
+2026-03-02 21:15:09,807 [INFO] Órgãos - página 52: 1 válidos de 1
+2026-03-02 21:15:09,925 [INFO] Total de órgãos válidos encontrados: 633
+2026-03-02 21:15:09,926 [INFO] [1/633] Baixando órgão: 01000
+2026-03-02 21:15:10,085 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:10,085 [INFO] [2/633] Baixando órgão: 01901
+2026-03-02 21:15:10,227 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:10,227 [INFO] [3/633] Baixando órgão: 02000
+2026-03-02 21:15:10,442 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:10,442 [INFO] [4/633] Baixando órgão: 02001
+2026-03-02 21:15:10,592 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:10,592 [INFO] [5/633] Baixando órgão: 02002
+2026-03-02 21:15:10,736 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:10,736 [INFO] [6/633] Baixando órgão: 02003
+2026-03-02 21:15:10,882 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:10,882 [INFO] [7/633] Baixando órgão: 03000
+2026-03-02 21:15:11,028 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:11,028 [INFO] [8/633] Baixando órgão: 10000
+2026-03-02 21:15:11,165 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:11,165 [INFO] [9/633] Baixando órgão: 11000
+2026-03-02 21:15:11,312 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:11,312 [INFO] [10/633] Baixando órgão: 12000
+2026-03-02 21:15:11,453 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:11,453 [INFO] [11/633] Baixando órgão: 12800
+2026-03-02 21:15:11,596 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:11,596 [INFO] [12/633] Baixando órgão: 12801
+2026-03-02 21:15:11,739 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:11,739 [INFO] [13/633] Baixando órgão: 12802
+2026-03-02 21:15:11,882 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:11,883 [INFO] [14/633] Baixando órgão: 12803
+2026-03-02 21:15:12,025 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:12,026 [INFO] [15/633] Baixando órgão: 12804
+2026-03-02 21:15:12,162 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:12,162 [INFO] [16/633] Baixando órgão: 12805
+2026-03-02 21:15:12,298 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:12,298 [INFO] [17/633] Baixando órgão: 13000
+2026-03-02 21:15:12,436 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:12,437 [INFO] [18/633] Baixando órgão: 14000
+2026-03-02 21:15:12,588 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:12,588 [INFO] [19/633] Baixando órgão: 14001
+2026-03-02 21:15:12,753 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:12,754 [INFO] [20/633] Baixando órgão: 15000
+2026-03-02 21:15:12,889 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:12,890 [INFO] [21/633] Baixando órgão: 16000
+2026-03-02 21:15:13,026 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:13,026 [INFO] [22/633] Baixando órgão: 17000
+2026-03-02 21:15:13,159 [INFO]   Total acumulado: 0 registros
+2026-03-02 21:15:13,159 [INFO] [23/633] Baixando órgão: 20000
+2026-03-02 21:15:13,311 [INFO]   Órgão 20000 - página 1: 4 registros
+2026-03-02 21:15:13,462 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:13,462 [INFO] [24/633] Baixando órgão: 20101
+2026-03-02 21:15:13,610 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:13,610 [INFO] [25/633] Baixando órgão: 20102
+2026-03-02 21:15:13,743 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:13,744 [INFO] [26/633] Baixando órgão: 20103
+2026-03-02 21:15:13,890 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:13,890 [INFO] [27/633] Baixando órgão: 20104
+2026-03-02 21:15:14,025 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:14,025 [INFO] [28/633] Baixando órgão: 20105
+2026-03-02 21:15:14,161 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:14,161 [INFO] [29/633] Baixando órgão: 20107
+2026-03-02 21:15:14,309 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:14,310 [INFO] [30/633] Baixando órgão: 20113
+2026-03-02 21:15:14,449 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:14,449 [INFO] [31/633] Baixando órgão: 20114
+2026-03-02 21:15:14,589 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:14,589 [INFO] [32/633] Baixando órgão: 20115
+2026-03-02 21:15:14,735 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:14,735 [INFO] [33/633] Baixando órgão: 20116
+2026-03-02 21:15:14,879 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:14,880 [INFO] [34/633] Baixando órgão: 20117
+2026-03-02 21:15:15,030 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:15,030 [INFO] [35/633] Baixando órgão: 20118
+2026-03-02 21:15:15,171 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:15,171 [INFO] [36/633] Baixando órgão: 20121
+2026-03-02 21:15:15,308 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:15,308 [INFO] [37/633] Baixando órgão: 20122
+2026-03-02 21:15:15,463 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:15,463 [INFO] [38/633] Baixando órgão: 20124
+2026-03-02 21:15:15,609 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:15,609 [INFO] [39/633] Baixando órgão: 20125
+2026-03-02 21:15:15,747 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:15,747 [INFO] [40/633] Baixando órgão: 20126
+2026-03-02 21:15:15,880 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:15,881 [INFO] [41/633] Baixando órgão: 20128
+2026-03-02 21:15:16,031 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:16,031 [INFO] [42/633] Baixando órgão: 20129
+2026-03-02 21:15:16,270 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:16,270 [INFO] [43/633] Baixando órgão: 20202
+2026-03-02 21:15:16,406 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:16,406 [INFO] [44/633] Baixando órgão: 20203
+2026-03-02 21:15:16,541 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:16,541 [INFO] [45/633] Baixando órgão: 20213
+2026-03-02 21:15:16,680 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:16,680 [INFO] [46/633] Baixando órgão: 20214
+2026-03-02 21:15:16,815 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:16,816 [INFO] [47/633] Baixando órgão: 20301
+2026-03-02 21:15:16,954 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:16,954 [INFO] [48/633] Baixando órgão: 20302
+2026-03-02 21:15:17,089 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:17,089 [INFO] [49/633] Baixando órgão: 20303
+2026-03-02 21:15:17,247 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:17,247 [INFO] [50/633] Baixando órgão: 20402
+2026-03-02 21:15:17,382 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:17,382 [INFO] [51/633] Baixando órgão: 20403
+2026-03-02 21:15:17,515 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:17,515 [INFO] [52/633] Baixando órgão: 20404
+2026-03-02 21:15:17,657 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:17,657 [INFO] [53/633] Baixando órgão: 20407
+2026-03-02 21:15:17,792 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:17,792 [INFO] [54/633] Baixando órgão: 20408
+2026-03-02 21:15:17,946 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:17,947 [INFO] [55/633] Baixando órgão: 20410
+2026-03-02 21:15:18,081 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:18,081 [INFO] [56/633] Baixando órgão: 20411
+2026-03-02 21:15:18,218 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:18,218 [INFO] [57/633] Baixando órgão: 20412
+2026-03-02 21:15:18,352 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:18,352 [INFO] [58/633] Baixando órgão: 20415
+2026-03-02 21:15:18,487 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:18,487 [INFO] [59/633] Baixando órgão: 20501
+2026-03-02 21:15:18,618 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:18,618 [INFO] [60/633] Baixando órgão: 20502
+2026-03-02 21:15:18,760 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:18,760 [INFO] [61/633] Baixando órgão: 20503
+2026-03-02 21:15:18,893 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:18,893 [INFO] [62/633] Baixando órgão: 20601
+2026-03-02 21:15:19,033 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:19,033 [INFO] [63/633] Baixando órgão: 20602
+2026-03-02 21:15:19,178 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:19,178 [INFO] [64/633] Baixando órgão: 20603
+2026-03-02 21:15:19,311 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:19,311 [INFO] [65/633] Baixando órgão: 20604
+2026-03-02 21:15:19,454 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:19,454 [INFO] [66/633] Baixando órgão: 20605
+2026-03-02 21:15:19,592 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:19,593 [INFO] [67/633] Baixando órgão: 20701
+2026-03-02 21:15:19,731 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:19,731 [INFO] [68/633] Baixando órgão: 20801
+2026-03-02 21:15:19,869 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:19,869 [INFO] [69/633] Baixando órgão: 20802
+2026-03-02 21:15:20,028 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:20,028 [INFO] [70/633] Baixando órgão: 20803
+2026-03-02 21:15:20,167 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:20,167 [INFO] [71/633] Baixando órgão: 20924
+2026-03-02 21:15:20,313 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:20,313 [INFO] [72/633] Baixando órgão: 20929
+2026-03-02 21:15:20,449 [INFO]   Total acumulado: 4 registros
+2026-03-02 21:15:20,449 [INFO] [73/633] Baixando órgão: 22000
+2026-03-02 21:15:20,609 [INFO]   Órgão 22000 - página 1: 3 registros
+2026-03-02 21:15:20,761 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:20,761 [INFO] [74/633] Baixando órgão: 22201
+2026-03-02 21:15:20,911 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:20,911 [INFO] [75/633] Baixando órgão: 22202
+2026-03-02 21:15:21,058 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:21,058 [INFO] [76/633] Baixando órgão: 22203
+2026-03-02 21:15:21,190 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:21,190 [INFO] [77/633] Baixando órgão: 22204
+2026-03-02 21:15:21,334 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:21,335 [INFO] [78/633] Baixando órgão: 22207
+2026-03-02 21:15:21,476 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:21,476 [INFO] [79/633] Baixando órgão: 22211
+2026-03-02 21:15:21,612 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:21,613 [INFO] [80/633] Baixando órgão: 22500
+2026-03-02 21:15:21,763 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:21,763 [INFO] [81/633] Baixando órgão: 22801
+2026-03-02 21:15:21,909 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:21,909 [INFO] [82/633] Baixando órgão: 22802
+2026-03-02 21:15:22,051 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:22,051 [INFO] [83/633] Baixando órgão: 22803
+2026-03-02 21:15:22,193 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:22,194 [INFO] [84/633] Baixando órgão: 22804
+2026-03-02 21:15:22,340 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:22,341 [INFO] [85/633] Baixando órgão: 22805
+2026-03-02 21:15:22,477 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:22,477 [INFO] [86/633] Baixando órgão: 22806
+2026-03-02 21:15:22,613 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:22,614 [INFO] [87/633] Baixando órgão: 22905
+2026-03-02 21:15:22,752 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:22,753 [INFO] [88/633] Baixando órgão: 23000
+2026-03-02 21:15:22,896 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:22,896 [INFO] [89/633] Baixando órgão: 23201
+2026-03-02 21:15:23,030 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:23,030 [INFO] [90/633] Baixando órgão: 23202
+2026-03-02 21:15:23,175 [INFO]   Total acumulado: 7 registros
+2026-03-02 21:15:23,175 [INFO] [91/633] Baixando órgão: 24000
+2026-03-02 21:15:23,314 [INFO]   Órgão 24000 - página 1: 7 registros
+2026-03-02 21:15:23,463 [INFO]   Total acumulado: 14 registros
+2026-03-02 21:15:23,463 [INFO] [92/633] Baixando órgão: 24208
+2026-03-02 21:15:23,618 [INFO]   Total acumulado: 14 registros
+2026-03-02 21:15:23,619 [INFO] [93/633] Baixando órgão: 24209
+2026-03-02 21:15:23,755 [INFO]   Total acumulado: 14 registros
+2026-03-02 21:15:23,755 [INFO] [94/633] Baixando órgão: 24216
+2026-03-02 21:15:23,897 [INFO]   Total acumulado: 14 registros
+2026-03-02 21:15:23,897 [INFO] [95/633] Baixando órgão: 24801
+2026-03-02 21:15:24,069 [INFO]   Total acumulado: 14 registros
+2026-03-02 21:15:24,069 [INFO] [96/633] Baixando órgão: 24802
+2026-03-02 21:15:24,214 [INFO]   Total acumulado: 14 registros
+2026-03-02 21:15:24,214 [INFO] [97/633] Baixando órgão: 24803
+2026-03-02 21:15:24,352 [INFO]   Total acumulado: 14 registros
+2026-03-02 21:15:24,352 [INFO] [98/633] Baixando órgão: 24901
+2026-03-02 21:15:24,486 [INFO]   Total acumulado: 14 registros
+2026-03-02 21:15:24,487 [INFO] [99/633] Baixando órgão: 25000
+2026-03-02 21:15:24,631 [INFO]   Órgão 25000 - página 1: 8 registros
+2026-03-02 21:15:24,772 [INFO]   Total acumulado: 22 registros
+2026-03-02 21:15:24,772 [INFO] [100/633] Baixando órgão: 25001
+2026-03-02 21:15:24,909 [INFO]   Total acumulado: 22 registros
+2026-03-02 21:15:24,909 [INFO] [101/633] Baixando órgão: 25002
+2026-03-02 21:15:25,046 [INFO]   Total acumulado: 22 registros
+2026-03-02 21:15:25,046 [INFO] [102/633] Baixando órgão: 25201
+2026-03-02 21:15:25,197 [INFO]   Órgão 25201 - página 1: 1 registros
+2026-03-02 21:15:25,341 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:25,341 [INFO] [103/633] Baixando órgão: 25202
+2026-03-02 21:15:25,477 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:25,477 [INFO] [104/633] Baixando órgão: 25203
+2026-03-02 21:15:25,609 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:25,610 [INFO] [105/633] Baixando órgão: 25205
+2026-03-02 21:15:25,741 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:25,741 [INFO] [106/633] Baixando órgão: 25206
+2026-03-02 21:15:25,874 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:25,874 [INFO] [107/633] Baixando órgão: 25207
+2026-03-02 21:15:26,020 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:26,020 [INFO] [108/633] Baixando órgão: 25208
+2026-03-02 21:15:26,174 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:26,174 [INFO] [109/633] Baixando órgão: 25209
+2026-03-02 21:15:26,317 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:26,317 [INFO] [110/633] Baixando órgão: 25211
+2026-03-02 21:15:26,462 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:26,462 [INFO] [111/633] Baixando órgão: 25220
+2026-03-02 21:15:26,603 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:26,603 [INFO] [112/633] Baixando órgão: 25280
+2026-03-02 21:15:26,740 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:26,741 [INFO] [113/633] Baixando órgão: 25281
+2026-03-02 21:15:26,889 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:26,889 [INFO] [114/633] Baixando órgão: 25282
+2026-03-02 21:15:27,028 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:27,028 [INFO] [115/633] Baixando órgão: 25289
+2026-03-02 21:15:27,165 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:27,165 [INFO] [116/633] Baixando órgão: 25301
+2026-03-02 21:15:27,307 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:27,307 [INFO] [117/633] Baixando órgão: 25801
+2026-03-02 21:15:27,450 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:27,450 [INFO] [118/633] Baixando órgão: 25802
+2026-03-02 21:15:27,606 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:27,606 [INFO] [119/633] Baixando órgão: 25803
+2026-03-02 21:15:27,746 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:27,747 [INFO] [120/633] Baixando órgão: 25804
+2026-03-02 21:15:27,882 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:27,882 [INFO] [121/633] Baixando órgão: 25805
+2026-03-02 21:15:28,028 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:28,028 [INFO] [122/633] Baixando órgão: 25806
+2026-03-02 21:15:28,166 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:28,167 [INFO] [123/633] Baixando órgão: 25901
+2026-03-02 21:15:28,304 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:28,304 [INFO] [124/633] Baixando órgão: 25902
+2026-03-02 21:15:28,439 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:28,439 [INFO] [125/633] Baixando órgão: 25903
+2026-03-02 21:15:28,575 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:28,575 [INFO] [126/633] Baixando órgão: 25904
+2026-03-02 21:15:28,726 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:28,726 [INFO] [127/633] Baixando órgão: 25905
+2026-03-02 21:15:28,868 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:28,868 [INFO] [128/633] Baixando órgão: 25907
+2026-03-02 21:15:29,003 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:29,003 [INFO] [129/633] Baixando órgão: 25908
+2026-03-02 21:15:29,147 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:29,147 [INFO] [130/633] Baixando órgão: 25910
+2026-03-02 21:15:29,304 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:29,304 [INFO] [131/633] Baixando órgão: 25914
+2026-03-02 21:15:29,465 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:29,465 [INFO] [132/633] Baixando órgão: 25915
+2026-03-02 21:15:29,607 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:29,607 [INFO] [133/633] Baixando órgão: 25916
+2026-03-02 21:15:29,736 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:29,736 [INFO] [134/633] Baixando órgão: 25917
+2026-03-02 21:15:29,877 [INFO]   Total acumulado: 23 registros
+2026-03-02 21:15:29,877 [INFO] [135/633] Baixando órgão: 26000
+2026-03-02 21:15:30,033 [INFO]   Órgão 26000 - página 1: 15 registros
+2026-03-02 21:15:30,187 [INFO]   Órgão 26000 - página 2: 15 registros
+2026-03-02 21:15:30,334 [INFO]   Órgão 26000 - página 3: 15 registros
+2026-03-02 21:15:30,483 [INFO]   Órgão 26000 - página 4: 15 registros
+2026-03-02 21:15:30,625 [INFO]   Órgão 26000 - página 5: 15 registros
+2026-03-02 21:15:30,772 [INFO]   Órgão 26000 - página 6: 15 registros
+2026-03-02 21:15:30,923 [INFO]   Órgão 26000 - página 7: 15 registros
+2026-03-02 21:15:31,076 [INFO]   Órgão 26000 - página 8: 12 registros
+2026-03-02 21:15:31,224 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:31,224 [INFO] [136/633] Baixando órgão: 26101
+2026-03-02 21:15:31,358 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:31,359 [INFO] [137/633] Baixando órgão: 26201
+2026-03-02 21:15:31,495 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:31,495 [INFO] [138/633] Baixando órgão: 26202
+2026-03-02 21:15:31,686 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:31,686 [INFO] [139/633] Baixando órgão: 26203
+2026-03-02 21:15:31,827 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:31,828 [INFO] [140/633] Baixando órgão: 26204
+2026-03-02 21:15:31,970 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:31,970 [INFO] [141/633] Baixando órgão: 26205
+2026-03-02 21:15:32,120 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:32,120 [INFO] [142/633] Baixando órgão: 26206
+2026-03-02 21:15:32,260 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:32,260 [INFO] [143/633] Baixando órgão: 26207
+2026-03-02 21:15:32,409 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:32,409 [INFO] [144/633] Baixando órgão: 26208
+2026-03-02 21:15:32,553 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:32,553 [INFO] [145/633] Baixando órgão: 26209
+2026-03-02 21:15:32,688 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:32,688 [INFO] [146/633] Baixando órgão: 26210
+2026-03-02 21:15:32,825 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:32,825 [INFO] [147/633] Baixando órgão: 26211
+2026-03-02 21:15:32,973 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:32,973 [INFO] [148/633] Baixando órgão: 26212
+2026-03-02 21:15:33,107 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:33,107 [INFO] [149/633] Baixando órgão: 26213
+2026-03-02 21:15:33,256 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:33,256 [INFO] [150/633] Baixando órgão: 26214
+2026-03-02 21:15:33,398 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:33,398 [INFO] [151/633] Baixando órgão: 26215
+2026-03-02 21:15:33,535 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:33,536 [INFO] [152/633] Baixando órgão: 26216
+2026-03-02 21:15:33,669 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:33,669 [INFO] [153/633] Baixando órgão: 26217
+2026-03-02 21:15:33,806 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:33,806 [INFO] [154/633] Baixando órgão: 26218
+2026-03-02 21:15:33,949 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:33,949 [INFO] [155/633] Baixando órgão: 26219
+2026-03-02 21:15:34,080 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:34,081 [INFO] [156/633] Baixando órgão: 26220
+2026-03-02 21:15:34,217 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:34,217 [INFO] [157/633] Baixando órgão: 26221
+2026-03-02 21:15:34,361 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:34,361 [INFO] [158/633] Baixando órgão: 26222
+2026-03-02 21:15:34,513 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:34,513 [INFO] [159/633] Baixando órgão: 26223
+2026-03-02 21:15:34,660 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:34,660 [INFO] [160/633] Baixando órgão: 26224
+2026-03-02 21:15:34,816 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:34,816 [INFO] [161/633] Baixando órgão: 26230
+2026-03-02 21:15:34,965 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:34,965 [INFO] [162/633] Baixando órgão: 26231
+2026-03-02 21:15:35,116 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:35,116 [INFO] [163/633] Baixando órgão: 26232
+2026-03-02 21:15:35,251 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:35,251 [INFO] [164/633] Baixando órgão: 26233
+2026-03-02 21:15:35,399 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:35,399 [INFO] [165/633] Baixando órgão: 26234
+2026-03-02 21:15:35,534 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:35,534 [INFO] [166/633] Baixando órgão: 26235
+2026-03-02 21:15:35,675 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:35,676 [INFO] [167/633] Baixando órgão: 26236
+2026-03-02 21:15:35,825 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:35,826 [INFO] [168/633] Baixando órgão: 26237
+2026-03-02 21:15:35,968 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:35,968 [INFO] [169/633] Baixando órgão: 26238
+2026-03-02 21:15:36,109 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:36,109 [INFO] [170/633] Baixando órgão: 26239
+2026-03-02 21:15:36,251 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:36,252 [INFO] [171/633] Baixando órgão: 26240
+2026-03-02 21:15:36,392 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:36,392 [INFO] [172/633] Baixando órgão: 26241
+2026-03-02 21:15:36,551 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:36,552 [INFO] [173/633] Baixando órgão: 26242
+2026-03-02 21:15:36,701 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:36,702 [INFO] [174/633] Baixando órgão: 26243
+2026-03-02 21:15:36,853 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:36,853 [INFO] [175/633] Baixando órgão: 26244
+2026-03-02 21:15:37,039 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:37,039 [INFO] [176/633] Baixando órgão: 26245
+2026-03-02 21:15:37,201 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:37,202 [INFO] [177/633] Baixando órgão: 26246
+2026-03-02 21:15:37,345 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:37,346 [INFO] [178/633] Baixando órgão: 26247
+2026-03-02 21:15:37,493 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:37,494 [INFO] [179/633] Baixando órgão: 26248
+2026-03-02 21:15:37,647 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:37,648 [INFO] [180/633] Baixando órgão: 26249
+2026-03-02 21:15:37,805 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:37,805 [INFO] [181/633] Baixando órgão: 26250
+2026-03-02 21:15:37,951 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:37,952 [INFO] [182/633] Baixando órgão: 26251
+2026-03-02 21:15:38,097 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:38,097 [INFO] [183/633] Baixando órgão: 26252
+2026-03-02 21:15:38,232 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:38,232 [INFO] [184/633] Baixando órgão: 26253
+2026-03-02 21:15:38,372 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:38,372 [INFO] [185/633] Baixando órgão: 26254
+2026-03-02 21:15:38,510 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:38,510 [INFO] [186/633] Baixando órgão: 26255
+2026-03-02 21:15:38,667 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:38,667 [INFO] [187/633] Baixando órgão: 26256
+2026-03-02 21:15:38,817 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:38,818 [INFO] [188/633] Baixando órgão: 26257
+2026-03-02 21:15:38,967 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:38,968 [INFO] [189/633] Baixando órgão: 26258
+2026-03-02 21:15:39,142 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:39,142 [INFO] [190/633] Baixando órgão: 26259
+2026-03-02 21:15:39,295 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:39,295 [INFO] [191/633] Baixando órgão: 26260
+2026-03-02 21:15:39,450 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:39,450 [INFO] [192/633] Baixando órgão: 26261
+2026-03-02 21:15:39,593 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:39,593 [INFO] [193/633] Baixando órgão: 26262
+2026-03-02 21:15:39,748 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:39,748 [INFO] [194/633] Baixando órgão: 26263
+2026-03-02 21:15:39,896 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:39,896 [INFO] [195/633] Baixando órgão: 26264
+2026-03-02 21:15:40,051 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:40,052 [INFO] [196/633] Baixando órgão: 26266
+2026-03-02 21:15:40,204 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:40,205 [INFO] [197/633] Baixando órgão: 26267
+2026-03-02 21:15:40,347 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:40,347 [INFO] [198/633] Baixando órgão: 26268
+2026-03-02 21:15:40,490 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:40,491 [INFO] [199/633] Baixando órgão: 26269
+2026-03-02 21:15:40,636 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:40,636 [INFO] [200/633] Baixando órgão: 26270
+2026-03-02 21:15:40,796 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:40,797 [INFO] [201/633] Baixando órgão: 26271
+2026-03-02 21:15:40,956 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:40,956 [INFO] [202/633] Baixando órgão: 26272
+2026-03-02 21:15:41,114 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:41,114 [INFO] [203/633] Baixando órgão: 26273
+2026-03-02 21:15:41,252 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:41,253 [INFO] [204/633] Baixando órgão: 26274
+2026-03-02 21:15:41,394 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:41,394 [INFO] [205/633] Baixando órgão: 26275
+2026-03-02 21:15:41,536 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:41,536 [INFO] [206/633] Baixando órgão: 26276
+2026-03-02 21:15:41,673 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:41,673 [INFO] [207/633] Baixando órgão: 26277
+2026-03-02 21:15:41,821 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:41,821 [INFO] [208/633] Baixando órgão: 26278
+2026-03-02 21:15:41,956 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:41,957 [INFO] [209/633] Baixando órgão: 26279
+2026-03-02 21:15:42,096 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:42,096 [INFO] [210/633] Baixando órgão: 26280
+2026-03-02 21:15:42,237 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:42,237 [INFO] [211/633] Baixando órgão: 26281
+2026-03-02 21:15:42,401 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:42,401 [INFO] [212/633] Baixando órgão: 26282
+2026-03-02 21:15:42,543 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:42,543 [INFO] [213/633] Baixando órgão: 26283
+2026-03-02 21:15:42,682 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:42,682 [INFO] [214/633] Baixando órgão: 26284
+2026-03-02 21:15:42,817 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:42,817 [INFO] [215/633] Baixando órgão: 26285
+2026-03-02 21:15:42,949 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:42,949 [INFO] [216/633] Baixando órgão: 26286
+2026-03-02 21:15:43,085 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:43,086 [INFO] [217/633] Baixando órgão: 26287
+2026-03-02 21:15:43,235 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:43,236 [INFO] [218/633] Baixando órgão: 26288
+2026-03-02 21:15:43,374 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:43,375 [INFO] [219/633] Baixando órgão: 26289
+2026-03-02 21:15:43,511 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:43,511 [INFO] [220/633] Baixando órgão: 26290
+2026-03-02 21:15:43,649 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:43,649 [INFO] [221/633] Baixando órgão: 26291
+2026-03-02 21:15:43,804 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:43,804 [INFO] [222/633] Baixando órgão: 26292
+2026-03-02 21:15:43,955 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:43,956 [INFO] [223/633] Baixando órgão: 26293
+2026-03-02 21:15:44,107 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:44,108 [INFO] [224/633] Baixando órgão: 26294
+2026-03-02 21:15:44,243 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:44,243 [INFO] [225/633] Baixando órgão: 26295
+2026-03-02 21:15:44,398 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:44,398 [INFO] [226/633] Baixando órgão: 26298
+2026-03-02 21:15:44,544 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:44,545 [INFO] [227/633] Baixando órgão: 26301
+2026-03-02 21:15:44,695 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:44,696 [INFO] [228/633] Baixando órgão: 26302
+2026-03-02 21:15:44,841 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:44,842 [INFO] [229/633] Baixando órgão: 26303
+2026-03-02 21:15:45,002 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:45,002 [INFO] [230/633] Baixando órgão: 26304
+2026-03-02 21:15:45,148 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:45,148 [INFO] [231/633] Baixando órgão: 26305
+2026-03-02 21:15:45,298 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:45,298 [INFO] [232/633] Baixando órgão: 26306
+2026-03-02 21:15:45,442 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:45,442 [INFO] [233/633] Baixando órgão: 26307
+2026-03-02 21:15:45,586 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:45,586 [INFO] [234/633] Baixando órgão: 26308
+2026-03-02 21:15:45,723 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:45,723 [INFO] [235/633] Baixando órgão: 26309
+2026-03-02 21:15:45,869 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:45,869 [INFO] [236/633] Baixando órgão: 26310
+2026-03-02 21:15:46,012 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:46,012 [INFO] [237/633] Baixando órgão: 26311
+2026-03-02 21:15:46,163 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:46,164 [INFO] [238/633] Baixando órgão: 26312
+2026-03-02 21:15:46,315 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:46,315 [INFO] [239/633] Baixando órgão: 26313
+2026-03-02 21:15:46,506 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:46,507 [INFO] [240/633] Baixando órgão: 26314
+2026-03-02 21:15:46,655 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:46,655 [INFO] [241/633] Baixando órgão: 26315
+2026-03-02 21:15:46,803 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:46,804 [INFO] [242/633] Baixando órgão: 26316
+2026-03-02 21:15:46,947 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:46,947 [INFO] [243/633] Baixando órgão: 26317
+2026-03-02 21:15:47,092 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:47,092 [INFO] [244/633] Baixando órgão: 26318
+2026-03-02 21:15:47,231 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:47,231 [INFO] [245/633] Baixando órgão: 26319
+2026-03-02 21:15:47,388 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:47,388 [INFO] [246/633] Baixando órgão: 26320
+2026-03-02 21:15:47,534 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:47,535 [INFO] [247/633] Baixando órgão: 26321
+2026-03-02 21:15:47,667 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:47,668 [INFO] [248/633] Baixando órgão: 26322
+2026-03-02 21:15:47,818 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:47,818 [INFO] [249/633] Baixando órgão: 26323
+2026-03-02 21:15:47,955 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:47,956 [INFO] [250/633] Baixando órgão: 26324
+2026-03-02 21:15:48,092 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:48,092 [INFO] [251/633] Baixando órgão: 26325
+2026-03-02 21:15:48,234 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:48,234 [INFO] [252/633] Baixando órgão: 26326
+2026-03-02 21:15:48,396 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:48,397 [INFO] [253/633] Baixando órgão: 26327
+2026-03-02 21:15:48,536 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:48,537 [INFO] [254/633] Baixando órgão: 26328
+2026-03-02 21:15:48,666 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:48,667 [INFO] [255/633] Baixando órgão: 26329
+2026-03-02 21:15:48,811 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:48,812 [INFO] [256/633] Baixando órgão: 26330
+2026-03-02 21:15:48,964 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:48,964 [INFO] [257/633] Baixando órgão: 26331
+2026-03-02 21:15:49,115 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:49,116 [INFO] [258/633] Baixando órgão: 26332
+2026-03-02 21:15:49,262 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:49,262 [INFO] [259/633] Baixando órgão: 26333
+2026-03-02 21:15:49,409 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:49,409 [INFO] [260/633] Baixando órgão: 26334
+2026-03-02 21:15:49,544 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:49,545 [INFO] [261/633] Baixando órgão: 26335
+2026-03-02 21:15:49,681 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:49,681 [INFO] [262/633] Baixando órgão: 26336
+2026-03-02 21:15:49,821 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:49,821 [INFO] [263/633] Baixando órgão: 26337
+2026-03-02 21:15:49,963 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:49,963 [INFO] [264/633] Baixando órgão: 26338
+2026-03-02 21:15:50,108 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:50,108 [INFO] [265/633] Baixando órgão: 26339
+2026-03-02 21:15:50,248 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:50,248 [INFO] [266/633] Baixando órgão: 26340
+2026-03-02 21:15:50,395 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:50,396 [INFO] [267/633] Baixando órgão: 26341
+2026-03-02 21:15:50,540 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:50,540 [INFO] [268/633] Baixando órgão: 26342
+2026-03-02 21:15:50,675 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:50,676 [INFO] [269/633] Baixando órgão: 26343
+2026-03-02 21:15:50,818 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:50,819 [INFO] [270/633] Baixando órgão: 26344
+2026-03-02 21:15:50,950 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:50,950 [INFO] [271/633] Baixando órgão: 26345
+2026-03-02 21:15:51,091 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:51,091 [INFO] [272/633] Baixando órgão: 26346
+2026-03-02 21:15:51,237 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:51,237 [INFO] [273/633] Baixando órgão: 26347
+2026-03-02 21:15:51,375 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:51,375 [INFO] [274/633] Baixando órgão: 26350
+2026-03-02 21:15:51,524 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:51,525 [INFO] [275/633] Baixando órgão: 26351
+2026-03-02 21:15:51,660 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:51,660 [INFO] [276/633] Baixando órgão: 26352
+2026-03-02 21:15:51,800 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:51,800 [INFO] [277/633] Baixando órgão: 26353
+2026-03-02 21:15:51,937 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:51,937 [INFO] [278/633] Baixando órgão: 26354
+2026-03-02 21:15:52,075 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:52,076 [INFO] [279/633] Baixando órgão: 26355
+2026-03-02 21:15:52,227 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:52,227 [INFO] [280/633] Baixando órgão: 26356
+2026-03-02 21:15:52,375 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:52,375 [INFO] [281/633] Baixando órgão: 26357
+2026-03-02 21:15:52,506 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:52,507 [INFO] [282/633] Baixando órgão: 26402
+2026-03-02 21:15:52,647 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:52,648 [INFO] [283/633] Baixando órgão: 26403
+2026-03-02 21:15:52,792 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:52,792 [INFO] [284/633] Baixando órgão: 26404
+2026-03-02 21:15:52,944 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:52,944 [INFO] [285/633] Baixando órgão: 26405
+2026-03-02 21:15:53,088 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:53,089 [INFO] [286/633] Baixando órgão: 26406
+2026-03-02 21:15:53,225 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:53,225 [INFO] [287/633] Baixando órgão: 26407
+2026-03-02 21:15:53,363 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:53,363 [INFO] [288/633] Baixando órgão: 26408
+2026-03-02 21:15:53,497 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:53,498 [INFO] [289/633] Baixando órgão: 26409
+2026-03-02 21:15:53,641 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:53,641 [INFO] [290/633] Baixando órgão: 26410
+2026-03-02 21:15:53,787 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:53,787 [INFO] [291/633] Baixando órgão: 26411
+2026-03-02 21:15:53,927 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:53,928 [INFO] [292/633] Baixando órgão: 26412
+2026-03-02 21:15:54,066 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:54,066 [INFO] [293/633] Baixando órgão: 26413
+2026-03-02 21:15:54,218 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:54,218 [INFO] [294/633] Baixando órgão: 26414
+2026-03-02 21:15:54,361 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:54,361 [INFO] [295/633] Baixando órgão: 26415
+2026-03-02 21:15:54,494 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:54,494 [INFO] [296/633] Baixando órgão: 26416
+2026-03-02 21:15:54,649 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:54,650 [INFO] [297/633] Baixando órgão: 26417
+2026-03-02 21:15:54,813 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:54,813 [INFO] [298/633] Baixando órgão: 26418
+2026-03-02 21:15:54,965 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:54,965 [INFO] [299/633] Baixando órgão: 26419
+2026-03-02 21:15:55,104 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:55,104 [INFO] [300/633] Baixando órgão: 26420
+2026-03-02 21:15:55,243 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:55,243 [INFO] [301/633] Baixando órgão: 26421
+2026-03-02 21:15:55,401 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:55,401 [INFO] [302/633] Baixando órgão: 26422
+2026-03-02 21:15:55,546 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:55,546 [INFO] [303/633] Baixando órgão: 26423
+2026-03-02 21:15:55,684 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:55,684 [INFO] [304/633] Baixando órgão: 26424
+2026-03-02 21:15:55,822 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:55,822 [INFO] [305/633] Baixando órgão: 26425
+2026-03-02 21:15:55,955 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:55,956 [INFO] [306/633] Baixando órgão: 26426
+2026-03-02 21:15:56,093 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:56,094 [INFO] [307/633] Baixando órgão: 26427
+2026-03-02 21:15:56,235 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:56,235 [INFO] [308/633] Baixando órgão: 26428
+2026-03-02 21:15:56,373 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:56,373 [INFO] [309/633] Baixando órgão: 26429
+2026-03-02 21:15:56,515 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:56,515 [INFO] [310/633] Baixando órgão: 26430
+2026-03-02 21:15:56,663 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:56,663 [INFO] [311/633] Baixando órgão: 26431
+2026-03-02 21:15:56,796 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:56,797 [INFO] [312/633] Baixando órgão: 26432
+2026-03-02 21:15:56,945 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:56,945 [INFO] [313/633] Baixando órgão: 26433
+2026-03-02 21:15:57,082 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:57,082 [INFO] [314/633] Baixando órgão: 26434
+2026-03-02 21:15:57,235 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:57,235 [INFO] [315/633] Baixando órgão: 26435
+2026-03-02 21:15:57,380 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:57,381 [INFO] [316/633] Baixando órgão: 26436
+2026-03-02 21:15:57,525 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:57,525 [INFO] [317/633] Baixando órgão: 26437
+2026-03-02 21:15:57,657 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:57,657 [INFO] [318/633] Baixando órgão: 26438
+2026-03-02 21:15:57,802 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:57,802 [INFO] [319/633] Baixando órgão: 26439
+2026-03-02 21:15:57,956 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:57,957 [INFO] [320/633] Baixando órgão: 26440
+2026-03-02 21:15:58,107 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:58,107 [INFO] [321/633] Baixando órgão: 26441
+2026-03-02 21:15:58,249 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:58,249 [INFO] [322/633] Baixando órgão: 26442
+2026-03-02 21:15:58,409 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:58,409 [INFO] [323/633] Baixando órgão: 26443
+2026-03-02 21:15:58,557 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:58,557 [INFO] [324/633] Baixando órgão: 26447
+2026-03-02 21:15:58,700 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:58,700 [INFO] [325/633] Baixando órgão: 26448
+2026-03-02 21:15:58,855 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:58,856 [INFO] [326/633] Baixando órgão: 26449
+2026-03-02 21:15:59,002 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:59,002 [INFO] [327/633] Baixando órgão: 26450
+2026-03-02 21:15:59,157 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:59,157 [INFO] [328/633] Baixando órgão: 26452
+2026-03-02 21:15:59,303 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:59,303 [INFO] [329/633] Baixando órgão: 26453
+2026-03-02 21:15:59,438 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:59,438 [INFO] [330/633] Baixando órgão: 26454
+2026-03-02 21:15:59,576 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:59,576 [INFO] [331/633] Baixando órgão: 26455
+2026-03-02 21:15:59,717 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:59,717 [INFO] [332/633] Baixando órgão: 26456
+2026-03-02 21:15:59,851 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:59,852 [INFO] [333/633] Baixando órgão: 26457
+2026-03-02 21:15:59,993 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:15:59,993 [INFO] [334/633] Baixando órgão: 26801
+2026-03-02 21:16:00,140 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:00,140 [INFO] [335/633] Baixando órgão: 26802
+2026-03-02 21:16:00,273 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:00,274 [INFO] [336/633] Baixando órgão: 27201
+2026-03-02 21:16:01,008 [WARNING]   Órgão 27201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:01,009 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:01,010 [INFO] [337/633] Baixando órgão: 28000
+2026-03-02 21:16:01,168 [WARNING]   Órgão 28000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:01,169 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:01,169 [INFO] [338/633] Baixando órgão: 28500
+2026-03-02 21:16:01,313 [WARNING]   Órgão 28500 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:01,314 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:01,315 [INFO] [339/633] Baixando órgão: 28501
+2026-03-02 21:16:01,457 [WARNING]   Órgão 28501 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:01,458 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:01,459 [INFO] [340/633] Baixando órgão: 28801
+2026-03-02 21:16:01,599 [WARNING]   Órgão 28801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:01,600 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:01,600 [INFO] [341/633] Baixando órgão: 28904
+2026-03-02 21:16:01,741 [WARNING]   Órgão 28904 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:01,742 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:01,742 [INFO] [342/633] Baixando órgão: 29000
+2026-03-02 21:16:01,880 [WARNING]   Órgão 29000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:01,881 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:01,881 [INFO] [343/633] Baixando órgão: 29201
+2026-03-02 21:16:02,018 [WARNING]   Órgão 29201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:02,019 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:02,019 [INFO] [344/633] Baixando órgão: 29202
+2026-03-02 21:16:02,163 [WARNING]   Órgão 29202 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:02,164 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:02,164 [INFO] [345/633] Baixando órgão: 29203
+2026-03-02 21:16:02,302 [WARNING]   Órgão 29203 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:02,303 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:02,303 [INFO] [346/633] Baixando órgão: 29204
+2026-03-02 21:16:02,444 [WARNING]   Órgão 29204 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:02,445 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:02,445 [INFO] [347/633] Baixando órgão: 29205
+2026-03-02 21:16:02,580 [WARNING]   Órgão 29205 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:02,581 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:02,581 [INFO] [348/633] Baixando órgão: 29207
+2026-03-02 21:16:02,716 [WARNING]   Órgão 29207 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:02,717 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:02,717 [INFO] [349/633] Baixando órgão: 29208
+2026-03-02 21:16:02,866 [WARNING]   Órgão 29208 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:02,867 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:02,867 [INFO] [350/633] Baixando órgão: 29209
+2026-03-02 21:16:03,005 [WARNING]   Órgão 29209 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:03,006 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:03,006 [INFO] [351/633] Baixando órgão: 29214
+2026-03-02 21:16:03,134 [WARNING]   Órgão 29214 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:03,135 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:03,135 [INFO] [352/633] Baixando órgão: 30000
+2026-03-02 21:16:03,272 [WARNING]   Órgão 30000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:03,273 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:03,273 [INFO] [353/633] Baixando órgão: 30108
+2026-03-02 21:16:03,409 [WARNING]   Órgão 30108 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:03,410 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:03,410 [INFO] [354/633] Baixando órgão: 30201
+2026-03-02 21:16:03,545 [WARNING]   Órgão 30201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:03,545 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:03,546 [INFO] [355/633] Baixando órgão: 30202
+2026-03-02 21:16:03,903 [WARNING]   Órgão 30202 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:03,903 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:03,904 [INFO] [356/633] Baixando órgão: 30203
+2026-03-02 21:16:04,046 [WARNING]   Órgão 30203 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:04,047 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:04,047 [INFO] [357/633] Baixando órgão: 30204
+2026-03-02 21:16:04,201 [WARNING]   Órgão 30204 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:04,202 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:04,202 [INFO] [358/633] Baixando órgão: 30205
+2026-03-02 21:16:04,365 [WARNING]   Órgão 30205 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:04,366 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:04,366 [INFO] [359/633] Baixando órgão: 30211
+2026-03-02 21:16:04,519 [WARNING]   Órgão 30211 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:04,520 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:04,520 [INFO] [360/633] Baixando órgão: 30212
+2026-03-02 21:16:04,657 [WARNING]   Órgão 30212 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:04,658 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:04,658 [INFO] [361/633] Baixando órgão: 30801
+2026-03-02 21:16:04,802 [WARNING]   Órgão 30801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:04,803 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:04,804 [INFO] [362/633] Baixando órgão: 30802
+2026-03-02 21:16:04,956 [WARNING]   Órgão 30802 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:04,956 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:04,957 [INFO] [363/633] Baixando órgão: 30803
+2026-03-02 21:16:05,099 [WARNING]   Órgão 30803 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:05,099 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:05,100 [INFO] [364/633] Baixando órgão: 30905
+2026-03-02 21:16:05,237 [WARNING]   Órgão 30905 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:05,238 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:05,238 [INFO] [365/633] Baixando órgão: 30907
+2026-03-02 21:16:05,374 [WARNING]   Órgão 30907 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:05,374 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:05,375 [INFO] [366/633] Baixando órgão: 30909
+2026-03-02 21:16:05,514 [WARNING]   Órgão 30909 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:05,515 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:05,515 [INFO] [367/633] Baixando órgão: 30911
+2026-03-02 21:16:05,697 [WARNING]   Órgão 30911 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:05,698 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:05,698 [INFO] [368/633] Baixando órgão: 30912
+2026-03-02 21:16:05,842 [WARNING]   Órgão 30912 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:05,842 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:05,842 [INFO] [369/633] Baixando órgão: 30913
+2026-03-02 21:16:05,979 [WARNING]   Órgão 30913 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:05,980 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:05,980 [INFO] [370/633] Baixando órgão: 30914
+2026-03-02 21:16:06,122 [WARNING]   Órgão 30914 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:06,122 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:06,123 [INFO] [371/633] Baixando órgão: 31280
+2026-03-02 21:16:06,255 [WARNING]   Órgão 31280 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:06,256 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:06,257 [INFO] [372/633] Baixando órgão: 32000
+2026-03-02 21:16:06,392 [WARNING]   Órgão 32000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:06,393 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:06,393 [INFO] [373/633] Baixando órgão: 32201
+2026-03-02 21:16:06,525 [WARNING]   Órgão 32201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:06,525 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:06,526 [INFO] [374/633] Baixando órgão: 32205
+2026-03-02 21:16:06,668 [WARNING]   Órgão 32205 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:06,669 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:06,669 [INFO] [375/633] Baixando órgão: 32210
+2026-03-02 21:16:06,812 [WARNING]   Órgão 32210 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:06,813 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:06,813 [INFO] [376/633] Baixando órgão: 32263
+2026-03-02 21:16:07,100 [WARNING]   Órgão 32263 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:07,101 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:07,101 [INFO] [377/633] Baixando órgão: 32314
+2026-03-02 21:16:07,249 [WARNING]   Órgão 32314 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:07,250 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:07,250 [INFO] [378/633] Baixando órgão: 32396
+2026-03-02 21:16:07,387 [WARNING]   Órgão 32396 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:07,388 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:07,388 [INFO] [379/633] Baixando órgão: 32401
+2026-03-02 21:16:07,524 [WARNING]   Órgão 32401 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:07,525 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:07,525 [INFO] [380/633] Baixando órgão: 32801
+2026-03-02 21:16:07,674 [WARNING]   Órgão 32801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:07,675 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:07,676 [INFO] [381/633] Baixando órgão: 32802
+2026-03-02 21:16:07,821 [WARNING]   Órgão 32802 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:07,822 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:07,822 [INFO] [382/633] Baixando órgão: 32991
+2026-03-02 21:16:07,979 [WARNING]   Órgão 32991 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:07,980 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:07,980 [INFO] [383/633] Baixando órgão: 32992
+2026-03-02 21:16:08,121 [WARNING]   Órgão 32992 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:08,122 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:08,122 [INFO] [384/633] Baixando órgão: 32993
+2026-03-02 21:16:08,271 [WARNING]   Órgão 32993 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:08,272 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:08,272 [INFO] [385/633] Baixando órgão: 33000
+2026-03-02 21:16:08,414 [WARNING]   Órgão 33000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:08,415 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:08,415 [INFO] [386/633] Baixando órgão: 33206
+2026-03-02 21:16:08,552 [WARNING]   Órgão 33206 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:08,553 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:08,553 [INFO] [387/633] Baixando órgão: 33801
+2026-03-02 21:16:08,692 [WARNING]   Órgão 33801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:08,693 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:08,694 [INFO] [388/633] Baixando órgão: 34000
+2026-03-02 21:16:08,829 [WARNING]   Órgão 34000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:08,830 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:08,830 [INFO] [389/633] Baixando órgão: 34801
+2026-03-02 21:16:08,965 [WARNING]   Órgão 34801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:08,966 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:08,966 [INFO] [390/633] Baixando órgão: 34802
+2026-03-02 21:16:09,099 [WARNING]   Órgão 34802 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:09,100 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:09,100 [INFO] [391/633] Baixando órgão: 34902
+2026-03-02 21:16:09,243 [WARNING]   Órgão 34902 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:09,244 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:09,244 [INFO] [392/633] Baixando órgão: 35000
+2026-03-02 21:16:09,377 [WARNING]   Órgão 35000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:09,378 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:09,378 [INFO] [393/633] Baixando órgão: 35201
+2026-03-02 21:16:09,530 [WARNING]   Órgão 35201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:09,531 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:09,531 [INFO] [394/633] Baixando órgão: 36000
+2026-03-02 21:16:09,671 [WARNING]   Órgão 36000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:09,673 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:09,673 [INFO] [395/633] Baixando órgão: 36201
+2026-03-02 21:16:09,809 [WARNING]   Órgão 36201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:09,810 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:09,810 [INFO] [396/633] Baixando órgão: 36208
+2026-03-02 21:16:09,954 [WARNING]   Órgão 36208 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:09,955 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:09,956 [INFO] [397/633] Baixando órgão: 36209
+2026-03-02 21:16:10,087 [WARNING]   Órgão 36209 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:10,088 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:10,088 [INFO] [398/633] Baixando órgão: 36210
+2026-03-02 21:16:10,233 [WARNING]   Órgão 36210 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:10,234 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:10,234 [INFO] [399/633] Baixando órgão: 36211
+2026-03-02 21:16:10,374 [WARNING]   Órgão 36211 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:10,375 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:10,375 [INFO] [400/633] Baixando órgão: 36212
+2026-03-02 21:16:10,525 [WARNING]   Órgão 36212 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:10,526 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:10,526 [INFO] [401/633] Baixando órgão: 36213
+2026-03-02 21:16:10,665 [WARNING]   Órgão 36213 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:10,666 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:10,666 [INFO] [402/633] Baixando órgão: 37000
+2026-03-02 21:16:10,800 [WARNING]   Órgão 37000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:10,801 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:10,801 [INFO] [403/633] Baixando órgão: 37201
+2026-03-02 21:16:10,937 [WARNING]   Órgão 37201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:10,938 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:10,938 [INFO] [404/633] Baixando órgão: 37202
+2026-03-02 21:16:11,075 [WARNING]   Órgão 37202 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:11,076 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:11,076 [INFO] [405/633] Baixando órgão: 37904
+2026-03-02 21:16:11,210 [WARNING]   Órgão 37904 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:11,211 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:11,211 [INFO] [406/633] Baixando órgão: 38000
+2026-03-02 21:16:11,358 [WARNING]   Órgão 38000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:11,359 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:11,359 [INFO] [407/633] Baixando órgão: 38299
+2026-03-02 21:16:11,494 [WARNING]   Órgão 38299 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:11,495 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:11,495 [INFO] [408/633] Baixando órgão: 38500
+2026-03-02 21:16:11,635 [WARNING]   Órgão 38500 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:11,636 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:11,636 [INFO] [409/633] Baixando órgão: 38505
+2026-03-02 21:16:11,788 [WARNING]   Órgão 38505 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:11,789 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:11,789 [INFO] [410/633] Baixando órgão: 38518
+2026-03-02 21:16:11,946 [WARNING]   Órgão 38518 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:11,946 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:11,947 [INFO] [411/633] Baixando órgão: 38801
+2026-03-02 21:16:12,082 [WARNING]   Órgão 38801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:12,083 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:12,083 [INFO] [412/633] Baixando órgão: 38802
+2026-03-02 21:16:12,228 [WARNING]   Órgão 38802 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:12,229 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:12,229 [INFO] [413/633] Baixando órgão: 38803
+2026-03-02 21:16:12,376 [WARNING]   Órgão 38803 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:12,377 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:12,377 [INFO] [414/633] Baixando órgão: 38901
+2026-03-02 21:16:12,518 [WARNING]   Órgão 38901 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:12,518 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:12,519 [INFO] [415/633] Baixando órgão: 39000
+2026-03-02 21:16:12,655 [WARNING]   Órgão 39000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:12,656 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:12,656 [INFO] [416/633] Baixando órgão: 39250
+2026-03-02 21:16:12,785 [WARNING]   Órgão 39250 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:12,786 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:12,786 [INFO] [417/633] Baixando órgão: 39251
+2026-03-02 21:16:12,928 [WARNING]   Órgão 39251 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:12,929 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:12,929 [INFO] [418/633] Baixando órgão: 39252
+2026-03-02 21:16:13,071 [WARNING]   Órgão 39252 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:13,072 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:13,073 [INFO] [419/633] Baixando órgão: 39253
+2026-03-02 21:16:13,208 [WARNING]   Órgão 39253 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:13,209 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:13,209 [INFO] [420/633] Baixando órgão: 39801
+2026-03-02 21:16:13,354 [WARNING]   Órgão 39801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:13,355 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:13,355 [INFO] [421/633] Baixando órgão: 39802
+2026-03-02 21:16:13,510 [WARNING]   Órgão 39802 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:13,511 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:13,511 [INFO] [422/633] Baixando órgão: 39811
+2026-03-02 21:16:13,643 [WARNING]   Órgão 39811 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:13,645 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:13,645 [INFO] [423/633] Baixando órgão: 39812
+2026-03-02 21:16:13,797 [WARNING]   Órgão 39812 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:13,797 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:13,797 [INFO] [424/633] Baixando órgão: 39813
+2026-03-02 21:16:13,941 [WARNING]   Órgão 39813 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:13,942 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:13,942 [INFO] [425/633] Baixando órgão: 39814
+2026-03-02 21:16:14,084 [WARNING]   Órgão 39814 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:14,085 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:14,085 [INFO] [426/633] Baixando órgão: 39815
+2026-03-02 21:16:14,250 [WARNING]   Órgão 39815 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:14,250 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:14,251 [INFO] [427/633] Baixando órgão: 39816
+2026-03-02 21:16:14,388 [WARNING]   Órgão 39816 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:14,389 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:14,389 [INFO] [428/633] Baixando órgão: 39817
+2026-03-02 21:16:14,532 [WARNING]   Órgão 39817 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:14,533 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:14,533 [INFO] [429/633] Baixando órgão: 40000
+2026-03-02 21:16:14,669 [WARNING]   Órgão 40000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:14,670 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:14,670 [INFO] [430/633] Baixando órgão: 41000
+2026-03-02 21:16:14,827 [WARNING]   Órgão 41000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:14,828 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:14,828 [INFO] [431/633] Baixando órgão: 41231
+2026-03-02 21:16:14,964 [WARNING]   Órgão 41231 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:14,965 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:14,965 [INFO] [432/633] Baixando órgão: 41232
+2026-03-02 21:16:15,103 [WARNING]   Órgão 41232 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:15,104 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:15,104 [INFO] [433/633] Baixando órgão: 41233
+2026-03-02 21:16:15,251 [WARNING]   Órgão 41233 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:15,252 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:15,252 [INFO] [434/633] Baixando órgão: 41801
+2026-03-02 21:16:15,389 [WARNING]   Órgão 41801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:15,390 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:15,390 [INFO] [435/633] Baixando órgão: 41903
+2026-03-02 21:16:15,534 [WARNING]   Órgão 41903 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:15,535 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:15,535 [INFO] [436/633] Baixando órgão: 42000
+2026-03-02 21:16:15,677 [WARNING]   Órgão 42000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:15,678 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:15,678 [INFO] [437/633] Baixando órgão: 42207
+2026-03-02 21:16:15,836 [WARNING]   Órgão 42207 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:15,837 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:15,838 [INFO] [438/633] Baixando órgão: 42801
+2026-03-02 21:16:15,978 [WARNING]   Órgão 42801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:15,979 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:15,979 [INFO] [439/633] Baixando órgão: 44000
+2026-03-02 21:16:16,131 [WARNING]   Órgão 44000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:16,132 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:16,132 [INFO] [440/633] Baixando órgão: 44204
+2026-03-02 21:16:16,278 [WARNING]   Órgão 44204 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:16,279 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:16,279 [INFO] [441/633] Baixando órgão: 44205
+2026-03-02 21:16:16,420 [WARNING]   Órgão 44205 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:16,421 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:16,421 [INFO] [442/633] Baixando órgão: 44206
+2026-03-02 21:16:16,563 [WARNING]   Órgão 44206 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:16,564 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:16,565 [INFO] [443/633] Baixando órgão: 44207
+2026-03-02 21:16:16,750 [WARNING]   Órgão 44207 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:16,751 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:16,751 [INFO] [444/633] Baixando órgão: 44208
+2026-03-02 21:16:16,887 [WARNING]   Órgão 44208 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:16,888 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:16,888 [INFO] [445/633] Baixando órgão: 44444
+2026-03-02 21:16:17,077 [WARNING]   Órgão 44444 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:17,078 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:17,078 [INFO] [446/633] Baixando órgão: 44801
+2026-03-02 21:16:17,211 [WARNING]   Órgão 44801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:17,212 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:17,212 [INFO] [447/633] Baixando órgão: 44902
+2026-03-02 21:16:17,348 [WARNING]   Órgão 44902 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:17,349 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:17,349 [INFO] [448/633] Baixando órgão: 45282
+2026-03-02 21:16:17,482 [WARNING]   Órgão 45282 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:17,483 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:17,483 [INFO] [449/633] Baixando órgão: 45283
+2026-03-02 21:16:17,615 [WARNING]   Órgão 45283 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:17,616 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:17,616 [INFO] [450/633] Baixando órgão: 46000
+2026-03-02 21:16:17,767 [WARNING]   Órgão 46000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:17,768 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:17,768 [INFO] [451/633] Baixando órgão: 47000
+2026-03-02 21:16:17,904 [WARNING]   Órgão 47000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:17,905 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:17,905 [INFO] [452/633] Baixando órgão: 47214
+2026-03-02 21:16:18,049 [WARNING]   Órgão 47214 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:18,049 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:18,049 [INFO] [453/633] Baixando órgão: 48000
+2026-03-02 21:16:18,185 [WARNING]   Órgão 48000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:18,186 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:18,186 [INFO] [454/633] Baixando órgão: 49000
+2026-03-02 21:16:18,323 [WARNING]   Órgão 49000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:18,324 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:18,324 [INFO] [455/633] Baixando órgão: 49001
+2026-03-02 21:16:18,457 [WARNING]   Órgão 49001 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:18,458 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:18,459 [INFO] [456/633] Baixando órgão: 49280
+2026-03-02 21:16:18,588 [WARNING]   Órgão 49280 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:18,589 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:18,589 [INFO] [457/633] Baixando órgão: 49901
+2026-03-02 21:16:18,721 [WARNING]   Órgão 49901 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:18,722 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:18,722 [INFO] [458/633] Baixando órgão: 50000
+2026-03-02 21:16:18,868 [WARNING]   Órgão 50000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:18,868 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:18,869 [INFO] [459/633] Baixando órgão: 51000
+2026-03-02 21:16:19,005 [WARNING]   Órgão 51000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:19,006 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:19,006 [INFO] [460/633] Baixando órgão: 51801
+2026-03-02 21:16:19,141 [WARNING]   Órgão 51801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:19,142 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:19,142 [INFO] [461/633] Baixando órgão: 52000
+2026-03-02 21:16:19,276 [WARNING]   Órgão 52000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:19,277 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:19,277 [INFO] [462/633] Baixando órgão: 52001
+2026-03-02 21:16:19,406 [WARNING]   Órgão 52001 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:19,406 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:19,407 [INFO] [463/633] Baixando órgão: 52002
+2026-03-02 21:16:19,540 [WARNING]   Órgão 52002 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:19,540 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:19,541 [INFO] [464/633] Baixando órgão: 52003
+2026-03-02 21:16:19,673 [WARNING]   Órgão 52003 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:19,673 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:19,674 [INFO] [465/633] Baixando órgão: 52111
+2026-03-02 21:16:19,817 [WARNING]   Órgão 52111 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:19,817 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:19,818 [INFO] [466/633] Baixando órgão: 52121
+2026-03-02 21:16:19,957 [WARNING]   Órgão 52121 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:19,957 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:19,958 [INFO] [467/633] Baixando órgão: 52131
+2026-03-02 21:16:20,096 [WARNING]   Órgão 52131 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:20,097 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:20,097 [INFO] [468/633] Baixando órgão: 52132
+2026-03-02 21:16:20,227 [WARNING]   Órgão 52132 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:20,228 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:20,228 [INFO] [469/633] Baixando órgão: 52133
+2026-03-02 21:16:20,374 [WARNING]   Órgão 52133 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:20,375 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:20,375 [INFO] [470/633] Baixando órgão: 52201
+2026-03-02 21:16:20,523 [WARNING]   Órgão 52201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:20,524 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:20,524 [INFO] [471/633] Baixando órgão: 52211
+2026-03-02 21:16:20,679 [WARNING]   Órgão 52211 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:20,680 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:20,681 [INFO] [472/633] Baixando órgão: 52212
+2026-03-02 21:16:20,817 [WARNING]   Órgão 52212 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:20,818 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:20,818 [INFO] [473/633] Baixando órgão: 52221
+2026-03-02 21:16:20,958 [WARNING]   Órgão 52221 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:20,959 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:20,959 [INFO] [474/633] Baixando órgão: 52222
+2026-03-02 21:16:21,103 [WARNING]   Órgão 52222 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:21,104 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:21,104 [INFO] [475/633] Baixando órgão: 52231
+2026-03-02 21:16:21,247 [WARNING]   Órgão 52231 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:21,248 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:21,248 [INFO] [476/633] Baixando órgão: 52233
+2026-03-02 21:16:21,384 [WARNING]   Órgão 52233 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:21,385 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:21,385 [INFO] [477/633] Baixando órgão: 52801
+2026-03-02 21:16:21,527 [WARNING]   Órgão 52801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:21,527 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:21,528 [INFO] [478/633] Baixando órgão: 52904
+2026-03-02 21:16:21,662 [WARNING]   Órgão 52904 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:21,663 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:21,663 [INFO] [479/633] Baixando órgão: 52911
+2026-03-02 21:16:21,809 [WARNING]   Órgão 52911 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:21,809 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:21,810 [INFO] [480/633] Baixando órgão: 52912
+2026-03-02 21:16:21,942 [WARNING]   Órgão 52912 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:21,943 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:21,943 [INFO] [481/633] Baixando órgão: 53000
+2026-03-02 21:16:22,078 [WARNING]   Órgão 53000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:22,079 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:22,079 [INFO] [482/633] Baixando órgão: 53202
+2026-03-02 21:16:22,220 [WARNING]   Órgão 53202 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:22,221 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:22,221 [INFO] [483/633] Baixando órgão: 53203
+2026-03-02 21:16:22,362 [WARNING]   Órgão 53203 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:22,363 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:22,363 [INFO] [484/633] Baixando órgão: 53204
+2026-03-02 21:16:22,499 [WARNING]   Órgão 53204 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:22,500 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:22,500 [INFO] [485/633] Baixando órgão: 53205
+2026-03-02 21:16:22,632 [WARNING]   Órgão 53205 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:22,633 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:22,633 [INFO] [486/633] Baixando órgão: 53206
+2026-03-02 21:16:22,770 [WARNING]   Órgão 53206 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:22,771 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:22,771 [INFO] [487/633] Baixando órgão: 53207
+2026-03-02 21:16:22,901 [WARNING]   Órgão 53207 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:22,902 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:22,902 [INFO] [488/633] Baixando órgão: 53208
+2026-03-02 21:16:23,036 [WARNING]   Órgão 53208 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:23,037 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:23,038 [INFO] [489/633] Baixando órgão: 53209
+2026-03-02 21:16:23,169 [WARNING]   Órgão 53209 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:23,170 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:23,170 [INFO] [490/633] Baixando órgão: 53210
+2026-03-02 21:16:23,297 [WARNING]   Órgão 53210 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:23,297 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:23,298 [INFO] [491/633] Baixando órgão: 53297
+2026-03-02 21:16:23,437 [WARNING]   Órgão 53297 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:23,437 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:23,438 [INFO] [492/633] Baixando órgão: 53801
+2026-03-02 21:16:23,576 [WARNING]   Órgão 53801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:23,577 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:23,577 [INFO] [493/633] Baixando órgão: 53802
+2026-03-02 21:16:23,711 [WARNING]   Órgão 53802 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:23,712 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:23,713 [INFO] [494/633] Baixando órgão: 53901
+2026-03-02 21:16:23,846 [WARNING]   Órgão 53901 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:23,847 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:23,847 [INFO] [495/633] Baixando órgão: 53902
+2026-03-02 21:16:23,982 [WARNING]   Órgão 53902 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:23,982 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:23,983 [INFO] [496/633] Baixando órgão: 53903
+2026-03-02 21:16:24,119 [WARNING]   Órgão 53903 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:24,120 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:24,120 [INFO] [497/633] Baixando órgão: 53904
+2026-03-02 21:16:24,261 [WARNING]   Órgão 53904 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:24,262 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:24,262 [INFO] [498/633] Baixando órgão: 53905
+2026-03-02 21:16:24,417 [WARNING]   Órgão 53905 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:24,418 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:24,418 [INFO] [499/633] Baixando órgão: 54000
+2026-03-02 21:16:24,556 [WARNING]   Órgão 54000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:24,557 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:24,557 [INFO] [500/633] Baixando órgão: 54801
+2026-03-02 21:16:24,702 [WARNING]   Órgão 54801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:24,703 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:24,703 [INFO] [501/633] Baixando órgão: 54901
+2026-03-02 21:16:24,846 [WARNING]   Órgão 54901 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:24,847 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:24,847 [INFO] [502/633] Baixando órgão: 55000
+2026-03-02 21:16:24,977 [WARNING]   Órgão 55000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:24,978 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:24,978 [INFO] [503/633] Baixando órgão: 55001
+2026-03-02 21:16:25,115 [WARNING]   Órgão 55001 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:25,116 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:25,116 [INFO] [504/633] Baixando órgão: 55801
+2026-03-02 21:16:25,250 [WARNING]   Órgão 55801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:25,251 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:25,251 [INFO] [505/633] Baixando órgão: 56000
+2026-03-02 21:16:25,392 [WARNING]   Órgão 56000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:25,393 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:25,393 [INFO] [506/633] Baixando órgão: 56801
+2026-03-02 21:16:25,527 [WARNING]   Órgão 56801 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:25,527 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:25,528 [INFO] [507/633] Baixando órgão: 56901
+2026-03-02 21:16:25,672 [WARNING]   Órgão 56901 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:25,673 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:25,673 [INFO] [508/633] Baixando órgão: 56902
+2026-03-02 21:16:25,803 [WARNING]   Órgão 56902 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:25,804 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:25,804 [INFO] [509/633] Baixando órgão: 57000
+2026-03-02 21:16:25,935 [WARNING]   Órgão 57000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:25,936 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:25,936 [INFO] [510/633] Baixando órgão: 57280
+2026-03-02 21:16:26,073 [WARNING]   Órgão 57280 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:26,074 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:26,074 [INFO] [511/633] Baixando órgão: 58000
+2026-03-02 21:16:26,213 [WARNING]   Órgão 58000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:26,214 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:26,214 [INFO] [512/633] Baixando órgão: 59000
+2026-03-02 21:16:26,352 [WARNING]   Órgão 59000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:26,353 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:26,353 [INFO] [513/633] Baixando órgão: 60000
+2026-03-02 21:16:26,492 [WARNING]   Órgão 60000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:26,493 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:26,493 [INFO] [514/633] Baixando órgão: 61000
+2026-03-02 21:16:26,632 [WARNING]   Órgão 61000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:26,633 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:26,633 [INFO] [515/633] Baixando órgão: 61201
+2026-03-02 21:16:26,771 [WARNING]   Órgão 61201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:26,772 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:26,772 [INFO] [516/633] Baixando órgão: 62000
+2026-03-02 21:16:26,902 [WARNING]   Órgão 62000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:26,903 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:26,903 [INFO] [517/633] Baixando órgão: 62201
+2026-03-02 21:16:27,043 [WARNING]   Órgão 62201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:27,043 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:27,044 [INFO] [518/633] Baixando órgão: 62901
+2026-03-02 21:16:27,177 [WARNING]   Órgão 62901 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:27,177 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:27,178 [INFO] [519/633] Baixando órgão: 63000
+2026-03-02 21:16:27,316 [WARNING]   Órgão 63000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:27,316 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:27,317 [INFO] [520/633] Baixando órgão: 64000
+2026-03-02 21:16:27,652 [WARNING]   Órgão 64000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:27,653 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:27,653 [INFO] [521/633] Baixando órgão: 64901
+2026-03-02 21:16:27,797 [WARNING]   Órgão 64901 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:27,798 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:27,798 [INFO] [522/633] Baixando órgão: 64902
+2026-03-02 21:16:27,940 [WARNING]   Órgão 64902 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:27,940 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:27,941 [INFO] [523/633] Baixando órgão: 65000
+2026-03-02 21:16:28,109 [WARNING]   Órgão 65000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:28,109 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:28,110 [INFO] [524/633] Baixando órgão: 66000
+2026-03-02 21:16:28,256 [WARNING]   Órgão 66000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:28,257 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:28,257 [INFO] [525/633] Baixando órgão: 67000
+2026-03-02 21:16:28,395 [WARNING]   Órgão 67000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:28,396 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:28,396 [INFO] [526/633] Baixando órgão: 68000
+2026-03-02 21:16:28,550 [WARNING]   Órgão 68000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:28,551 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:28,552 [INFO] [527/633] Baixando órgão: 68201
+2026-03-02 21:16:28,694 [WARNING]   Órgão 68201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:28,695 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:28,695 [INFO] [528/633] Baixando órgão: 69000
+2026-03-02 21:16:28,843 [WARNING]   Órgão 69000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:28,844 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:28,844 [INFO] [529/633] Baixando órgão: 71000
+2026-03-02 21:16:28,988 [WARNING]   Órgão 71000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:28,989 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:28,990 [INFO] [530/633] Baixando órgão: 71101
+2026-03-02 21:16:29,135 [WARNING]   Órgão 71101 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:29,136 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:29,137 [INFO] [531/633] Baixando órgão: 71102
+2026-03-02 21:16:29,281 [WARNING]   Órgão 71102 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:29,282 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:29,283 [INFO] [532/633] Baixando órgão: 71103
+2026-03-02 21:16:29,413 [WARNING]   Órgão 71103 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:29,414 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:29,414 [INFO] [533/633] Baixando órgão: 71104
+2026-03-02 21:16:29,559 [WARNING]   Órgão 71104 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:29,559 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:29,560 [INFO] [534/633] Baixando órgão: 71901
+2026-03-02 21:16:29,699 [WARNING]   Órgão 71901 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:29,700 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:29,700 [INFO] [535/633] Baixando órgão: 71902
+2026-03-02 21:16:29,839 [WARNING]   Órgão 71902 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:29,840 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:29,840 [INFO] [536/633] Baixando órgão: 71903
+2026-03-02 21:16:29,980 [WARNING]   Órgão 71903 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:29,981 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:29,981 [INFO] [537/633] Baixando órgão: 71904
+2026-03-02 21:16:30,111 [WARNING]   Órgão 71904 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:30,111 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:30,112 [INFO] [538/633] Baixando órgão: 71905
+2026-03-02 21:16:30,260 [WARNING]   Órgão 71905 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:30,260 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:30,261 [INFO] [539/633] Baixando órgão: 73000
+2026-03-02 21:16:30,401 [WARNING]   Órgão 73000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:30,402 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:30,402 [INFO] [540/633] Baixando órgão: 73101
+2026-03-02 21:16:30,539 [WARNING]   Órgão 73101 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:30,540 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:30,540 [INFO] [541/633] Baixando órgão: 73104
+2026-03-02 21:16:30,677 [WARNING]   Órgão 73104 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:30,677 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:30,678 [INFO] [542/633] Baixando órgão: 73107
+2026-03-02 21:16:30,819 [WARNING]   Órgão 73107 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:30,820 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:30,820 [INFO] [543/633] Baixando órgão: 73108
+2026-03-02 21:16:30,955 [WARNING]   Órgão 73108 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:30,956 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:30,956 [INFO] [544/633] Baixando órgão: 73109
+2026-03-02 21:16:31,093 [WARNING]   Órgão 73109 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:31,094 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:31,094 [INFO] [545/633] Baixando órgão: 73111
+2026-03-02 21:16:31,228 [WARNING]   Órgão 73111 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:31,228 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:31,229 [INFO] [546/633] Baixando órgão: 73113
+2026-03-02 21:16:31,359 [WARNING]   Órgão 73113 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:31,360 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:31,360 [INFO] [547/633] Baixando órgão: 73901
+2026-03-02 21:16:31,505 [WARNING]   Órgão 73901 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:31,506 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:31,506 [INFO] [548/633] Baixando órgão: 74000
+2026-03-02 21:16:31,642 [WARNING]   Órgão 74000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:31,642 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:31,643 [INFO] [549/633] Baixando órgão: 74101
+2026-03-02 21:16:31,778 [WARNING]   Órgão 74101 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:31,779 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:31,779 [INFO] [550/633] Baixando órgão: 74102
+2026-03-02 21:16:31,940 [WARNING]   Órgão 74102 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:31,941 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:31,942 [INFO] [551/633] Baixando órgão: 74201
+2026-03-02 21:16:32,086 [WARNING]   Órgão 74201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:32,086 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:32,087 [INFO] [552/633] Baixando órgão: 74202
+2026-03-02 21:16:32,222 [WARNING]   Órgão 74202 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:32,223 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:32,224 [INFO] [553/633] Baixando órgão: 74203
+2026-03-02 21:16:32,355 [WARNING]   Órgão 74203 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:32,356 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:32,356 [INFO] [554/633] Baixando órgão: 74204
+2026-03-02 21:16:32,492 [WARNING]   Órgão 74204 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:32,493 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:32,493 [INFO] [555/633] Baixando órgão: 74205
+2026-03-02 21:16:32,628 [WARNING]   Órgão 74205 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:32,629 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:32,630 [INFO] [556/633] Baixando órgão: 74901
+2026-03-02 21:16:32,763 [WARNING]   Órgão 74901 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:32,764 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:32,764 [INFO] [557/633] Baixando órgão: 74902
+2026-03-02 21:16:32,906 [WARNING]   Órgão 74902 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:32,907 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:32,907 [INFO] [558/633] Baixando órgão: 74904
+2026-03-02 21:16:33,044 [WARNING]   Órgão 74904 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:33,045 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:33,045 [INFO] [559/633] Baixando órgão: 74905
+2026-03-02 21:16:33,179 [WARNING]   Órgão 74905 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:33,180 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:33,180 [INFO] [560/633] Baixando órgão: 74906
+2026-03-02 21:16:33,317 [WARNING]   Órgão 74906 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:33,317 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:33,318 [INFO] [561/633] Baixando órgão: 74907
+2026-03-02 21:16:33,481 [WARNING]   Órgão 74907 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:33,482 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:33,482 [INFO] [562/633] Baixando órgão: 74908
+2026-03-02 21:16:33,619 [WARNING]   Órgão 74908 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:33,620 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:33,620 [INFO] [563/633] Baixando órgão: 74910
+2026-03-02 21:16:33,768 [WARNING]   Órgão 74910 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:33,769 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:33,770 [INFO] [564/633] Baixando órgão: 74912
+2026-03-02 21:16:33,906 [WARNING]   Órgão 74912 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:33,907 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:33,907 [INFO] [565/633] Baixando órgão: 74916
+2026-03-02 21:16:34,043 [WARNING]   Órgão 74916 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:34,044 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:34,044 [INFO] [566/633] Baixando órgão: 74917
+2026-03-02 21:16:34,186 [WARNING]   Órgão 74917 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:34,187 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:34,187 [INFO] [567/633] Baixando órgão: 74918
+2026-03-02 21:16:34,330 [WARNING]   Órgão 74918 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:34,331 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:34,332 [INFO] [568/633] Baixando órgão: 74919
+2026-03-02 21:16:34,460 [WARNING]   Órgão 74919 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:34,460 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:34,461 [INFO] [569/633] Baixando órgão: 75000
+2026-03-02 21:16:34,596 [WARNING]   Órgão 75000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:34,597 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:34,597 [INFO] [570/633] Baixando órgão: 78787
+2026-03-02 21:16:34,740 [WARNING]   Órgão 78787 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:34,741 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:34,742 [INFO] [571/633] Baixando órgão: 80000
+2026-03-02 21:16:34,879 [WARNING]   Órgão 80000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:34,880 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:34,880 [INFO] [572/633] Baixando órgão: 80201
+2026-03-02 21:16:35,024 [WARNING]   Órgão 80201 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:35,025 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:35,025 [INFO] [573/633] Baixando órgão: 80202
+2026-03-02 21:16:35,154 [WARNING]   Órgão 80202 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:35,155 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:35,156 [INFO] [574/633] Baixando órgão: 80203
+2026-03-02 21:16:35,287 [WARNING]   Órgão 80203 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:35,288 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:35,288 [INFO] [575/633] Baixando órgão: 80204
+2026-03-02 21:16:35,428 [WARNING]   Órgão 80204 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:35,429 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:35,429 [INFO] [576/633] Baixando órgão: 80208
+2026-03-02 21:16:35,565 [WARNING]   Órgão 80208 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:35,566 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:35,567 [INFO] [577/633] Baixando órgão: 80210
+2026-03-02 21:16:35,704 [WARNING]   Órgão 80210 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:35,705 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:35,705 [INFO] [578/633] Baixando órgão: 81000
+2026-03-02 21:16:35,839 [WARNING]   Órgão 81000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:35,840 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:35,840 [INFO] [579/633] Baixando órgão: 81901
+2026-03-02 21:16:35,968 [WARNING]   Órgão 81901 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:35,969 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:35,969 [INFO] [580/633] Baixando órgão: 81902
+2026-03-02 21:16:36,105 [WARNING]   Órgão 81902 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:36,106 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:36,106 [INFO] [581/633] Baixando órgão: 82000
+2026-03-02 21:16:36,245 [WARNING]   Órgão 82000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:36,246 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:36,246 [INFO] [582/633] Baixando órgão: 83000
+2026-03-02 21:16:36,382 [WARNING]   Órgão 83000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:36,382 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:36,383 [INFO] [583/633] Baixando órgão: 84000
+2026-03-02 21:16:36,516 [WARNING]   Órgão 84000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:36,517 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:36,517 [INFO] [584/633] Baixando órgão: 90000
+2026-03-02 21:16:36,668 [WARNING]   Órgão 90000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:36,668 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:36,669 [INFO] [585/633] Baixando órgão: 91000
+2026-03-02 21:16:36,799 [WARNING]   Órgão 91000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:36,800 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:36,800 [INFO] [586/633] Baixando órgão: 91001
+2026-03-02 21:16:36,939 [WARNING]   Órgão 91001 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:36,940 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:36,940 [INFO] [587/633] Baixando órgão: 91002
+2026-03-02 21:16:37,096 [WARNING]   Órgão 91002 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:37,097 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:37,097 [INFO] [588/633] Baixando órgão: 91010
+2026-03-02 21:16:37,227 [WARNING]   Órgão 91010 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:37,228 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:37,228 [INFO] [589/633] Baixando órgão: 91080
+2026-03-02 21:16:37,388 [WARNING]   Órgão 91080 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:37,389 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:37,389 [INFO] [590/633] Baixando órgão: 91081
+2026-03-02 21:16:37,523 [WARNING]   Órgão 91081 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:37,524 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:37,524 [INFO] [591/633] Baixando órgão: 91082
+2026-03-02 21:16:37,665 [WARNING]   Órgão 91082 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:37,666 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:37,666 [INFO] [592/633] Baixando órgão: 91083
+2026-03-02 21:16:37,818 [WARNING]   Órgão 91083 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:37,819 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:37,819 [INFO] [593/633] Baixando órgão: 91084
+2026-03-02 21:16:37,963 [WARNING]   Órgão 91084 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:37,964 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:37,964 [INFO] [594/633] Baixando órgão: 91090
+2026-03-02 21:16:38,108 [WARNING]   Órgão 91090 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:38,109 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:38,110 [INFO] [595/633] Baixando órgão: 91100
+2026-03-02 21:16:38,253 [WARNING]   Órgão 91100 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:38,254 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:38,254 [INFO] [596/633] Baixando órgão: 91214
+2026-03-02 21:16:38,388 [WARNING]   Órgão 91214 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:38,389 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:38,389 [INFO] [597/633] Baixando órgão: 91700
+2026-03-02 21:16:38,538 [WARNING]   Órgão 91700 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:38,539 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:38,539 [INFO] [598/633] Baixando órgão: 91800
+2026-03-02 21:16:38,674 [WARNING]   Órgão 91800 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:38,675 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:38,676 [INFO] [599/633] Baixando órgão: 91900
+2026-03-02 21:16:38,817 [WARNING]   Órgão 91900 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:38,818 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:38,818 [INFO] [600/633] Baixando órgão: 92001
+2026-03-02 21:16:38,952 [WARNING]   Órgão 92001 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:38,953 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:38,954 [INFO] [601/633] Baixando órgão: 93000
+2026-03-02 21:16:39,089 [WARNING]   Órgão 93000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:39,090 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:39,090 [INFO] [602/633] Baixando órgão: 93120
+2026-03-02 21:16:39,221 [WARNING]   Órgão 93120 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:39,221 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:39,222 [INFO] [603/633] Baixando órgão: 93220
+2026-03-02 21:16:39,368 [WARNING]   Órgão 93220 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:39,369 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:39,369 [INFO] [604/633] Baixando órgão: 93320
+2026-03-02 21:16:39,497 [WARNING]   Órgão 93320 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:39,498 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:39,498 [INFO] [605/633] Baixando órgão: 93420
+2026-03-02 21:16:39,632 [WARNING]   Órgão 93420 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:39,633 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:39,633 [INFO] [606/633] Baixando órgão: 93520
+2026-03-02 21:16:39,773 [WARNING]   Órgão 93520 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:39,774 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:39,775 [INFO] [607/633] Baixando órgão: 93620
+2026-03-02 21:16:39,911 [WARNING]   Órgão 93620 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:39,911 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:39,912 [INFO] [608/633] Baixando órgão: 93720
+2026-03-02 21:16:40,054 [WARNING]   Órgão 93720 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:40,055 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:40,055 [INFO] [609/633] Baixando órgão: 94000
+2026-03-02 21:16:40,193 [WARNING]   Órgão 94000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:40,194 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:40,194 [INFO] [610/633] Baixando órgão: 94120
+2026-03-02 21:16:40,322 [WARNING]   Órgão 94120 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:40,323 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:40,323 [INFO] [611/633] Baixando órgão: 94220
+2026-03-02 21:16:40,450 [WARNING]   Órgão 94220 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:40,452 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:40,452 [INFO] [612/633] Baixando órgão: 94320
+2026-03-02 21:16:40,592 [WARNING]   Órgão 94320 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:40,593 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:40,594 [INFO] [613/633] Baixando órgão: 94420
+2026-03-02 21:16:40,733 [WARNING]   Órgão 94420 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:40,734 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:40,734 [INFO] [614/633] Baixando órgão: 94520
+2026-03-02 21:16:40,870 [WARNING]   Órgão 94520 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:40,871 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:40,871 [INFO] [615/633] Baixando órgão: 94620
+2026-03-02 21:16:41,041 [WARNING]   Órgão 94620 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:41,041 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:41,042 [INFO] [616/633] Baixando órgão: 94720
+2026-03-02 21:16:41,193 [WARNING]   Órgão 94720 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:41,194 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:41,194 [INFO] [617/633] Baixando órgão: 94820
+2026-03-02 21:16:41,333 [WARNING]   Órgão 94820 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:41,334 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:41,334 [INFO] [618/633] Baixando órgão: 94920
+2026-03-02 21:16:41,471 [WARNING]   Órgão 94920 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:41,472 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:41,473 [INFO] [619/633] Baixando órgão: 95000
+2026-03-02 21:16:41,625 [WARNING]   Órgão 95000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:41,626 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:41,626 [INFO] [620/633] Baixando órgão: 95120
+2026-03-02 21:16:41,760 [WARNING]   Órgão 95120 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:41,760 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:41,761 [INFO] [621/633] Baixando órgão: 95220
+2026-03-02 21:16:41,924 [WARNING]   Órgão 95220 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:41,925 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:41,925 [INFO] [622/633] Baixando órgão: 95320
+2026-03-02 21:16:42,064 [WARNING]   Órgão 95320 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:42,065 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:42,065 [INFO] [623/633] Baixando órgão: 95420
+2026-03-02 21:16:42,204 [WARNING]   Órgão 95420 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:42,205 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:42,205 [INFO] [624/633] Baixando órgão: 96000
+2026-03-02 21:16:42,341 [WARNING]   Órgão 96000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:42,342 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:42,342 [INFO] [625/633] Baixando órgão: 96120
+2026-03-02 21:16:42,475 [WARNING]   Órgão 96120 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:42,476 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:42,476 [INFO] [626/633] Baixando órgão: 96220
+2026-03-02 21:16:42,610 [WARNING]   Órgão 96220 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:42,611 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:42,611 [INFO] [627/633] Baixando órgão: 96320
+2026-03-02 21:16:42,749 [WARNING]   Órgão 96320 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:42,750 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:42,750 [INFO] [628/633] Baixando órgão: 97000
+2026-03-02 21:16:42,890 [WARNING]   Órgão 97000 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:42,891 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:42,891 [INFO] [629/633] Baixando órgão: 97120
+2026-03-02 21:16:43,020 [WARNING]   Órgão 97120 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:43,021 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:43,021 [INFO] [630/633] Baixando órgão: 97220
+2026-03-02 21:16:43,156 [WARNING]   Órgão 97220 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:43,157 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:43,157 [INFO] [631/633] Baixando órgão: 97320
+2026-03-02 21:16:43,292 [WARNING]   Órgão 97320 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:43,293 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:43,293 [INFO] [632/633] Baixando órgão: 97400
+2026-03-02 21:16:43,425 [WARNING]   Órgão 97400 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:43,426 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:43,426 [INFO] [633/633] Baixando órgão: 99900
+2026-03-02 21:16:43,562 [WARNING]   Órgão 99900 - resposta inválida na página 1: Expecting value: line 1 column 1 (char 0)
+2026-03-02 21:16:43,563 [INFO]   Total acumulado: 140 registros
+2026-03-02 21:16:43,565 [INFO] Download concluído. Total de registros: 140
+2026-03-02 21:16:43,567 [INFO] Arquivo salvo em: data/bronze/gastos_2024_20260302_211643.csv
+2026-03-02 21:16:43,567 [INFO] ====== FIM DA INGESTÃO ======
