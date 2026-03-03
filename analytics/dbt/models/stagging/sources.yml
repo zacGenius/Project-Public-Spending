@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: silver                        # nome que você vai usar no SQL com source()
+    schema: silver                      # schema real no banco
+    description: "Dados limpos pelo PySpark"
+    tables:
+      - name: gastos
+        description: "Gastos públicos normalizados"
+        columns:
+          - name: orgao
+            description: "Nome do órgão"
+          - name: pago
+            description: "Valor pago em reais"
+          - name: ano
+            description: "Ano extraído da data"

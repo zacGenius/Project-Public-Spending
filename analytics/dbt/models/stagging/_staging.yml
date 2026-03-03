@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_gastos
+    description: "Leitura direta da silver com padronização mínima"
+    columns:
+      - name: orgao
+        description: "Nome do órgão"
+        tests:
+          - not_null              # dbt testa isso automaticamente com: dbt test
+      - name: pago
+        tests:
+          - not_null
+      - name: ano
+        tests:
+          - not_null

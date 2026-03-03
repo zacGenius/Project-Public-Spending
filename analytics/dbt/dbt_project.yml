@@ -1,0 +1,27 @@
+name: public_spend
+version: "1.0.0"
+profile: public_spend
+
+model-paths: ["models"] # onde estão os SQLs
+macro-paths: ["macros"] # onde estão as macros
+seed-paths: ["seeds"] # onde estão os CSVs de referência
+test-paths: ["tests"] # onde estão os testes customizados
+
+# Configuração por camada
+# materialized define como o dbt vai criar o objeto no banco
+models:
+  public_spend:
+    staging:
+      +materialized: view       # staging vira VIEW (não ocupa espaço)
+      +schema: staging          # cria no schema staging
+    intermediate:
+      +materialized: view       # intermediate também vira VIEW
+      +schema: intermediate
+    marts:
+      +materialized: table      # marts vira TABLE (consultável pelo dashboard)
+      +schema: gold             # cria no schema gold
+
+# Por que staging é view e marts é table?
+# View não armazena dado, recalcula toda vez que alguém consulta
+# Staging é simples, rápido, não precisa guardar
+# Marts são consultados pelo dashboard constantemente (precisa ser table para ser rápido)

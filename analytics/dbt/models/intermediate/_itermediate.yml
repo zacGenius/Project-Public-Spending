@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: int_gastos_normalizado
+    description: "Gastos com nomes de órgãos padronizados via tabela de-para"
+    columns:
+      - name: orgao
+        tests:
+          - not_null

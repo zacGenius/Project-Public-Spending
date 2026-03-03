@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: fato_gastos_por_orgao_ano
+    description: "Total de gastos por órgão e ano. Tabela principal para análise."
+    columns:
+      - name: orgao
+        tests:
+          - not_null
+      - name: ano
+        tests:
+          - not_null
+      - name: liquidado
+        tests:
+          - not_null
+
+  - name: dim_orgaos
+    description: "Dimensão de órgãos com nome padronizado"

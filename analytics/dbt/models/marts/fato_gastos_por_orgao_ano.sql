@@ -1,9 +1,11 @@
 SELECT
     orgao,
     orgao_superior,
-    ano_referencia AS ano,
-    SUM(valor_pago) AS total_gastos,
+    ano,
+    SUM(pago) AS total_gastos,
     COUNT(*) AS qtd_pagamentos,
-    AVG(valor_pago) AS ticket_medio
+    AVG(pago) AS ticket_medio
+    MIN(pago) AS menor_pagamento,
+    MAX(pago) AS maior_pagamento
 FROM {{ ref('int_gastos_normalizados') }}
 GROUP BY 1, 2, 3

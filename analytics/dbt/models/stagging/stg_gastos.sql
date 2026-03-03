@@ -1,8 +1,8 @@
 SELECT
     orgao_superior,
     orgao,
-    valor_pago,
-    data_referencia,
-    ano_referencia
+    pago,
+    ano
 FROM {{ source('silver', 'gastos') }}
-WHERE valor_pago > 0 -- Filtrar pagamentos validos
+WHERE pago > 0 -- Filtrar pagamentos validos
+-- Remove pagamentos zerados ou negativos
