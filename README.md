@@ -62,7 +62,7 @@ pip install -U pip
 pip install -r requirements.txt  # faz instalar tudo que o pipeline exige
 ```
 
-Se só for olhar o app do Streamlit, tem outro venv (`venv_streamlit`) com as libs específicas. Ele já está no repo — dá `source venv_streamlit/bin/activate`.
+Se só for olhar o app do Streamlit, tem outro venv (`venv_streamlit`) com as libs específicas. Ele já está no repo, dá `source venv_streamlit/bin/activate`.
 
 > **Dica:** se pip reclamar de versão incompatível, apague a pasta do venv e refaça. As dependências foram testadas com Python 3.12.
 
@@ -74,7 +74,7 @@ O jeito mais rápido é com Docker:
 docker-compose up -d --build
 ```
 
-Isso sobe Postgres + Airflow (webserver, scheduler e worker). O Postgres expõe a porta 5432 e já vem com o schema `public` criado — só olhar `docker/postgres/init.sql` se quiser mudar.
+Isso sobe Postgres + Airflow (webserver, scheduler e worker). O Postgres expõe a porta 5432 e já vem com o schema `public` criado, só olhar `docker/postgres/init.sql` se quiser mudar.
 
 Se você não curte Docker, instale Postgres local e ajuste a string de conexão em `pipelines/config.py` e em `analytics/dbt/profiles.yml` (procura por `HOST`, `USER`, `PASSWORD`).
 
