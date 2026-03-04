@@ -866,3 +866,2135 @@ select distinct
 [0m21:10:27.756985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07b4226ea0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07b01a4d40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07b01a49e0>]}
 [0m21:10:27.757527 [debug] [MainThread]: Flushing usage events
 [0m21:10:28.327458 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:43:32.675825 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f4396e2a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f434ac4a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f430e91f0>]}
+
+
+============================== 21:43:32.678412 | 10136a28-1b19-4956-ac96-df217a5afbc1 ==============================
+[0m21:43:32.678412 [info ] [MainThread]: Running with dbt=1.11.6
+[0m21:43:32.678833 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'warn_error': 'None', 'log_cache_events': 'False', 'log_path': '/home/zac/Desktop/public_spend/analytics/dbt/logs', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'quiet': 'False', 'printer_width': '80', 'profiles_dir': '/home/zac/Desktop/public_spend/analytics/dbt', 'introspect': 'True', 'target_path': 'None', 'fail_fast': 'False', 'invocation_command': 'dbt seed', 'write_json': 'True', 'use_colors': 'True', 'empty': 'None', 'static_parser': 'True'}
+[0m21:43:32.807479 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '10136a28-1b19-4956-ac96-df217a5afbc1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f44556030>]}
+[0m21:43:32.857743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '10136a28-1b19-4956-ac96-df217a5afbc1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f41e96990>]}
+[0m21:43:32.858490 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m21:43:32.946643 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m21:43:33.046417 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:43:33.046822 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:43:33.047112 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:43:33.091574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '10136a28-1b19-4956-ac96-df217a5afbc1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f41b23d40>]}
+[0m21:43:33.167673 [debug] [MainThread]: Wrote artifact WritableManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/manifest.json
+[0m21:43:33.169170 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/semantic_manifest.json
+[0m21:43:33.179842 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '10136a28-1b19-4956-ac96-df217a5afbc1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f40fc9700>]}
+[0m21:43:33.180293 [info ] [MainThread]: Found 4 models, 8 data tests, 1 seed, 1 source, 465 macros
+[0m21:43:33.180635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '10136a28-1b19-4956-ac96-df217a5afbc1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f4176e090>]}
+[0m21:43:33.182084 [info ] [MainThread]: 
+[0m21:43:33.182419 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:43:33.182696 [info ] [MainThread]: 
+[0m21:43:33.183117 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:43:33.183879 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend'
+[0m21:43:33.219139 [debug] [ThreadPool]: Using postgres connection "list_public_spend"
+[0m21:43:33.219590 [debug] [ThreadPool]: On list_public_spend: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:43:33.219874 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:43:33.231806 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.012 seconds
+[0m21:43:33.233031 [debug] [ThreadPool]: On list_public_spend: Close
+[0m21:43:33.237707 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_public_spend, now list_public_spend_gold_gold)
+[0m21:43:33.238476 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend_gold'
+[0m21:43:33.243127 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_gold"
+[0m21:43:33.243713 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend_gold_intermediate'
+[0m21:43:33.245251 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold"
+[0m21:43:33.245630 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend_gold_staging'
+[0m21:43:33.245973 [debug] [ThreadPool]: On list_public_spend_gold_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_gold"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_gold'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_gold'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_gold'
+  
+[0m21:43:33.247528 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_intermediate"
+[0m21:43:33.247932 [debug] [ThreadPool]: On list_public_spend_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold'
+  
+[0m21:43:33.249400 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_staging"
+[0m21:43:33.249791 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:43:33.250172 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_intermediate"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_intermediate'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_intermediate'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_intermediate'
+  
+[0m21:43:33.250566 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:43:33.250925 [debug] [ThreadPool]: On list_public_spend_gold_staging: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_staging"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_staging'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_staging'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_staging'
+  
+[0m21:43:33.251400 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:43:33.251849 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:43:33.260978 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.010 seconds
+[0m21:43:33.261420 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.012 seconds
+[0m21:43:33.262510 [debug] [ThreadPool]: On list_public_spend_gold: ROLLBACK
+[0m21:43:33.262820 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.011 seconds
+[0m21:43:33.263119 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.011 seconds
+[0m21:43:33.263926 [debug] [ThreadPool]: On list_public_spend_gold_gold: ROLLBACK
+[0m21:43:33.264820 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: ROLLBACK
+[0m21:43:33.265096 [debug] [ThreadPool]: On list_public_spend_gold: Close
+[0m21:43:33.265884 [debug] [ThreadPool]: On list_public_spend_gold_staging: ROLLBACK
+[0m21:43:33.266327 [debug] [ThreadPool]: On list_public_spend_gold_gold: Close
+[0m21:43:33.266608 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: Close
+[0m21:43:33.267386 [debug] [ThreadPool]: On list_public_spend_gold_staging: Close
+[0m21:43:33.271191 [debug] [MainThread]: Using postgres connection "master"
+[0m21:43:33.271569 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m21:43:33.271909 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:43:33.281215 [debug] [MainThread]: SQL status: SELECT 0 in 0.009 seconds
+[0m21:43:33.282360 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '10136a28-1b19-4956-ac96-df217a5afbc1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f41744170>]}
+[0m21:43:33.282800 [debug] [MainThread]: On master: ROLLBACK
+[0m21:43:33.283179 [debug] [MainThread]: On master: COMMIT
+[0m21:43:33.283480 [debug] [MainThread]: Using postgres connection "master"
+[0m21:43:33.283745 [debug] [MainThread]: On master: COMMIT
+[0m21:43:33.284146 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:43:33.284434 [debug] [MainThread]: On master: Close
+[0m21:43:33.286403 [debug] [Thread-1 (]: Began running node seed.public_spend.de_para_orgaos
+[0m21:43:33.286946 [info ] [Thread-1 (]: 1 of 1 START seed file gold.de_para_orgaos ..................................... [RUN]
+[0m21:43:33.287387 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_public_spend_gold_staging, now seed.public_spend.de_para_orgaos)
+[0m21:43:33.287764 [debug] [Thread-1 (]: Began compiling node seed.public_spend.de_para_orgaos
+[0m21:43:33.288083 [debug] [Thread-1 (]: Began executing node seed.public_spend.de_para_orgaos
+[0m21:43:33.313570 [debug] [Thread-1 (]: Using postgres connection "seed.public_spend.de_para_orgaos"
+[0m21:43:33.314225 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "seed.public_spend.de_para_orgaos"} */
+truncate table "public_spend"."gold"."de_para_orgaos"
+[0m21:43:33.314675 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:43:33.325011 [debug] [Thread-1 (]: SQL status: TRUNCATE TABLE in 0.010 seconds
+[0m21:43:33.338811 [debug] [Thread-1 (]: Using postgres connection "seed.public_spend.de_para_orgaos"
+[0m21:43:33.339269 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: 
+          insert into "public_spend"."gold"."de_para_orgaos" ("nome_variante", "nome_padrao") values
+          (%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s)
+      ...
+[0m21:43:33.340133 [debug] [Thread-1 (]: SQL status: INSERT 0 6 in 0.000 seconds
+[0m21:43:33.344266 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.public_spend.de_para_orgaos"
+[0m21:43:33.355134 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: COMMIT
+[0m21:43:33.355616 [debug] [Thread-1 (]: Using postgres connection "seed.public_spend.de_para_orgaos"
+[0m21:43:33.355951 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: COMMIT
+[0m21:43:33.357555 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:43:33.359608 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: Close
+[0m21:43:33.361074 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '10136a28-1b19-4956-ac96-df217a5afbc1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f44f4f290>]}
+[0m21:43:33.361574 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file gold.de_para_orgaos ................................. [[32mINSERT 6[0m in 0.07s]
+[0m21:43:33.362086 [debug] [Thread-1 (]: Finished running node seed.public_spend.de_para_orgaos
+[0m21:43:33.363480 [debug] [MainThread]: On master: COMMIT
+[0m21:43:33.363848 [debug] [MainThread]: Using postgres connection "master"
+[0m21:43:33.364143 [debug] [MainThread]: On master: COMMIT
+[0m21:43:33.364437 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:43:33.373059 [debug] [MainThread]: SQL status: COMMIT in 0.009 seconds
+[0m21:43:33.373516 [debug] [MainThread]: On master: Close
+[0m21:43:33.374045 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:43:33.374333 [debug] [MainThread]: Connection 'list_public_spend_gold_gold' was properly closed.
+[0m21:43:33.374596 [debug] [MainThread]: Connection 'list_public_spend_gold' was properly closed.
+[0m21:43:33.374871 [debug] [MainThread]: Connection 'list_public_spend_gold_intermediate' was properly closed.
+[0m21:43:33.375129 [debug] [MainThread]: Connection 'seed.public_spend.de_para_orgaos' was properly closed.
+[0m21:43:33.375453 [info ] [MainThread]: 
+[0m21:43:33.375776 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 0.19 seconds (0.19s).
+[0m21:43:33.376348 [debug] [MainThread]: Command end result
+[0m21:43:33.397574 [debug] [MainThread]: Wrote artifact WritableManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/manifest.json
+[0m21:43:33.400187 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/semantic_manifest.json
+[0m21:43:33.404926 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/zac/Desktop/public_spend/analytics/dbt/target/run_results.json
+[0m21:43:33.405379 [info ] [MainThread]: 
+[0m21:43:33.405802 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:43:33.406854 [info ] [MainThread]: 
+[0m21:43:33.407351 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m21:43:33.408418 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": true, "command_wall_clock_time": 0.77527636, "process_in_blocks": "264", "process_kernel_time": 0.222907, "process_mem_max_rss": "128244", "process_out_blocks": "1968", "process_user_time": 1.690881}
+[0m21:43:33.408986 [debug] [MainThread]: Command `dbt seed` succeeded at 21:43:33.408883 after 0.78 seconds
+[0m21:43:33.409466 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f430aeed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f40fb9250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5f434812b0>]}
+[0m21:43:33.409952 [debug] [MainThread]: Flushing usage events
+[0m21:43:34.012280 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:43:39.212504 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3cc99430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3cbd3800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3ee7f710>]}
+
+
+============================== 21:43:39.214954 | b47c7e4f-9ecd-4128-b14b-8512655d2289 ==============================
+[0m21:43:39.214954 [info ] [MainThread]: Running with dbt=1.11.6
+[0m21:43:39.215386 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt run', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'profiles_dir': '/home/zac/Desktop/public_spend/analytics/dbt', 'debug': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'warn_error': 'None', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'version_check': 'True', 'write_json': 'True', 'log_format': 'default', 'introspect': 'True', 'use_experimental_parser': 'False', 'target_path': 'None', 'static_parser': 'True', 'log_path': '/home/zac/Desktop/public_spend/analytics/dbt/logs', 'quiet': 'False', 'fail_fast': 'False'}
+[0m21:43:39.337754 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b47c7e4f-9ecd-4128-b14b-8512655d2289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3bbe7fb0>]}
+[0m21:43:39.386522 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b47c7e4f-9ecd-4128-b14b-8512655d2289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3cf194c0>]}
+[0m21:43:39.387184 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m21:43:39.474361 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m21:43:39.572162 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:43:39.572569 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:43:39.572814 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:43:39.615471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b47c7e4f-9ecd-4128-b14b-8512655d2289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3e75dfd0>]}
+[0m21:43:39.689841 [debug] [MainThread]: Wrote artifact WritableManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/manifest.json
+[0m21:43:39.691110 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/semantic_manifest.json
+[0m21:43:39.700324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b47c7e4f-9ecd-4128-b14b-8512655d2289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3a7be690>]}
+[0m21:43:39.700731 [info ] [MainThread]: Found 4 models, 8 data tests, 1 seed, 1 source, 465 macros
+[0m21:43:39.701021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b47c7e4f-9ecd-4128-b14b-8512655d2289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3a761550>]}
+[0m21:43:39.702465 [info ] [MainThread]: 
+[0m21:43:39.702766 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:43:39.703028 [info ] [MainThread]: 
+[0m21:43:39.703433 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:43:39.706196 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend'
+[0m21:43:39.706810 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend'
+[0m21:43:39.717082 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend'
+[0m21:43:39.743682 [debug] [ThreadPool]: Using postgres connection "list_public_spend"
+[0m21:43:39.744066 [debug] [ThreadPool]: Using postgres connection "list_public_spend"
+[0m21:43:39.744467 [debug] [ThreadPool]: Using postgres connection "list_public_spend"
+[0m21:43:39.744795 [debug] [ThreadPool]: On list_public_spend: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:43:39.745129 [debug] [ThreadPool]: On list_public_spend: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:43:39.745452 [debug] [ThreadPool]: On list_public_spend: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:43:39.745760 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:43:39.746036 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:43:39.746315 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:43:39.756968 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.011 seconds
+[0m21:43:39.757451 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.011 seconds
+[0m21:43:39.757741 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.012 seconds
+[0m21:43:39.759190 [debug] [ThreadPool]: On list_public_spend: Close
+[0m21:43:39.760189 [debug] [ThreadPool]: On list_public_spend: Close
+[0m21:43:39.761165 [debug] [ThreadPool]: On list_public_spend: Close
+[0m21:43:39.762062 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_public_spend, now create_public_spend_gold_gold)
+[0m21:43:39.762390 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_public_spend, now create_public_spend_gold_intermediate)
+[0m21:43:39.762715 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_public_spend, now create_public_spend_gold_staging)
+[0m21:43:39.763068 [debug] [ThreadPool]: Creating schema "database: "public_spend"
+schema: "gold_gold"
+"
+[0m21:43:39.763426 [debug] [ThreadPool]: Creating schema "database: "public_spend"
+schema: "gold_intermediate"
+"
+[0m21:43:39.763789 [debug] [ThreadPool]: Creating schema "database: "public_spend"
+schema: "gold_staging"
+"
+[0m21:43:39.767448 [debug] [ThreadPool]: Using postgres connection "create_public_spend_gold_gold"
+[0m21:43:39.768741 [debug] [ThreadPool]: Using postgres connection "create_public_spend_gold_intermediate"
+[0m21:43:39.770022 [debug] [ThreadPool]: Using postgres connection "create_public_spend_gold_staging"
+[0m21:43:39.770351 [debug] [ThreadPool]: On create_public_spend_gold_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "create_public_spend_gold_gold"} */
+create schema if not exists "gold_gold"
+[0m21:43:39.770640 [debug] [ThreadPool]: On create_public_spend_gold_intermediate: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "create_public_spend_gold_intermediate"} */
+create schema if not exists "gold_intermediate"
+[0m21:43:39.770939 [debug] [ThreadPool]: On create_public_spend_gold_staging: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "create_public_spend_gold_staging"} */
+create schema if not exists "gold_staging"
+[0m21:43:39.771219 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:43:39.771492 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:43:39.771765 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:43:39.780436 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.009 seconds
+[0m21:43:39.780907 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.009 seconds
+[0m21:43:39.781225 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.010 seconds
+[0m21:43:39.781942 [debug] [ThreadPool]: On create_public_spend_gold_staging: COMMIT
+[0m21:43:39.782579 [debug] [ThreadPool]: On create_public_spend_gold_intermediate: COMMIT
+[0m21:43:39.783224 [debug] [ThreadPool]: On create_public_spend_gold_gold: COMMIT
+[0m21:43:39.783606 [debug] [ThreadPool]: Using postgres connection "create_public_spend_gold_staging"
+[0m21:43:39.783941 [debug] [ThreadPool]: Using postgres connection "create_public_spend_gold_intermediate"
+[0m21:43:39.784287 [debug] [ThreadPool]: Using postgres connection "create_public_spend_gold_gold"
+[0m21:43:39.784568 [debug] [ThreadPool]: On create_public_spend_gold_staging: COMMIT
+[0m21:43:39.784853 [debug] [ThreadPool]: On create_public_spend_gold_intermediate: COMMIT
+[0m21:43:39.785128 [debug] [ThreadPool]: On create_public_spend_gold_gold: COMMIT
+[0m21:43:39.785992 [debug] [ThreadPool]: SQL status: COMMIT in 0.001 seconds
+[0m21:43:39.786275 [debug] [ThreadPool]: On create_public_spend_gold_staging: Close
+[0m21:43:39.786519 [debug] [ThreadPool]: SQL status: COMMIT in 0.001 seconds
+[0m21:43:39.786794 [debug] [ThreadPool]: SQL status: COMMIT in 0.001 seconds
+[0m21:43:39.787090 [debug] [ThreadPool]: On create_public_spend_gold_gold: Close
+[0m21:43:39.787593 [debug] [ThreadPool]: On create_public_spend_gold_intermediate: Close
+[0m21:43:39.788960 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_public_spend_gold_intermediate, now list_public_spend_gold)
+[0m21:43:39.789345 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_public_spend_gold_gold, now list_public_spend_gold_gold)
+[0m21:43:39.789763 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_public_spend_gold_staging, now list_public_spend_gold_intermediate)
+[0m21:43:39.793854 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold"
+[0m21:43:39.794429 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend_gold_staging'
+[0m21:43:39.796412 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_gold"
+[0m21:43:39.798979 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_intermediate"
+[0m21:43:39.799413 [debug] [ThreadPool]: On list_public_spend_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold'
+  
+[0m21:43:39.800703 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_staging"
+[0m21:43:39.801052 [debug] [ThreadPool]: On list_public_spend_gold_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_gold"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_gold'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_gold'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_gold'
+  
+[0m21:43:39.801432 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_intermediate"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_intermediate'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_intermediate'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_intermediate'
+  
+[0m21:43:39.801737 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:43:39.802029 [debug] [ThreadPool]: On list_public_spend_gold_staging: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_staging"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_staging'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_staging'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_staging'
+  
+[0m21:43:39.802342 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:43:39.802671 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:43:39.803053 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:43:39.815765 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.013 seconds
+[0m21:43:39.816882 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.014 seconds
+[0m21:43:39.817329 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.016 seconds
+[0m21:43:39.818450 [debug] [ThreadPool]: On list_public_spend_gold_gold: ROLLBACK
+[0m21:43:39.818729 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.016 seconds
+[0m21:43:39.819642 [debug] [ThreadPool]: On list_public_spend_gold_staging: ROLLBACK
+[0m21:43:39.820627 [debug] [ThreadPool]: On list_public_spend_gold: ROLLBACK
+[0m21:43:39.821468 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: ROLLBACK
+[0m21:43:39.821798 [debug] [ThreadPool]: On list_public_spend_gold_gold: Close
+[0m21:43:39.822107 [debug] [ThreadPool]: On list_public_spend_gold_staging: Close
+[0m21:43:39.822580 [debug] [ThreadPool]: On list_public_spend_gold: Close
+[0m21:43:39.822910 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: Close
+[0m21:43:39.827212 [debug] [MainThread]: Using postgres connection "master"
+[0m21:43:39.827567 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m21:43:39.827867 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:43:39.836990 [debug] [MainThread]: SQL status: SELECT 0 in 0.009 seconds
+[0m21:43:39.838925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b47c7e4f-9ecd-4128-b14b-8512655d2289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3a797ef0>]}
+[0m21:43:39.839449 [debug] [MainThread]: On master: ROLLBACK
+[0m21:43:39.839868 [debug] [MainThread]: On master: COMMIT
+[0m21:43:39.840150 [debug] [MainThread]: Using postgres connection "master"
+[0m21:43:39.840415 [debug] [MainThread]: On master: COMMIT
+[0m21:43:39.840797 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:43:39.841066 [debug] [MainThread]: On master: Close
+[0m21:43:39.843008 [debug] [Thread-1 (]: Began running node model.public_spend.stg_gastos
+[0m21:43:39.843472 [info ] [Thread-1 (]: 1 of 4 START sql view model gold_staging.stg_gastos ............................ [RUN]
+[0m21:43:39.843834 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_public_spend_gold_intermediate, now model.public_spend.stg_gastos)
+[0m21:43:39.844130 [debug] [Thread-1 (]: Began compiling node model.public_spend.stg_gastos
+[0m21:43:39.850543 [debug] [Thread-1 (]: Writing injected SQL for node "model.public_spend.stg_gastos"
+[0m21:43:39.851310 [debug] [Thread-1 (]: Began executing node model.public_spend.stg_gastos
+[0m21:43:39.879520 [debug] [Thread-1 (]: Writing runtime sql for node "model.public_spend.stg_gastos"
+[0m21:43:39.880277 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:43:39.880613 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.stg_gastos"} */
+
+  create view "public_spend"."gold_staging"."stg_gastos__dbt_tmp"
+    
+    
+  as (
+    SELECT
+    orgao_superior,
+    orgao,
+    pago,
+    ano
+FROM "public_spend"."silver"."gastos"
+WHERE pago > 0 -- Filtrar pagamentos validos
+-- Remove pagamentos zerados ou negativos
+  );
+[0m21:43:39.880912 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:43:39.890817 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.010 seconds
+[0m21:43:39.895450 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:43:39.895795 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.stg_gastos"} */
+alter table "public_spend"."gold_staging"."stg_gastos__dbt_tmp" rename to "stg_gastos"
+[0m21:43:39.896449 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:43:39.906770 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: COMMIT
+[0m21:43:39.907191 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:43:39.907500 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: COMMIT
+[0m21:43:39.909351 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m21:43:39.913580 [debug] [Thread-1 (]: Applying DROP to: "public_spend"."gold_staging"."stg_gastos__dbt_backup"
+[0m21:43:39.917433 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:43:39.917774 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.stg_gastos"} */
+drop view if exists "public_spend"."gold_staging"."stg_gastos__dbt_backup" cascade
+[0m21:43:39.918805 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m21:43:39.920502 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: Close
+[0m21:43:39.921738 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b47c7e4f-9ecd-4128-b14b-8512655d2289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3eb73440>]}
+[0m21:43:39.922245 [info ] [Thread-1 (]: 1 of 4 OK created sql view model gold_staging.stg_gastos ....................... [[32mCREATE VIEW[0m in 0.08s]
+[0m21:43:39.922708 [debug] [Thread-1 (]: Finished running node model.public_spend.stg_gastos
+[0m21:43:39.923407 [debug] [Thread-3 (]: Began running node model.public_spend.int_gastos_normalizado
+[0m21:43:39.923900 [info ] [Thread-3 (]: 2 of 4 START sql view model gold_intermediate.int_gastos_normalizado ........... [RUN]
+[0m21:43:39.924313 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly list_public_spend_gold_staging, now model.public_spend.int_gastos_normalizado)
+[0m21:43:39.924614 [debug] [Thread-3 (]: Began compiling node model.public_spend.int_gastos_normalizado
+[0m21:43:39.926581 [debug] [Thread-3 (]: Writing injected SQL for node "model.public_spend.int_gastos_normalizado"
+[0m21:43:39.927048 [debug] [Thread-3 (]: Began executing node model.public_spend.int_gastos_normalizado
+[0m21:43:39.930177 [debug] [Thread-3 (]: Writing runtime sql for node "model.public_spend.int_gastos_normalizado"
+[0m21:43:39.930718 [debug] [Thread-3 (]: Using postgres connection "model.public_spend.int_gastos_normalizado"
+[0m21:43:39.931031 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.int_gastos_normalizado"} */
+
+  create view "public_spend"."gold_intermediate"."int_gastos_normalizado__dbt_tmp"
+    
+    
+  as (
+    SELECT
+    g.orgao_superior,
+    COALESCE(d.nome_padrao, g.orgao) AS orgao, 
+    g.pago,
+    g.ano
+FROM "public_spend"."gold_staging"."stg_gastos" g
+LEFT JOIN "public_spend"."gold"."de_para_orgaos" d 
+    ON g.orgao = d.nome_variante
+  );
+[0m21:43:39.931396 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m21:43:39.940433 [debug] [Thread-3 (]: SQL status: CREATE VIEW in 0.009 seconds
+[0m21:43:39.943655 [debug] [Thread-3 (]: Using postgres connection "model.public_spend.int_gastos_normalizado"
+[0m21:43:39.944145 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.int_gastos_normalizado"} */
+alter table "public_spend"."gold_intermediate"."int_gastos_normalizado__dbt_tmp" rename to "int_gastos_normalizado"
+[0m21:43:39.944876 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:43:39.946167 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: COMMIT
+[0m21:43:39.946668 [debug] [Thread-3 (]: Using postgres connection "model.public_spend.int_gastos_normalizado"
+[0m21:43:39.947121 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: COMMIT
+[0m21:43:39.950327 [debug] [Thread-3 (]: SQL status: COMMIT in 0.003 seconds
+[0m21:43:39.952546 [debug] [Thread-3 (]: Applying DROP to: "public_spend"."gold_intermediate"."int_gastos_normalizado__dbt_backup"
+[0m21:43:39.953056 [debug] [Thread-3 (]: Using postgres connection "model.public_spend.int_gastos_normalizado"
+[0m21:43:39.953367 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.int_gastos_normalizado"} */
+drop view if exists "public_spend"."gold_intermediate"."int_gastos_normalizado__dbt_backup" cascade
+[0m21:43:39.953942 [debug] [Thread-3 (]: SQL status: DROP VIEW in 0.000 seconds
+[0m21:43:39.955125 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: Close
+[0m21:43:39.955704 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b47c7e4f-9ecd-4128-b14b-8512655d2289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b381771a0>]}
+[0m21:43:39.956200 [info ] [Thread-3 (]: 2 of 4 OK created sql view model gold_intermediate.int_gastos_normalizado ...... [[32mCREATE VIEW[0m in 0.03s]
+[0m21:43:39.956667 [debug] [Thread-3 (]: Finished running node model.public_spend.int_gastos_normalizado
+[0m21:43:39.957432 [debug] [Thread-2 (]: Began running node model.public_spend.dim_orgaos
+[0m21:43:39.957773 [debug] [Thread-1 (]: Began running node model.public_spend.fato_gastos_por_orgao_ano
+[0m21:43:39.958248 [info ] [Thread-2 (]: 3 of 4 START sql table model gold_gold.dim_orgaos .............................. [RUN]
+[0m21:43:39.958762 [info ] [Thread-1 (]: 4 of 4 START sql table model gold_gold.fato_gastos_por_orgao_ano ............... [RUN]
+[0m21:43:39.959209 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_public_spend_gold, now model.public_spend.dim_orgaos)
+[0m21:43:39.959541 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.public_spend.stg_gastos, now model.public_spend.fato_gastos_por_orgao_ano)
+[0m21:43:39.959857 [debug] [Thread-2 (]: Began compiling node model.public_spend.dim_orgaos
+[0m21:43:39.960158 [debug] [Thread-1 (]: Began compiling node model.public_spend.fato_gastos_por_orgao_ano
+[0m21:43:39.962951 [debug] [Thread-2 (]: Writing injected SQL for node "model.public_spend.dim_orgaos"
+[0m21:43:39.964633 [debug] [Thread-1 (]: Writing injected SQL for node "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:43:39.965202 [debug] [Thread-2 (]: Began executing node model.public_spend.dim_orgaos
+[0m21:43:39.965527 [debug] [Thread-1 (]: Began executing node model.public_spend.fato_gastos_por_orgao_ano
+[0m21:43:39.984399 [debug] [Thread-2 (]: Writing runtime sql for node "model.public_spend.dim_orgaos"
+[0m21:43:39.986885 [debug] [Thread-1 (]: Writing runtime sql for node "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:43:39.987575 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:43:39.987982 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.dim_orgaos"} */
+
+  
+    
+
+  create  table "public_spend"."gold_gold"."dim_orgaos__dbt_tmp"
+  
+  
+    as
+  
+  (
+    SELECT
+    
+    upper(
+        trim(
+            regexp_replace(orgao, '\s+', ' ', 'g')
+            -- remove espaços duplos, tabs, etc
+        )
+    )
+ AS orgao,
+    orgao_superior,
+    COUNT(DISTINCT ano) AS anos_com_dados,
+    MIN(ano) AS primeiro_ano,
+    MAX(ano) AS ultimo_ano,
+    SUM(pago) AS total_historico
+FROM "public_spend"."gold_intermediate"."int_gastos_normalizado"
+GROUP BY 1, 2
+ORDER BY total_historico DESC
+  );
+  
+[0m21:43:39.988342 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:43:39.988651 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:43:39.988989 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.fato_gastos_por_orgao_ano"} */
+
+  
+    
+
+  create  table "public_spend"."gold_gold"."fato_gastos_por_orgao_ano__dbt_tmp"
+  
+  
+    as
+  
+  (
+    SELECT
+    orgao,
+    orgao_superior,
+    ano,
+    SUM(pago) AS total_gastos,
+    COUNT(*) AS qtd_pagamentos,
+    AVG(pago) AS ticket_medio
+    MIN(pago) AS menor_pagamento,
+    MAX(pago) AS maior_pagamento
+FROM "public_spend"."gold_intermediate"."int_gastos_normalizado"
+GROUP BY 1, 2, 3
+  );
+  
+[0m21:43:39.989439 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:43:39.997479 [debug] [Thread-1 (]: Postgres adapter: Postgres error: syntax error at or near "MIN"
+LINE 19:     MIN(pago) AS menor_pagamento,
+             ^
+
+[0m21:43:39.998358 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: ROLLBACK
+[0m21:43:39.999194 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: Close
+[0m21:43:40.007344 [debug] [Thread-1 (]: Database Error in model fato_gastos_por_orgao_ano (models/marts/fato_gastos_por_orgao_ano.sql)
+  syntax error at or near "MIN"
+  LINE 19:     MIN(pago) AS menor_pagamento,
+               ^
+  compiled code at target/run/public_spend/models/marts/fato_gastos_por_orgao_ano.sql
+[0m21:43:40.007786 [debug] [Thread-2 (]: SQL status: SELECT 140 in 0.019 seconds
+[0m21:43:40.008218 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b47c7e4f-9ecd-4128-b14b-8512655d2289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3a341070>]}
+[0m21:43:40.012776 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:43:40.013327 [error] [Thread-1 (]: 4 of 4 ERROR creating sql table model gold_gold.fato_gastos_por_orgao_ano ...... [[31mERROR[0m in 0.05s]
+[0m21:43:40.013731 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.dim_orgaos"} */
+alter table "public_spend"."gold_gold"."dim_orgaos__dbt_tmp" rename to "dim_orgaos"
+[0m21:43:40.014179 [debug] [Thread-1 (]: Finished running node model.public_spend.fato_gastos_por_orgao_ano
+[0m21:43:40.014780 [debug] [Thread-7 (]: Marking all children of 'model.public_spend.fato_gastos_por_orgao_ano' to be skipped because of status 'error'.  Reason: Database Error in model fato_gastos_por_orgao_ano (models/marts/fato_gastos_por_orgao_ano.sql)
+  syntax error at or near "MIN"
+  LINE 19:     MIN(pago) AS menor_pagamento,
+               ^
+  compiled code at target/run/public_spend/models/marts/fato_gastos_por_orgao_ano.sql.
+[0m21:43:40.015097 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m21:43:40.016690 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: COMMIT
+[0m21:43:40.017071 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:43:40.017409 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: COMMIT
+[0m21:43:40.019128 [debug] [Thread-2 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:43:40.021042 [debug] [Thread-2 (]: Applying DROP to: "public_spend"."gold_gold"."dim_orgaos__dbt_backup"
+[0m21:43:40.023339 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:43:40.023653 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.dim_orgaos"} */
+drop table if exists "public_spend"."gold_gold"."dim_orgaos__dbt_backup" cascade
+[0m21:43:40.024190 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.000 seconds
+[0m21:43:40.025162 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: Close
+[0m21:43:40.025670 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b47c7e4f-9ecd-4128-b14b-8512655d2289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b29f037d0>]}
+[0m21:43:40.026143 [info ] [Thread-2 (]: 3 of 4 OK created sql table model gold_gold.dim_orgaos ......................... [[32mSELECT 140[0m in 0.07s]
+[0m21:43:40.026615 [debug] [Thread-2 (]: Finished running node model.public_spend.dim_orgaos
+[0m21:43:40.027714 [debug] [MainThread]: On master: COMMIT
+[0m21:43:40.028121 [debug] [MainThread]: Using postgres connection "master"
+[0m21:43:40.028506 [debug] [MainThread]: On master: COMMIT
+[0m21:43:40.028873 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:43:40.039320 [debug] [MainThread]: SQL status: COMMIT in 0.010 seconds
+[0m21:43:40.040080 [debug] [MainThread]: On master: Close
+[0m21:43:40.040766 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:43:40.041087 [debug] [MainThread]: Connection 'model.public_spend.fato_gastos_por_orgao_ano' was properly closed.
+[0m21:43:40.041359 [debug] [MainThread]: Connection 'model.public_spend.dim_orgaos' was properly closed.
+[0m21:43:40.041607 [debug] [MainThread]: Connection 'list_public_spend_gold_gold' was properly closed.
+[0m21:43:40.041849 [debug] [MainThread]: Connection 'model.public_spend.int_gastos_normalizado' was properly closed.
+[0m21:43:40.042208 [info ] [MainThread]: 
+[0m21:43:40.042570 [info ] [MainThread]: Finished running 2 table models, 2 view models in 0 hours 0 minutes and 0.34 seconds (0.34s).
+[0m21:43:40.043425 [debug] [MainThread]: Command end result
+[0m21:43:40.126557 [debug] [MainThread]: Wrote artifact WritableManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/manifest.json
+[0m21:43:40.128345 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/semantic_manifest.json
+[0m21:43:40.132734 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/zac/Desktop/public_spend/analytics/dbt/target/run_results.json
+[0m21:43:40.133051 [info ] [MainThread]: 
+[0m21:43:40.133393 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:43:40.133696 [info ] [MainThread]: 
+[0m21:43:40.134041 [error] [MainThread]: [31mFailure in model fato_gastos_por_orgao_ano (models/marts/fato_gastos_por_orgao_ano.sql)[0m
+[0m21:43:40.134382 [error] [MainThread]:   Database Error in model fato_gastos_por_orgao_ano (models/marts/fato_gastos_por_orgao_ano.sql)
+  syntax error at or near "MIN"
+  LINE 19:     MIN(pago) AS menor_pagamento,
+               ^
+  compiled code at target/run/public_spend/models/marts/fato_gastos_por_orgao_ano.sql
+[0m21:43:40.134647 [info ] [MainThread]: 
+[0m21:43:40.134977 [info ] [MainThread]:   compiled code at target/compiled/public_spend/models/marts/fato_gastos_por_orgao_ano.sql
+[0m21:43:40.135250 [info ] [MainThread]: 
+[0m21:43:40.135557 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=4
+[0m21:43:40.136273 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.96539134, "process_in_blocks": "96", "process_kernel_time": 0.233313, "process_mem_max_rss": "129816", "process_out_blocks": "2072", "process_user_time": 1.832605}
+[0m21:43:40.136650 [debug] [MainThread]: Command `dbt run` failed at 21:43:40.136580 after 0.97 seconds
+[0m21:43:40.136968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b409b3bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3e011a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a6b3d32d0a0>]}
+[0m21:43:40.137289 [debug] [MainThread]: Flushing usage events
+[0m21:43:40.875725 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:44:48.656684 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73ec81e660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73ec2d1670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73ec201df0>]}
+
+
+============================== 21:44:48.659468 | 4eeb4d6f-0e3f-48e3-bbcd-218a73bbcdc4 ==============================
+[0m21:44:48.659468 [info ] [MainThread]: Running with dbt=1.11.6
+[0m21:44:48.660043 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'log_path': '/home/zac/Desktop/public_spend/analytics/dbt/logs', 'warn_error': 'None', 'static_parser': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'no_print': 'None', 'partial_parse': 'True', 'profiles_dir': '/home/zac/Desktop/public_spend/analytics/dbt', 'introspect': 'True', 'invocation_command': 'dbt seed', 'use_experimental_parser': 'False', 'use_colors': 'True', 'version_check': 'True', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'quiet': 'False', 'fail_fast': 'False', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'empty': 'None', 'log_format': 'default'}
+[0m21:44:48.784802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4eeb4d6f-0e3f-48e3-bbcd-218a73bbcdc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73edee4440>]}
+[0m21:44:48.833030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4eeb4d6f-0e3f-48e3-bbcd-218a73bbcdc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73ebf57350>]}
+[0m21:44:48.833699 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m21:44:48.920185 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m21:44:49.016346 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m21:44:49.016918 [debug] [MainThread]: Partial parsing: updated file: public_spend://models/marts/fato_gastos_por_orgao_ano.sql
+[0m21:44:49.331838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4eeb4d6f-0e3f-48e3-bbcd-218a73bbcdc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73e9dd2840>]}
+[0m21:44:49.402252 [debug] [MainThread]: Wrote artifact WritableManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/manifest.json
+[0m21:44:49.403451 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/semantic_manifest.json
+[0m21:44:49.412556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4eeb4d6f-0e3f-48e3-bbcd-218a73bbcdc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73e9133da0>]}
+[0m21:44:49.412909 [info ] [MainThread]: Found 4 models, 8 data tests, 1 seed, 1 source, 465 macros
+[0m21:44:49.413209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4eeb4d6f-0e3f-48e3-bbcd-218a73bbcdc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73e95d1550>]}
+[0m21:44:49.414595 [info ] [MainThread]: 
+[0m21:44:49.414916 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:44:49.415178 [info ] [MainThread]: 
+[0m21:44:49.415592 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:44:49.416314 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend'
+[0m21:44:49.505970 [debug] [ThreadPool]: Using postgres connection "list_public_spend"
+[0m21:44:49.506352 [debug] [ThreadPool]: On list_public_spend: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:44:49.506617 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:44:49.516191 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.009 seconds
+[0m21:44:49.517280 [debug] [ThreadPool]: On list_public_spend: Close
+[0m21:44:49.520591 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_public_spend, now list_public_spend_gold_staging)
+[0m21:44:49.521176 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend_gold_gold'
+[0m21:44:49.525470 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_staging"
+[0m21:44:49.526072 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend_gold_intermediate'
+[0m21:44:49.527725 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_gold"
+[0m21:44:49.528154 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend_gold'
+[0m21:44:49.528562 [debug] [ThreadPool]: On list_public_spend_gold_staging: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_staging"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_staging'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_staging'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_staging'
+  
+[0m21:44:49.529864 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_intermediate"
+[0m21:44:49.530174 [debug] [ThreadPool]: On list_public_spend_gold_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_gold"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_gold'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_gold'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_gold'
+  
+[0m21:44:49.531304 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold"
+[0m21:44:49.531610 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:44:49.532001 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_intermediate"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_intermediate'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_intermediate'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_intermediate'
+  
+[0m21:44:49.532368 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:44:49.532746 [debug] [ThreadPool]: On list_public_spend_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold'
+  
+[0m21:44:49.533223 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:44:49.533610 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:44:49.542850 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.011 seconds
+[0m21:44:49.543304 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.011 seconds
+[0m21:44:49.543745 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.011 seconds
+[0m21:44:49.544721 [debug] [ThreadPool]: On list_public_spend_gold_staging: ROLLBACK
+[0m21:44:49.544991 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.011 seconds
+[0m21:44:49.545878 [debug] [ThreadPool]: On list_public_spend_gold_gold: ROLLBACK
+[0m21:44:49.546786 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: ROLLBACK
+[0m21:44:49.547660 [debug] [ThreadPool]: On list_public_spend_gold: ROLLBACK
+[0m21:44:49.547960 [debug] [ThreadPool]: On list_public_spend_gold_staging: Close
+[0m21:44:49.548342 [debug] [ThreadPool]: On list_public_spend_gold_gold: Close
+[0m21:44:49.548646 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: Close
+[0m21:44:49.548919 [debug] [ThreadPool]: On list_public_spend_gold: Close
+[0m21:44:49.553395 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:49.553767 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m21:44:49.554065 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:44:49.563296 [debug] [MainThread]: SQL status: SELECT 3 in 0.009 seconds
+[0m21:44:49.564690 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4eeb4d6f-0e3f-48e3-bbcd-218a73bbcdc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73e916a270>]}
+[0m21:44:49.565099 [debug] [MainThread]: On master: ROLLBACK
+[0m21:44:49.565489 [debug] [MainThread]: On master: COMMIT
+[0m21:44:49.565771 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:49.566027 [debug] [MainThread]: On master: COMMIT
+[0m21:44:49.566401 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:44:49.566674 [debug] [MainThread]: On master: Close
+[0m21:44:49.568630 [debug] [Thread-1 (]: Began running node seed.public_spend.de_para_orgaos
+[0m21:44:49.569166 [info ] [Thread-1 (]: 1 of 1 START seed file gold.de_para_orgaos ..................................... [RUN]
+[0m21:44:49.569680 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_public_spend_gold, now seed.public_spend.de_para_orgaos)
+[0m21:44:49.569988 [debug] [Thread-1 (]: Began compiling node seed.public_spend.de_para_orgaos
+[0m21:44:49.570313 [debug] [Thread-1 (]: Began executing node seed.public_spend.de_para_orgaos
+[0m21:44:49.596494 [debug] [Thread-1 (]: Using postgres connection "seed.public_spend.de_para_orgaos"
+[0m21:44:49.596918 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "seed.public_spend.de_para_orgaos"} */
+truncate table "public_spend"."gold"."de_para_orgaos"
+[0m21:44:49.597225 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:44:49.606779 [debug] [Thread-1 (]: SQL status: TRUNCATE TABLE in 0.009 seconds
+[0m21:44:49.619668 [debug] [Thread-1 (]: Using postgres connection "seed.public_spend.de_para_orgaos"
+[0m21:44:49.620062 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: 
+          insert into "public_spend"."gold"."de_para_orgaos" ("nome_variante", "nome_padrao") values
+          (%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s)
+      ...
+[0m21:44:49.620790 [debug] [Thread-1 (]: SQL status: INSERT 0 6 in 0.000 seconds
+[0m21:44:49.624841 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.public_spend.de_para_orgaos"
+[0m21:44:49.635955 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: COMMIT
+[0m21:44:49.636369 [debug] [Thread-1 (]: Using postgres connection "seed.public_spend.de_para_orgaos"
+[0m21:44:49.636664 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: COMMIT
+[0m21:44:49.637895 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:44:49.639185 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: Close
+[0m21:44:49.640391 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4eeb4d6f-0e3f-48e3-bbcd-218a73bbcdc4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73ead3e0f0>]}
+[0m21:44:49.640809 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file gold.de_para_orgaos ................................. [[32mINSERT 6[0m in 0.07s]
+[0m21:44:49.641272 [debug] [Thread-1 (]: Finished running node seed.public_spend.de_para_orgaos
+[0m21:44:49.642286 [debug] [MainThread]: On master: COMMIT
+[0m21:44:49.642640 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:49.642911 [debug] [MainThread]: On master: COMMIT
+[0m21:44:49.643154 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:44:49.650654 [debug] [MainThread]: SQL status: COMMIT in 0.007 seconds
+[0m21:44:49.651152 [debug] [MainThread]: On master: Close
+[0m21:44:49.651722 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:44:49.651992 [debug] [MainThread]: Connection 'list_public_spend_gold_staging' was properly closed.
+[0m21:44:49.652245 [debug] [MainThread]: Connection 'list_public_spend_gold_gold' was properly closed.
+[0m21:44:49.652483 [debug] [MainThread]: Connection 'list_public_spend_gold_intermediate' was properly closed.
+[0m21:44:49.652717 [debug] [MainThread]: Connection 'seed.public_spend.de_para_orgaos' was properly closed.
+[0m21:44:49.652984 [info ] [MainThread]: 
+[0m21:44:49.653304 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 0.24 seconds (0.24s).
+[0m21:44:49.653887 [debug] [MainThread]: Command end result
+[0m21:44:49.673428 [debug] [MainThread]: Wrote artifact WritableManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/manifest.json
+[0m21:44:49.677047 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/semantic_manifest.json
+[0m21:44:49.682917 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/zac/Desktop/public_spend/analytics/dbt/target/run_results.json
+[0m21:44:49.683327 [info ] [MainThread]: 
+[0m21:44:49.683706 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:44:49.684000 [info ] [MainThread]: 
+[0m21:44:49.684349 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m21:44:49.685113 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": true, "command_wall_clock_time": 1.070735, "process_in_blocks": "0", "process_kernel_time": 0.243814, "process_mem_max_rss": "133328", "process_out_blocks": "2912", "process_user_time": 1.971501}
+[0m21:44:49.685632 [debug] [MainThread]: Command `dbt seed` succeeded at 21:44:49.685539 after 1.07 seconds
+[0m21:44:49.685984 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73ea11a450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73ea11a420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a73e9d63f80>]}
+[0m21:44:49.686326 [debug] [MainThread]: Flushing usage events
+[0m21:44:50.299824 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:44:52.966496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d3ef83b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d3f0b07a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d3f0b39e0>]}
+
+
+============================== 21:44:52.969109 | 09f6fc0d-dd60-45aa-b0cd-15e99d0b6ae9 ==============================
+[0m21:44:52.969109 [info ] [MainThread]: Running with dbt=1.11.6
+[0m21:44:52.969578 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'fail_fast': 'False', 'invocation_command': 'dbt run', 'static_parser': 'True', 'use_experimental_parser': 'False', 'log_format': 'default', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'quiet': 'False', 'version_check': 'True', 'empty': 'False', 'printer_width': '80', 'log_path': '/home/zac/Desktop/public_spend/analytics/dbt/logs', 'write_json': 'True', 'profiles_dir': '/home/zac/Desktop/public_spend/analytics/dbt', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'no_print': 'None', 'use_colors': 'True', 'partial_parse': 'True'}
+[0m21:44:53.093784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '09f6fc0d-dd60-45aa-b0cd-15e99d0b6ae9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d3dd16b10>]}
+[0m21:44:53.141219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '09f6fc0d-dd60-45aa-b0cd-15e99d0b6ae9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d3e75fe30>]}
+[0m21:44:53.142009 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m21:44:53.231258 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m21:44:53.328005 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:44:53.328379 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:44:53.328627 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:44:53.371068 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '09f6fc0d-dd60-45aa-b0cd-15e99d0b6ae9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d3d902210>]}
+[0m21:44:53.443531 [debug] [MainThread]: Wrote artifact WritableManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/manifest.json
+[0m21:44:53.444758 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/semantic_manifest.json
+[0m21:44:53.454090 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '09f6fc0d-dd60-45aa-b0cd-15e99d0b6ae9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d3cdd6300>]}
+[0m21:44:53.454513 [info ] [MainThread]: Found 4 models, 8 data tests, 1 seed, 1 source, 465 macros
+[0m21:44:53.454801 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '09f6fc0d-dd60-45aa-b0cd-15e99d0b6ae9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d3cdac710>]}
+[0m21:44:53.456174 [info ] [MainThread]: 
+[0m21:44:53.456485 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:44:53.456748 [info ] [MainThread]: 
+[0m21:44:53.457149 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:44:53.459922 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend'
+[0m21:44:53.460563 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend'
+[0m21:44:53.470213 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend'
+[0m21:44:53.496427 [debug] [ThreadPool]: Using postgres connection "list_public_spend"
+[0m21:44:53.496778 [debug] [ThreadPool]: Using postgres connection "list_public_spend"
+[0m21:44:53.497111 [debug] [ThreadPool]: Using postgres connection "list_public_spend"
+[0m21:44:53.497454 [debug] [ThreadPool]: On list_public_spend: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:44:53.497755 [debug] [ThreadPool]: On list_public_spend: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:44:53.498061 [debug] [ThreadPool]: On list_public_spend: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:44:53.498365 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:44:53.498655 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:44:53.498933 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:44:53.510526 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.012 seconds
+[0m21:44:53.510895 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.013 seconds
+[0m21:44:53.511236 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.012 seconds
+[0m21:44:53.512276 [debug] [ThreadPool]: On list_public_spend: Close
+[0m21:44:53.513155 [debug] [ThreadPool]: On list_public_spend: Close
+[0m21:44:53.514047 [debug] [ThreadPool]: On list_public_spend: Close
+[0m21:44:53.515878 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_public_spend, now list_public_spend_gold)
+[0m21:44:53.516488 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_public_spend, now list_public_spend_gold_intermediate)
+[0m21:44:53.520725 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold"
+[0m21:44:53.521204 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_public_spend, now list_public_spend_gold_gold)
+[0m21:44:53.521756 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend_gold_staging'
+[0m21:44:53.523079 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_intermediate"
+[0m21:44:53.523417 [debug] [ThreadPool]: On list_public_spend_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold'
+  
+[0m21:44:53.524672 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_gold"
+[0m21:44:53.525979 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_staging"
+[0m21:44:53.526315 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_intermediate"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_intermediate'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_intermediate'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_intermediate'
+  
+[0m21:44:53.526649 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:44:53.527036 [debug] [ThreadPool]: On list_public_spend_gold_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_gold"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_gold'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_gold'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_gold'
+  
+[0m21:44:53.527437 [debug] [ThreadPool]: On list_public_spend_gold_staging: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_staging"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_staging'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_staging'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_staging'
+  
+[0m21:44:53.527783 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:44:53.528161 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:44:53.528519 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:44:53.538324 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.012 seconds
+[0m21:44:53.538694 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.011 seconds
+[0m21:44:53.539013 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.011 seconds
+[0m21:44:53.539364 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.011 seconds
+[0m21:44:53.540311 [debug] [ThreadPool]: On list_public_spend_gold: ROLLBACK
+[0m21:44:53.541257 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: ROLLBACK
+[0m21:44:53.542148 [debug] [ThreadPool]: On list_public_spend_gold_gold: ROLLBACK
+[0m21:44:53.543131 [debug] [ThreadPool]: On list_public_spend_gold_staging: ROLLBACK
+[0m21:44:53.543612 [debug] [ThreadPool]: On list_public_spend_gold: Close
+[0m21:44:53.543947 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: Close
+[0m21:44:53.544296 [debug] [ThreadPool]: On list_public_spend_gold_gold: Close
+[0m21:44:53.544696 [debug] [ThreadPool]: On list_public_spend_gold_staging: Close
+[0m21:44:53.548965 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:53.549408 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m21:44:53.549719 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:44:53.559320 [debug] [MainThread]: SQL status: SELECT 3 in 0.010 seconds
+[0m21:44:53.560709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '09f6fc0d-dd60-45aa-b0cd-15e99d0b6ae9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d3dd964b0>]}
+[0m21:44:53.561069 [debug] [MainThread]: On master: ROLLBACK
+[0m21:44:53.561422 [debug] [MainThread]: On master: COMMIT
+[0m21:44:53.561694 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:53.561943 [debug] [MainThread]: On master: COMMIT
+[0m21:44:53.562303 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:44:53.562567 [debug] [MainThread]: On master: Close
+[0m21:44:53.564653 [debug] [Thread-1 (]: Began running node model.public_spend.stg_gastos
+[0m21:44:53.565152 [info ] [Thread-1 (]: 1 of 4 START sql view model gold_staging.stg_gastos ............................ [RUN]
+[0m21:44:53.565615 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_public_spend_gold_staging, now model.public_spend.stg_gastos)
+[0m21:44:53.565931 [debug] [Thread-1 (]: Began compiling node model.public_spend.stg_gastos
+[0m21:44:53.573098 [debug] [Thread-1 (]: Writing injected SQL for node "model.public_spend.stg_gastos"
+[0m21:44:53.573689 [debug] [Thread-1 (]: Began executing node model.public_spend.stg_gastos
+[0m21:44:53.603987 [debug] [Thread-1 (]: Writing runtime sql for node "model.public_spend.stg_gastos"
+[0m21:44:53.604700 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:44:53.605072 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.stg_gastos"} */
+
+  create view "public_spend"."gold_staging"."stg_gastos__dbt_tmp"
+    
+    
+  as (
+    SELECT
+    orgao_superior,
+    orgao,
+    pago,
+    ano
+FROM "public_spend"."silver"."gastos"
+WHERE pago > 0 -- Filtrar pagamentos validos
+-- Remove pagamentos zerados ou negativos
+  );
+[0m21:44:53.605407 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:44:53.613840 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.008 seconds
+[0m21:44:53.620313 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:44:53.620730 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.stg_gastos"} */
+alter table "public_spend"."gold_staging"."stg_gastos" rename to "stg_gastos__dbt_backup"
+[0m21:44:53.621398 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:44:53.623400 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:44:53.623708 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.stg_gastos"} */
+alter table "public_spend"."gold_staging"."stg_gastos__dbt_tmp" rename to "stg_gastos"
+[0m21:44:53.624206 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:44:53.635278 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: COMMIT
+[0m21:44:53.635669 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:44:53.635962 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: COMMIT
+[0m21:44:53.637315 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:44:53.641625 [debug] [Thread-1 (]: Applying DROP to: "public_spend"."gold_staging"."stg_gastos__dbt_backup"
+[0m21:44:53.645485 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:44:53.645812 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.stg_gastos"} */
+drop view if exists "public_spend"."gold_staging"."stg_gastos__dbt_backup" cascade
+[0m21:44:53.649776 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.004 seconds
+[0m21:44:53.651621 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: Close
+[0m21:44:53.652941 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '09f6fc0d-dd60-45aa-b0cd-15e99d0b6ae9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d40e5baa0>]}
+[0m21:44:53.653479 [info ] [Thread-1 (]: 1 of 4 OK created sql view model gold_staging.stg_gastos ....................... [[32mCREATE VIEW[0m in 0.09s]
+[0m21:44:53.653944 [debug] [Thread-1 (]: Finished running node model.public_spend.stg_gastos
+[0m21:44:53.654621 [debug] [Thread-3 (]: Began running node model.public_spend.int_gastos_normalizado
+[0m21:44:53.655124 [info ] [Thread-3 (]: 2 of 4 START sql view model gold_intermediate.int_gastos_normalizado ........... [RUN]
+[0m21:44:53.655518 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly list_public_spend_gold_intermediate, now model.public_spend.int_gastos_normalizado)
+[0m21:44:53.655822 [debug] [Thread-3 (]: Began compiling node model.public_spend.int_gastos_normalizado
+[0m21:44:53.658112 [debug] [Thread-3 (]: Writing injected SQL for node "model.public_spend.int_gastos_normalizado"
+[0m21:44:53.658594 [debug] [Thread-3 (]: Began executing node model.public_spend.int_gastos_normalizado
+[0m21:44:53.660890 [debug] [Thread-3 (]: Writing runtime sql for node "model.public_spend.int_gastos_normalizado"
+[0m21:44:53.661594 [debug] [Thread-3 (]: Using postgres connection "model.public_spend.int_gastos_normalizado"
+[0m21:44:53.661923 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.int_gastos_normalizado"} */
+
+  create view "public_spend"."gold_intermediate"."int_gastos_normalizado__dbt_tmp"
+    
+    
+  as (
+    SELECT
+    g.orgao_superior,
+    COALESCE(d.nome_padrao, g.orgao) AS orgao, 
+    g.pago,
+    g.ano
+FROM "public_spend"."gold_staging"."stg_gastos" g
+LEFT JOIN "public_spend"."gold"."de_para_orgaos" d 
+    ON g.orgao = d.nome_variante
+  );
+[0m21:44:53.662223 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m21:44:53.671966 [debug] [Thread-3 (]: SQL status: CREATE VIEW in 0.010 seconds
+[0m21:44:53.675105 [debug] [Thread-3 (]: Using postgres connection "model.public_spend.int_gastos_normalizado"
+[0m21:44:53.675613 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.int_gastos_normalizado"} */
+alter table "public_spend"."gold_intermediate"."int_gastos_normalizado__dbt_tmp" rename to "int_gastos_normalizado"
+[0m21:44:53.676371 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:44:53.677671 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: COMMIT
+[0m21:44:53.678076 [debug] [Thread-3 (]: Using postgres connection "model.public_spend.int_gastos_normalizado"
+[0m21:44:53.678433 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: COMMIT
+[0m21:44:53.679822 [debug] [Thread-3 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:44:53.681861 [debug] [Thread-3 (]: Applying DROP to: "public_spend"."gold_intermediate"."int_gastos_normalizado__dbt_backup"
+[0m21:44:53.682818 [debug] [Thread-3 (]: Using postgres connection "model.public_spend.int_gastos_normalizado"
+[0m21:44:53.683381 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.int_gastos_normalizado"} */
+drop view if exists "public_spend"."gold_intermediate"."int_gastos_normalizado__dbt_backup" cascade
+[0m21:44:53.684040 [debug] [Thread-3 (]: SQL status: DROP VIEW in 0.000 seconds
+[0m21:44:53.685529 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: Close
+[0m21:44:53.686577 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '09f6fc0d-dd60-45aa-b0cd-15e99d0b6ae9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d40e5baa0>]}
+[0m21:44:53.687344 [info ] [Thread-3 (]: 2 of 4 OK created sql view model gold_intermediate.int_gastos_normalizado ...... [[32mCREATE VIEW[0m in 0.03s]
+[0m21:44:53.687997 [debug] [Thread-3 (]: Finished running node model.public_spend.int_gastos_normalizado
+[0m21:44:53.688738 [debug] [Thread-2 (]: Began running node model.public_spend.dim_orgaos
+[0m21:44:53.689101 [debug] [Thread-1 (]: Began running node model.public_spend.fato_gastos_por_orgao_ano
+[0m21:44:53.689571 [info ] [Thread-2 (]: 3 of 4 START sql table model gold_gold.dim_orgaos .............................. [RUN]
+[0m21:44:53.689996 [info ] [Thread-1 (]: 4 of 4 START sql table model gold_gold.fato_gastos_por_orgao_ano ............... [RUN]
+[0m21:44:53.690460 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_public_spend_gold_gold, now model.public_spend.dim_orgaos)
+[0m21:44:53.690802 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.public_spend.stg_gastos, now model.public_spend.fato_gastos_por_orgao_ano)
+[0m21:44:53.691171 [debug] [Thread-2 (]: Began compiling node model.public_spend.dim_orgaos
+[0m21:44:53.691526 [debug] [Thread-1 (]: Began compiling node model.public_spend.fato_gastos_por_orgao_ano
+[0m21:44:53.694361 [debug] [Thread-2 (]: Writing injected SQL for node "model.public_spend.dim_orgaos"
+[0m21:44:53.697862 [debug] [Thread-1 (]: Writing injected SQL for node "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:44:53.698496 [debug] [Thread-1 (]: Began executing node model.public_spend.fato_gastos_por_orgao_ano
+[0m21:44:53.698804 [debug] [Thread-2 (]: Began executing node model.public_spend.dim_orgaos
+[0m21:44:53.724653 [debug] [Thread-2 (]: Writing runtime sql for node "model.public_spend.dim_orgaos"
+[0m21:44:53.726988 [debug] [Thread-1 (]: Writing runtime sql for node "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:44:53.727682 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:44:53.728101 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:44:53.728525 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.dim_orgaos"} */
+
+  
+    
+
+  create  table "public_spend"."gold_gold"."dim_orgaos__dbt_tmp"
+  
+  
+    as
+  
+  (
+    SELECT
+    
+    upper(
+        trim(
+            regexp_replace(orgao, '\s+', ' ', 'g')
+            -- remove espaços duplos, tabs, etc
+        )
+    )
+ AS orgao,
+    orgao_superior,
+    COUNT(DISTINCT ano) AS anos_com_dados,
+    MIN(ano) AS primeiro_ano,
+    MAX(ano) AS ultimo_ano,
+    SUM(pago) AS total_historico
+FROM "public_spend"."gold_intermediate"."int_gastos_normalizado"
+GROUP BY 1, 2
+ORDER BY total_historico DESC
+  );
+  
+[0m21:44:53.728917 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.fato_gastos_por_orgao_ano"} */
+
+  
+    
+
+  create  table "public_spend"."gold_gold"."fato_gastos_por_orgao_ano__dbt_tmp"
+  
+  
+    as
+  
+  (
+    SELECT
+    orgao,
+    orgao_superior,
+    ano,
+    SUM(pago) AS total_gastos,
+    COUNT(*) AS qtd_pagamentos,
+    AVG(pago) AS ticket_medio,
+    MIN(pago) AS menor_pagamento,
+    MAX(pago) AS maior_pagamento
+FROM "public_spend"."gold_intermediate"."int_gastos_normalizado"
+GROUP BY 1, 2, 3
+  );
+  
+[0m21:44:53.729267 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:44:53.729590 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:44:53.741021 [debug] [Thread-2 (]: SQL status: SELECT 140 in 0.012 seconds
+[0m21:44:53.741484 [debug] [Thread-1 (]: SQL status: SELECT 140 in 0.012 seconds
+[0m21:44:53.746431 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:44:53.748695 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:44:53.749131 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.dim_orgaos"} */
+alter table "public_spend"."gold_gold"."dim_orgaos" rename to "dim_orgaos__dbt_backup"
+[0m21:44:53.749560 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.fato_gastos_por_orgao_ano"} */
+alter table "public_spend"."gold_gold"."fato_gastos_por_orgao_ano__dbt_tmp" rename to "fato_gastos_por_orgao_ano"
+[0m21:44:53.750207 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:44:53.750527 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m21:44:53.751468 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: COMMIT
+[0m21:44:53.753648 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:44:53.754016 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:44:53.754397 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.dim_orgaos"} */
+alter table "public_spend"."gold_gold"."dim_orgaos__dbt_tmp" rename to "dim_orgaos"
+[0m21:44:53.754733 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: COMMIT
+[0m21:44:53.755360 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:44:53.756394 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: COMMIT
+[0m21:44:53.756751 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m21:44:53.757075 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:44:53.758548 [debug] [Thread-1 (]: Applying DROP to: "public_spend"."gold_gold"."fato_gastos_por_orgao_ano__dbt_backup"
+[0m21:44:53.758881 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: COMMIT
+[0m21:44:53.761697 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:44:53.762145 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.fato_gastos_por_orgao_ano"} */
+drop table if exists "public_spend"."gold_gold"."fato_gastos_por_orgao_ano__dbt_backup" cascade
+[0m21:44:53.762657 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.000 seconds
+[0m21:44:53.762962 [debug] [Thread-2 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:44:53.764038 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: Close
+[0m21:44:53.765998 [debug] [Thread-2 (]: Applying DROP to: "public_spend"."gold_gold"."dim_orgaos__dbt_backup"
+[0m21:44:53.766536 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:44:53.767010 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '09f6fc0d-dd60-45aa-b0cd-15e99d0b6ae9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d39c481d0>]}
+[0m21:44:53.767446 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.dim_orgaos"} */
+drop table if exists "public_spend"."gold_gold"."dim_orgaos__dbt_backup" cascade
+[0m21:44:53.768026 [info ] [Thread-1 (]: 4 of 4 OK created sql table model gold_gold.fato_gastos_por_orgao_ano .......... [[32mSELECT 140[0m in 0.08s]
+[0m21:44:53.768592 [debug] [Thread-1 (]: Finished running node model.public_spend.fato_gastos_por_orgao_ano
+[0m21:44:53.769743 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.001 seconds
+[0m21:44:53.770933 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: Close
+[0m21:44:53.771444 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '09f6fc0d-dd60-45aa-b0cd-15e99d0b6ae9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d3a581af0>]}
+[0m21:44:53.771928 [info ] [Thread-2 (]: 3 of 4 OK created sql table model gold_gold.dim_orgaos ......................... [[32mSELECT 140[0m in 0.08s]
+[0m21:44:53.772406 [debug] [Thread-2 (]: Finished running node model.public_spend.dim_orgaos
+[0m21:44:53.773422 [debug] [MainThread]: On master: COMMIT
+[0m21:44:53.773722 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:53.773998 [debug] [MainThread]: On master: COMMIT
+[0m21:44:53.774270 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:44:53.781816 [debug] [MainThread]: SQL status: COMMIT in 0.007 seconds
+[0m21:44:53.782236 [debug] [MainThread]: On master: Close
+[0m21:44:53.782850 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:44:53.783285 [debug] [MainThread]: Connection 'model.public_spend.int_gastos_normalizado' was properly closed.
+[0m21:44:53.783763 [debug] [MainThread]: Connection 'model.public_spend.dim_orgaos' was properly closed.
+[0m21:44:53.784127 [debug] [MainThread]: Connection 'list_public_spend_gold' was properly closed.
+[0m21:44:53.784477 [debug] [MainThread]: Connection 'model.public_spend.fato_gastos_por_orgao_ano' was properly closed.
+[0m21:44:53.784928 [info ] [MainThread]: 
+[0m21:44:53.785373 [info ] [MainThread]: Finished running 2 table models, 2 view models in 0 hours 0 minutes and 0.33 seconds (0.33s).
+[0m21:44:53.786703 [debug] [MainThread]: Command end result
+[0m21:44:53.873109 [debug] [MainThread]: Wrote artifact WritableManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/manifest.json
+[0m21:44:53.874540 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/semantic_manifest.json
+[0m21:44:53.878718 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/zac/Desktop/public_spend/analytics/dbt/target/run_results.json
+[0m21:44:53.879007 [info ] [MainThread]: 
+[0m21:44:53.879327 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:44:53.879595 [info ] [MainThread]: 
+[0m21:44:53.879877 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m21:44:53.880573 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.9580919, "process_in_blocks": "0", "process_kernel_time": 0.221162, "process_mem_max_rss": "129072", "process_out_blocks": "2064", "process_user_time": 1.847001}
+[0m21:44:53.880949 [debug] [MainThread]: Command `dbt run` succeeded at 21:44:53.880879 after 0.96 seconds
+[0m21:44:53.881270 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d3f0b39e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d4040e150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x791d3cd6b5f0>]}
+[0m21:44:53.881571 [debug] [MainThread]: Flushing usage events
+[0m21:44:54.603828 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:52:27.514676 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d7b2a22d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d7ba16f60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d7ba16f30>]}
+
+
+============================== 21:52:27.517238 | 59ac81c6-95e1-41c0-b6e5-dd91fdac6ddb ==============================
+[0m21:52:27.517238 [info ] [MainThread]: Running with dbt=1.11.6
+[0m21:52:27.517656 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'fail_fast': 'False', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'empty': 'None', 'use_experimental_parser': 'False', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'quiet': 'False', 'use_colors': 'True', 'warn_error': 'None', 'log_format': 'default', 'profiles_dir': '/home/zac/Desktop/public_spend/analytics/dbt', 'static_parser': 'True', 'invocation_command': 'dbt seed', 'debug': 'False', 'indirect_selection': 'eager', 'no_print': 'None', 'log_path': '/home/zac/Desktop/public_spend/analytics/dbt/logs', 'partial_parse': 'True', 'write_json': 'True'}
+[0m21:52:27.637770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '59ac81c6-95e1-41c0-b6e5-dd91fdac6ddb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d7d1e4080>]}
+[0m21:52:27.683961 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '59ac81c6-95e1-41c0-b6e5-dd91fdac6ddb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d7b2433e0>]}
+[0m21:52:27.684632 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m21:52:27.770577 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m21:52:27.863497 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:52:27.863835 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:52:27.864089 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:52:27.904139 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '59ac81c6-95e1-41c0-b6e5-dd91fdac6ddb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d7aa8f0b0>]}
+[0m21:52:27.972256 [debug] [MainThread]: Wrote artifact WritableManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/manifest.json
+[0m21:52:27.973287 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/semantic_manifest.json
+[0m21:52:27.982064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '59ac81c6-95e1-41c0-b6e5-dd91fdac6ddb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d78d939b0>]}
+[0m21:52:27.982421 [info ] [MainThread]: Found 4 models, 8 data tests, 1 seed, 1 source, 465 macros
+[0m21:52:27.982710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '59ac81c6-95e1-41c0-b6e5-dd91fdac6ddb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d79913fb0>]}
+[0m21:52:27.984019 [info ] [MainThread]: 
+[0m21:52:27.984325 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:52:27.984604 [info ] [MainThread]: 
+[0m21:52:27.984992 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:52:27.985687 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend'
+[0m21:52:28.020418 [debug] [ThreadPool]: Using postgres connection "list_public_spend"
+[0m21:52:28.020821 [debug] [ThreadPool]: On list_public_spend: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:52:28.021117 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:52:28.031881 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.011 seconds
+[0m21:52:28.033479 [debug] [ThreadPool]: On list_public_spend: Close
+[0m21:52:28.037923 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_public_spend, now list_public_spend_gold_intermediate)
+[0m21:52:28.038506 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend_gold_gold'
+[0m21:52:28.042454 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_intermediate"
+[0m21:52:28.043186 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend_gold'
+[0m21:52:28.043946 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend_gold_staging'
+[0m21:52:28.045991 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_gold"
+[0m21:52:28.046546 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_intermediate"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_intermediate'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_intermediate'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_intermediate'
+  
+[0m21:52:28.048607 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold"
+[0m21:52:28.050268 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_staging"
+[0m21:52:28.050625 [debug] [ThreadPool]: On list_public_spend_gold_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_gold"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_gold'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_gold'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_gold'
+  
+[0m21:52:28.050984 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:52:28.051315 [debug] [ThreadPool]: On list_public_spend_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold'
+  
+[0m21:52:28.051675 [debug] [ThreadPool]: On list_public_spend_gold_staging: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_staging"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_staging'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_staging'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_staging'
+  
+[0m21:52:28.051959 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:52:28.052385 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:52:28.052701 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:52:28.062176 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.011 seconds
+[0m21:52:28.062562 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.011 seconds
+[0m21:52:28.062869 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.010 seconds
+[0m21:52:28.063170 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.010 seconds
+[0m21:52:28.064132 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: ROLLBACK
+[0m21:52:28.065002 [debug] [ThreadPool]: On list_public_spend_gold_gold: ROLLBACK
+[0m21:52:28.065947 [debug] [ThreadPool]: On list_public_spend_gold: ROLLBACK
+[0m21:52:28.066792 [debug] [ThreadPool]: On list_public_spend_gold_staging: ROLLBACK
+[0m21:52:28.067275 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: Close
+[0m21:52:28.067594 [debug] [ThreadPool]: On list_public_spend_gold_gold: Close
+[0m21:52:28.067920 [debug] [ThreadPool]: On list_public_spend_gold: Close
+[0m21:52:28.068293 [debug] [ThreadPool]: On list_public_spend_gold_staging: Close
+[0m21:52:28.072548 [debug] [MainThread]: Using postgres connection "master"
+[0m21:52:28.072942 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m21:52:28.073314 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:52:28.082448 [debug] [MainThread]: SQL status: SELECT 3 in 0.009 seconds
+[0m21:52:28.083838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '59ac81c6-95e1-41c0-b6e5-dd91fdac6ddb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d7a143980>]}
+[0m21:52:28.084196 [debug] [MainThread]: On master: ROLLBACK
+[0m21:52:28.084546 [debug] [MainThread]: On master: COMMIT
+[0m21:52:28.084819 [debug] [MainThread]: Using postgres connection "master"
+[0m21:52:28.085068 [debug] [MainThread]: On master: COMMIT
+[0m21:52:28.085434 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:52:28.085698 [debug] [MainThread]: On master: Close
+[0m21:52:28.087559 [debug] [Thread-1 (]: Began running node seed.public_spend.de_para_orgaos
+[0m21:52:28.088071 [info ] [Thread-1 (]: 1 of 1 START seed file gold.de_para_orgaos ..................................... [RUN]
+[0m21:52:28.088501 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_public_spend_gold_staging, now seed.public_spend.de_para_orgaos)
+[0m21:52:28.088808 [debug] [Thread-1 (]: Began compiling node seed.public_spend.de_para_orgaos
+[0m21:52:28.089105 [debug] [Thread-1 (]: Began executing node seed.public_spend.de_para_orgaos
+[0m21:52:28.112581 [debug] [Thread-1 (]: Using postgres connection "seed.public_spend.de_para_orgaos"
+[0m21:52:28.113118 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "seed.public_spend.de_para_orgaos"} */
+truncate table "public_spend"."gold"."de_para_orgaos"
+[0m21:52:28.113491 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:52:28.122767 [debug] [Thread-1 (]: SQL status: TRUNCATE TABLE in 0.009 seconds
+[0m21:52:28.135156 [debug] [Thread-1 (]: Using postgres connection "seed.public_spend.de_para_orgaos"
+[0m21:52:28.135573 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: 
+          insert into "public_spend"."gold"."de_para_orgaos" ("nome_variante", "nome_padrao") values
+          (%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s)
+      ...
+[0m21:52:28.136242 [debug] [Thread-1 (]: SQL status: INSERT 0 6 in 0.000 seconds
+[0m21:52:28.139983 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.public_spend.de_para_orgaos"
+[0m21:52:28.149533 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: COMMIT
+[0m21:52:28.149887 [debug] [Thread-1 (]: Using postgres connection "seed.public_spend.de_para_orgaos"
+[0m21:52:28.150208 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: COMMIT
+[0m21:52:28.151740 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:52:28.153018 [debug] [Thread-1 (]: On seed.public_spend.de_para_orgaos: Close
+[0m21:52:28.154252 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '59ac81c6-95e1-41c0-b6e5-dd91fdac6ddb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d7b990080>]}
+[0m21:52:28.154705 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file gold.de_para_orgaos ................................. [[32mINSERT 6[0m in 0.07s]
+[0m21:52:28.155198 [debug] [Thread-1 (]: Finished running node seed.public_spend.de_para_orgaos
+[0m21:52:28.156359 [debug] [MainThread]: On master: COMMIT
+[0m21:52:28.156714 [debug] [MainThread]: Using postgres connection "master"
+[0m21:52:28.156973 [debug] [MainThread]: On master: COMMIT
+[0m21:52:28.157219 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:52:28.164064 [debug] [MainThread]: SQL status: COMMIT in 0.007 seconds
+[0m21:52:28.164456 [debug] [MainThread]: On master: Close
+[0m21:52:28.164983 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:52:28.165369 [debug] [MainThread]: Connection 'list_public_spend_gold_intermediate' was properly closed.
+[0m21:52:28.165732 [debug] [MainThread]: Connection 'list_public_spend_gold_gold' was properly closed.
+[0m21:52:28.166076 [debug] [MainThread]: Connection 'list_public_spend_gold' was properly closed.
+[0m21:52:28.166398 [debug] [MainThread]: Connection 'seed.public_spend.de_para_orgaos' was properly closed.
+[0m21:52:28.166761 [info ] [MainThread]: 
+[0m21:52:28.167138 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 0.18 seconds (0.18s).
+[0m21:52:28.167863 [debug] [MainThread]: Command end result
+[0m21:52:28.184852 [debug] [MainThread]: Wrote artifact WritableManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/manifest.json
+[0m21:52:28.186310 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/semantic_manifest.json
+[0m21:52:28.192185 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/zac/Desktop/public_spend/analytics/dbt/target/run_results.json
+[0m21:52:28.192629 [info ] [MainThread]: 
+[0m21:52:28.193111 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:52:28.193527 [info ] [MainThread]: 
+[0m21:52:28.193963 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m21:52:28.194998 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": true, "command_wall_clock_time": 0.7204308, "process_in_blocks": "0", "process_kernel_time": 0.213451, "process_mem_max_rss": "128168", "process_out_blocks": "1968", "process_user_time": 1.561303}
+[0m21:52:28.195544 [debug] [MainThread]: Command `dbt seed` succeeded at 21:52:28.195453 after 0.72 seconds
+[0m21:52:28.195866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d7b458bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d7c685730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x740d7c685b80>]}
+[0m21:52:28.196175 [debug] [MainThread]: Flushing usage events
+[0m21:52:28.926808 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:52:32.754697 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716786472de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71678652b0b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7167864733e0>]}
+
+
+============================== 21:52:32.757321 | 4bf0739e-29e1-412a-b52b-dba841af9263 ==============================
+[0m21:52:32.757321 [info ] [MainThread]: Running with dbt=1.11.6
+[0m21:52:32.757787 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'target_path': 'None', 'warn_error': 'None', 'indirect_selection': 'eager', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'debug': 'False', 'cache_selected_only': 'False', 'use_colors': 'True', 'log_format': 'default', 'log_cache_events': 'False', 'no_print': 'None', 'static_parser': 'True', 'version_check': 'True', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'printer_width': '80', 'use_experimental_parser': 'False', 'log_path': '/home/zac/Desktop/public_spend/analytics/dbt/logs', 'write_json': 'True', 'profiles_dir': '/home/zac/Desktop/public_spend/analytics/dbt', 'introspect': 'True'}
+[0m21:52:32.883493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4bf0739e-29e1-412a-b52b-dba841af9263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7167855a2b10>]}
+[0m21:52:32.931138 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4bf0739e-29e1-412a-b52b-dba841af9263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716786304140>]}
+[0m21:52:32.931838 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m21:52:33.017110 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m21:52:33.114461 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:52:33.114850 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:52:33.115161 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:52:33.157589 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4bf0739e-29e1-412a-b52b-dba841af9263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716784349400>]}
+[0m21:52:33.232573 [debug] [MainThread]: Wrote artifact WritableManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/manifest.json
+[0m21:52:33.233965 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/semantic_manifest.json
+[0m21:52:33.244336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4bf0739e-29e1-412a-b52b-dba841af9263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716783bce9f0>]}
+[0m21:52:33.244790 [info ] [MainThread]: Found 4 models, 8 data tests, 1 seed, 1 source, 465 macros
+[0m21:52:33.245143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4bf0739e-29e1-412a-b52b-dba841af9263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716783bbc4a0>]}
+[0m21:52:33.246675 [info ] [MainThread]: 
+[0m21:52:33.247023 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:52:33.247311 [info ] [MainThread]: 
+[0m21:52:33.247750 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:52:33.250770 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend'
+[0m21:52:33.251328 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend'
+[0m21:52:33.267457 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend'
+[0m21:52:33.289770 [debug] [ThreadPool]: Using postgres connection "list_public_spend"
+[0m21:52:33.290164 [debug] [ThreadPool]: Using postgres connection "list_public_spend"
+[0m21:52:33.290533 [debug] [ThreadPool]: Using postgres connection "list_public_spend"
+[0m21:52:33.290923 [debug] [ThreadPool]: On list_public_spend: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:52:33.291238 [debug] [ThreadPool]: On list_public_spend: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:52:33.291546 [debug] [ThreadPool]: On list_public_spend: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:52:33.291876 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:52:33.292147 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:52:33.292418 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:52:33.303527 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.011 seconds
+[0m21:52:33.304770 [debug] [ThreadPool]: On list_public_spend: Close
+[0m21:52:33.305135 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.013 seconds
+[0m21:52:33.305425 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.014 seconds
+[0m21:52:33.306288 [debug] [ThreadPool]: On list_public_spend: Close
+[0m21:52:33.307309 [debug] [ThreadPool]: On list_public_spend: Close
+[0m21:52:33.308660 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_public_spend, now list_public_spend_gold_staging)
+[0m21:52:33.309065 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_public_spend, now list_public_spend_gold)
+[0m21:52:33.313382 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_staging"
+[0m21:52:33.313840 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_public_spend, now list_public_spend_gold_gold)
+[0m21:52:33.314414 [debug] [ThreadPool]: Acquiring new postgres connection 'list_public_spend_gold_intermediate'
+[0m21:52:33.315718 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold"
+[0m21:52:33.316098 [debug] [ThreadPool]: On list_public_spend_gold_staging: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_staging"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_staging'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_staging'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_staging'
+  
+[0m21:52:33.317434 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_gold"
+[0m21:52:33.318604 [debug] [ThreadPool]: Using postgres connection "list_public_spend_gold_intermediate"
+[0m21:52:33.318942 [debug] [ThreadPool]: On list_public_spend_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold'
+  
+[0m21:52:33.319281 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:52:33.319657 [debug] [ThreadPool]: On list_public_spend_gold_gold: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_gold"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_gold'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_gold'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_gold'
+  
+[0m21:52:33.320008 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "list_public_spend_gold_intermediate"} */
+select
+      'public_spend' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'gold_intermediate'
+    union all
+    select
+      'public_spend' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'gold_intermediate'
+    union all
+    select
+      'public_spend' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'gold_intermediate'
+  
+[0m21:52:33.320308 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:52:33.320712 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:52:33.321047 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:52:33.330276 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.011 seconds
+[0m21:52:33.330691 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.010 seconds
+[0m21:52:33.331020 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.011 seconds
+[0m21:52:33.332085 [debug] [ThreadPool]: On list_public_spend_gold_staging: ROLLBACK
+[0m21:52:33.332384 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.011 seconds
+[0m21:52:33.333430 [debug] [ThreadPool]: On list_public_spend_gold_gold: ROLLBACK
+[0m21:52:33.334621 [debug] [ThreadPool]: On list_public_spend_gold: ROLLBACK
+[0m21:52:33.335769 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: ROLLBACK
+[0m21:52:33.336087 [debug] [ThreadPool]: On list_public_spend_gold_staging: Close
+[0m21:52:33.336467 [debug] [ThreadPool]: On list_public_spend_gold_gold: Close
+[0m21:52:33.336748 [debug] [ThreadPool]: On list_public_spend_gold_intermediate: Close
+[0m21:52:33.337015 [debug] [ThreadPool]: On list_public_spend_gold: Close
+[0m21:52:33.342618 [debug] [MainThread]: Using postgres connection "master"
+[0m21:52:33.343028 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m21:52:33.343349 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:52:33.355110 [debug] [MainThread]: SQL status: SELECT 3 in 0.012 seconds
+[0m21:52:33.356685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4bf0739e-29e1-412a-b52b-dba841af9263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716783b74da0>]}
+[0m21:52:33.357149 [debug] [MainThread]: On master: ROLLBACK
+[0m21:52:33.357718 [debug] [MainThread]: On master: COMMIT
+[0m21:52:33.358029 [debug] [MainThread]: Using postgres connection "master"
+[0m21:52:33.358441 [debug] [MainThread]: On master: COMMIT
+[0m21:52:33.359091 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:52:33.359524 [debug] [MainThread]: On master: Close
+[0m21:52:33.363144 [debug] [Thread-1 (]: Began running node model.public_spend.stg_gastos
+[0m21:52:33.363648 [info ] [Thread-1 (]: 1 of 4 START sql view model gold_staging.stg_gastos ............................ [RUN]
+[0m21:52:33.364045 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_public_spend_gold, now model.public_spend.stg_gastos)
+[0m21:52:33.364366 [debug] [Thread-1 (]: Began compiling node model.public_spend.stg_gastos
+[0m21:52:33.370363 [debug] [Thread-1 (]: Writing injected SQL for node "model.public_spend.stg_gastos"
+[0m21:52:33.370994 [debug] [Thread-1 (]: Began executing node model.public_spend.stg_gastos
+[0m21:52:33.400536 [debug] [Thread-1 (]: Writing runtime sql for node "model.public_spend.stg_gastos"
+[0m21:52:33.401158 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:52:33.401501 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.stg_gastos"} */
+
+  create view "public_spend"."gold_staging"."stg_gastos__dbt_tmp"
+    
+    
+  as (
+    SELECT
+    orgao_superior,
+    orgao,
+    pago,
+    ano
+FROM "public_spend"."silver"."gastos"
+WHERE pago > 0 -- Filtrar pagamentos validos
+-- Remove pagamentos zerados ou negativos
+  );
+[0m21:52:33.401805 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:52:33.410076 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.008 seconds
+[0m21:52:33.414432 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:52:33.414762 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.stg_gastos"} */
+alter table "public_spend"."gold_staging"."stg_gastos" rename to "stg_gastos__dbt_backup"
+[0m21:52:33.415283 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:52:33.417009 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:52:33.417372 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.stg_gastos"} */
+alter table "public_spend"."gold_staging"."stg_gastos__dbt_tmp" rename to "stg_gastos"
+[0m21:52:33.417974 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:52:33.430133 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: COMMIT
+[0m21:52:33.430579 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:52:33.430916 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: COMMIT
+[0m21:52:33.433362 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m21:52:33.440053 [debug] [Thread-1 (]: Applying DROP to: "public_spend"."gold_staging"."stg_gastos__dbt_backup"
+[0m21:52:33.444509 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.stg_gastos"
+[0m21:52:33.444873 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.stg_gastos"} */
+drop view if exists "public_spend"."gold_staging"."stg_gastos__dbt_backup" cascade
+[0m21:52:33.446669 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m21:52:33.448633 [debug] [Thread-1 (]: On model.public_spend.stg_gastos: Close
+[0m21:52:33.450050 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4bf0739e-29e1-412a-b52b-dba841af9263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716784727890>]}
+[0m21:52:33.450648 [info ] [Thread-1 (]: 1 of 4 OK created sql view model gold_staging.stg_gastos ....................... [[32mCREATE VIEW[0m in 0.09s]
+[0m21:52:33.451159 [debug] [Thread-1 (]: Finished running node model.public_spend.stg_gastos
+[0m21:52:33.451929 [debug] [Thread-3 (]: Began running node model.public_spend.int_gastos_normalizado
+[0m21:52:33.452396 [info ] [Thread-3 (]: 2 of 4 START sql view model gold_intermediate.int_gastos_normalizado ........... [RUN]
+[0m21:52:33.452786 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly list_public_spend_gold_intermediate, now model.public_spend.int_gastos_normalizado)
+[0m21:52:33.453100 [debug] [Thread-3 (]: Began compiling node model.public_spend.int_gastos_normalizado
+[0m21:52:33.455529 [debug] [Thread-3 (]: Writing injected SQL for node "model.public_spend.int_gastos_normalizado"
+[0m21:52:33.456019 [debug] [Thread-3 (]: Began executing node model.public_spend.int_gastos_normalizado
+[0m21:52:33.458093 [debug] [Thread-3 (]: Writing runtime sql for node "model.public_spend.int_gastos_normalizado"
+[0m21:52:33.458612 [debug] [Thread-3 (]: Using postgres connection "model.public_spend.int_gastos_normalizado"
+[0m21:52:33.458934 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.int_gastos_normalizado"} */
+
+  create view "public_spend"."gold_intermediate"."int_gastos_normalizado__dbt_tmp"
+    
+    
+  as (
+    SELECT
+    g.orgao_superior,
+    COALESCE(d.nome_padrao, g.orgao) AS orgao, 
+    g.pago,
+    g.ano
+FROM "public_spend"."gold_staging"."stg_gastos" g
+LEFT JOIN "public_spend"."gold"."de_para_orgaos" d 
+    ON g.orgao = d.nome_variante
+  );
+[0m21:52:33.459257 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m21:52:33.469861 [debug] [Thread-3 (]: SQL status: CREATE VIEW in 0.010 seconds
+[0m21:52:33.472825 [debug] [Thread-3 (]: Using postgres connection "model.public_spend.int_gastos_normalizado"
+[0m21:52:33.473223 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.int_gastos_normalizado"} */
+alter table "public_spend"."gold_intermediate"."int_gastos_normalizado__dbt_tmp" rename to "int_gastos_normalizado"
+[0m21:52:33.474039 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:52:33.475043 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: COMMIT
+[0m21:52:33.475375 [debug] [Thread-3 (]: Using postgres connection "model.public_spend.int_gastos_normalizado"
+[0m21:52:33.475664 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: COMMIT
+[0m21:52:33.478987 [debug] [Thread-3 (]: SQL status: COMMIT in 0.003 seconds
+[0m21:52:33.480973 [debug] [Thread-3 (]: Applying DROP to: "public_spend"."gold_intermediate"."int_gastos_normalizado__dbt_backup"
+[0m21:52:33.481506 [debug] [Thread-3 (]: Using postgres connection "model.public_spend.int_gastos_normalizado"
+[0m21:52:33.481826 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.int_gastos_normalizado"} */
+drop view if exists "public_spend"."gold_intermediate"."int_gastos_normalizado__dbt_backup" cascade
+[0m21:52:33.482365 [debug] [Thread-3 (]: SQL status: DROP VIEW in 0.000 seconds
+[0m21:52:33.483400 [debug] [Thread-3 (]: On model.public_spend.int_gastos_normalizado: Close
+[0m21:52:33.484020 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4bf0739e-29e1-412a-b52b-dba841af9263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71678137e7e0>]}
+[0m21:52:33.484650 [info ] [Thread-3 (]: 2 of 4 OK created sql view model gold_intermediate.int_gastos_normalizado ...... [[32mCREATE VIEW[0m in 0.03s]
+[0m21:52:33.485249 [debug] [Thread-3 (]: Finished running node model.public_spend.int_gastos_normalizado
+[0m21:52:33.485906 [debug] [Thread-2 (]: Began running node model.public_spend.dim_orgaos
+[0m21:52:33.486297 [debug] [Thread-1 (]: Began running node model.public_spend.fato_gastos_por_orgao_ano
+[0m21:52:33.486713 [info ] [Thread-2 (]: 3 of 4 START sql table model gold_gold.dim_orgaos .............................. [RUN]
+[0m21:52:33.487156 [info ] [Thread-1 (]: 4 of 4 START sql table model gold_gold.fato_gastos_por_orgao_ano ............... [RUN]
+[0m21:52:33.487609 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_public_spend_gold_gold, now model.public_spend.dim_orgaos)
+[0m21:52:33.487987 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.public_spend.stg_gastos, now model.public_spend.fato_gastos_por_orgao_ano)
+[0m21:52:33.488368 [debug] [Thread-2 (]: Began compiling node model.public_spend.dim_orgaos
+[0m21:52:33.488708 [debug] [Thread-1 (]: Began compiling node model.public_spend.fato_gastos_por_orgao_ano
+[0m21:52:33.491458 [debug] [Thread-2 (]: Writing injected SQL for node "model.public_spend.dim_orgaos"
+[0m21:52:33.494671 [debug] [Thread-1 (]: Writing injected SQL for node "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:52:33.495306 [debug] [Thread-2 (]: Began executing node model.public_spend.dim_orgaos
+[0m21:52:33.495616 [debug] [Thread-1 (]: Began executing node model.public_spend.fato_gastos_por_orgao_ano
+[0m21:52:33.532508 [debug] [Thread-1 (]: Writing runtime sql for node "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:52:33.533091 [debug] [Thread-2 (]: Writing runtime sql for node "model.public_spend.dim_orgaos"
+[0m21:52:33.533793 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:52:33.534131 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:52:33.534482 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.dim_orgaos"} */
+
+  
+    
+
+  create  table "public_spend"."gold_gold"."dim_orgaos__dbt_tmp"
+  
+  
+    as
+  
+  (
+    SELECT
+    
+    upper(
+        trim(
+            regexp_replace(orgao, '\s+', ' ', 'g')
+            -- remove espaços duplos, tabs, etc
+        )
+    )
+ AS orgao,
+    orgao_superior,
+    COUNT(DISTINCT ano) AS anos_com_dados,
+    MIN(ano) AS primeiro_ano,
+    MAX(ano) AS ultimo_ano,
+    SUM(pago) AS total_historico
+FROM "public_spend"."gold_intermediate"."int_gastos_normalizado"
+GROUP BY 1, 2
+ORDER BY total_historico DESC
+  );
+  
+[0m21:52:33.534821 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.fato_gastos_por_orgao_ano"} */
+
+  
+    
+
+  create  table "public_spend"."gold_gold"."fato_gastos_por_orgao_ano__dbt_tmp"
+  
+  
+    as
+  
+  (
+    SELECT
+    orgao,
+    orgao_superior,
+    ano,
+    SUM(pago) AS total_gastos,
+    COUNT(*) AS qtd_pagamentos,
+    AVG(pago) AS ticket_medio,
+    MIN(pago) AS menor_pagamento,
+    MAX(pago) AS maior_pagamento
+FROM "public_spend"."gold_intermediate"."int_gastos_normalizado"
+GROUP BY 1, 2, 3
+  );
+  
+[0m21:52:33.535220 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m21:52:33.535646 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:52:33.547089 [debug] [Thread-1 (]: SQL status: SELECT 140 in 0.011 seconds
+[0m21:52:33.552010 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:52:33.552361 [debug] [Thread-2 (]: SQL status: SELECT 140 in 0.017 seconds
+[0m21:52:33.552707 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.fato_gastos_por_orgao_ano"} */
+alter table "public_spend"."gold_gold"."fato_gastos_por_orgao_ano" rename to "fato_gastos_por_orgao_ano__dbt_backup"
+[0m21:52:33.554540 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:52:33.554924 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.dim_orgaos"} */
+alter table "public_spend"."gold_gold"."dim_orgaos" rename to "dim_orgaos__dbt_backup"
+[0m21:52:33.555247 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:52:33.557264 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:52:33.557563 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.002 seconds
+[0m21:52:33.557908 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.fato_gastos_por_orgao_ano"} */
+alter table "public_spend"."gold_gold"."fato_gastos_por_orgao_ano__dbt_tmp" rename to "fato_gastos_por_orgao_ano"
+[0m21:52:33.559694 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:52:33.560070 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.dim_orgaos"} */
+alter table "public_spend"."gold_gold"."dim_orgaos__dbt_tmp" rename to "dim_orgaos"
+[0m21:52:33.560406 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:52:33.561488 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: COMMIT
+[0m21:52:33.561783 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m21:52:33.562127 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:52:33.563244 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: COMMIT
+[0m21:52:33.563592 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: COMMIT
+[0m21:52:33.563918 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:52:33.564310 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: COMMIT
+[0m21:52:33.565220 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:52:33.566838 [debug] [Thread-1 (]: Applying DROP to: "public_spend"."gold_gold"."fato_gastos_por_orgao_ano__dbt_backup"
+[0m21:52:33.567150 [debug] [Thread-2 (]: SQL status: COMMIT in 0.003 seconds
+[0m21:52:33.569688 [debug] [Thread-1 (]: Using postgres connection "model.public_spend.fato_gastos_por_orgao_ano"
+[0m21:52:33.571452 [debug] [Thread-2 (]: Applying DROP to: "public_spend"."gold_gold"."dim_orgaos__dbt_backup"
+[0m21:52:33.571900 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.fato_gastos_por_orgao_ano"} */
+drop table if exists "public_spend"."gold_gold"."fato_gastos_por_orgao_ano__dbt_backup" cascade
+[0m21:52:33.572490 [debug] [Thread-2 (]: Using postgres connection "model.public_spend.dim_orgaos"
+[0m21:52:33.573090 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "public_spend", "target_name": "dev", "node_id": "model.public_spend.dim_orgaos"} */
+drop table if exists "public_spend"."gold_gold"."dim_orgaos__dbt_backup" cascade
+[0m21:52:33.574630 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.002 seconds
+[0m21:52:33.575748 [debug] [Thread-1 (]: On model.public_spend.fato_gastos_por_orgao_ano: Close
+[0m21:52:33.576052 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.003 seconds
+[0m21:52:33.577115 [debug] [Thread-2 (]: On model.public_spend.dim_orgaos: Close
+[0m21:52:33.577560 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4bf0739e-29e1-412a-b52b-dba841af9263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716782fb2ed0>]}
+[0m21:52:33.578485 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4bf0739e-29e1-412a-b52b-dba841af9263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716780a9d6d0>]}
+[0m21:52:33.578134 [info ] [Thread-1 (]: 4 of 4 OK created sql table model gold_gold.fato_gastos_por_orgao_ano .......... [[32mSELECT 140[0m in 0.09s]
+[0m21:52:33.579050 [info ] [Thread-2 (]: 3 of 4 OK created sql table model gold_gold.dim_orgaos ......................... [[32mSELECT 140[0m in 0.09s]
+[0m21:52:33.579542 [debug] [Thread-1 (]: Finished running node model.public_spend.fato_gastos_por_orgao_ano
+[0m21:52:33.579968 [debug] [Thread-2 (]: Finished running node model.public_spend.dim_orgaos
+[0m21:52:33.580997 [debug] [MainThread]: On master: COMMIT
+[0m21:52:33.581393 [debug] [MainThread]: Using postgres connection "master"
+[0m21:52:33.581729 [debug] [MainThread]: On master: COMMIT
+[0m21:52:33.582022 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:52:33.589127 [debug] [MainThread]: SQL status: COMMIT in 0.007 seconds
+[0m21:52:33.589623 [debug] [MainThread]: On master: Close
+[0m21:52:33.590305 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:52:33.590694 [debug] [MainThread]: Connection 'list_public_spend_gold_staging' was properly closed.
+[0m21:52:33.591078 [debug] [MainThread]: Connection 'model.public_spend.fato_gastos_por_orgao_ano' was properly closed.
+[0m21:52:33.591523 [debug] [MainThread]: Connection 'model.public_spend.dim_orgaos' was properly closed.
+[0m21:52:33.591961 [debug] [MainThread]: Connection 'model.public_spend.int_gastos_normalizado' was properly closed.
+[0m21:52:33.592503 [info ] [MainThread]: 
+[0m21:52:33.592974 [info ] [MainThread]: Finished running 2 table models, 2 view models in 0 hours 0 minutes and 0.34 seconds (0.34s).
+[0m21:52:33.594022 [debug] [MainThread]: Command end result
+[0m21:52:33.669799 [debug] [MainThread]: Wrote artifact WritableManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/manifest.json
+[0m21:52:33.671054 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/zac/Desktop/public_spend/analytics/dbt/target/semantic_manifest.json
+[0m21:52:33.675305 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/zac/Desktop/public_spend/analytics/dbt/target/run_results.json
+[0m21:52:33.675620 [info ] [MainThread]: 
+[0m21:52:33.675939 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:52:33.676211 [info ] [MainThread]: 
+[0m21:52:33.676511 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m21:52:33.677203 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.96355975, "process_in_blocks": "0", "process_kernel_time": 0.216368, "process_mem_max_rss": "129380", "process_out_blocks": "2064", "process_user_time": 1.821105}
+[0m21:52:33.677587 [debug] [MainThread]: Command `dbt run` succeeded at 21:52:33.677518 after 0.96 seconds
+[0m21:52:33.677889 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716783b603e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716785909610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x716783fde9c0>]}
+[0m21:52:33.678188 [debug] [MainThread]: Flushing usage events
+[0m21:52:34.382398 [debug] [MainThread]: An error was encountered while trying to flush usage events

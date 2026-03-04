@@ -1,3 +1,94 @@
-.env
-/venv 
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+download/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+venv_streamlit/
+
+# Pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# testing
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# DBT artifacts and logs
+analytics/dbt/logs/
+analytics/dbt/target/
+analytics/dbt/.user.yml
+analytics/dbt/dbt_packages/
+
+# Docker and orchestration
+docker-compose.override.yml
+*.log
+
+# Airflow local files
+orchestration/logs/
+airflow.db
+webserver.log
+scheduler.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Encrypted credentials
+*.key
+*.pem
+
+# env files
+.env
+
+
+# secrets
+credentials.json
+
+# graphs
+**/*.gpickle
+
+# other
+__pycache__/
+*.envelope
+

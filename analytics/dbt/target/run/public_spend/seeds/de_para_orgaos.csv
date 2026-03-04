@@ -1,9 +1,7 @@
 
     
     
-    
-    create table "public_spend"."gold"."de_para_orgaos" ("nome_variante" text,"nome_padrao" text)
-  ;
+    truncate table "public_spend"."gold"."de_para_orgaos";
     -- dbt seed --
     
           insert into "public_spend"."gold"."de_para_orgaos" ("nome_variante", "nome_padrao") values

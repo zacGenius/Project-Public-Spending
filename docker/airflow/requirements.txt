@@ -1,0 +1,11 @@
+apache-airflow-providers-postgres==5.10.0
+# permite o Airflow conectar no Postgres nativamente
+psycopg2-binary==2.9.9
+# driver de conexão Postgres para Python
+pyspark==3.5.0
+# para o Airflow conseguir chamar os scripts PySpark
+pandas==2.2.0
+requests==2.31.0
+python-dotenv==1.0.0
+dbt-postgres==1.7.0
+# para o Airflow rodar comandos dbt

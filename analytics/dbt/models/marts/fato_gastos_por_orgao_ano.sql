@@ -4,7 +4,7 @@ SELECT
     ano,
     SUM(pago) AS total_gastos,
     COUNT(*) AS qtd_pagamentos,
-    AVG(pago) AS ticket_medio
+    AVG(pago) AS ticket_medio,
     MIN(pago) AS menor_pagamento,
     MAX(pago) AS maior_pagamento
 FROM {{ ref('int_gastos_normalizado') }}
