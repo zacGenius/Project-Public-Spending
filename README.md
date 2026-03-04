@@ -154,7 +154,3 @@ Faz pull request pra mim que eu agradeço.
 
 - GitHub: [zacgenius](https://github.com/zacgenius)
 - LinkedIn: [isaaccami](https://www.linkedin.com/in/isaaccami/)
-
-Qualquer dúvida manda DM. Curto um papo sobre ELT/DBT/streamlit ou sobre dados públicos em geral.
-
-Valeu por dar uma olhada — bora transformar esses CSVs em informação útil!
