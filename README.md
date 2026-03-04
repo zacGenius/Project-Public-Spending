@@ -42,7 +42,7 @@ Coisa importante: os caminhos `data/bronze` e `data/silver` são hard‑coded no
 
 ---
 
-## 🛠️ Como rodar (passo a passo que funciona comigo)
+## Como rodar (passo a passo que funciona comigo)
 
 ### 1. pega o código
 
@@ -127,7 +127,7 @@ O DAG chama os mesmos scripts Python em sequência: ingestão → transformaçã
 
 ---
 
-## 🧪 Testes
+## Testes
 
 Não deixe de rodar os testes se você fizer alterações no código. Eles dão uma cobertura básica nos módulos de ingestão/transformação.
 
@@ -139,14 +139,14 @@ Eles usam `pytest-mock` para simular downloads e conexões com o banco. Se algo 
 
 ---
 
-## ✏️ Desenvolvendo
+## Desenvolvendo
 
 - Quer adicionar outra fonte de dados? crie um novo módulo dentro de `pipelines/ingestion` e adicione uma entrada no `config.py`.
 - Para mudar as tabelas dbt crie modelos em `analytics/dbt/models/` seguindo o padrão dos sub‑diretórios (`staging` → `intermediate` → `marts`).
 - O app Streamlit é quase um protótipo; basta criar novas páginas em `app/pages/` e usar a conexão Postgres disponibilizada em `app/db.py`.
 - Alterou libs? atualiza `requirements.txt` e reaplica o `pip install -r`.
 
-Faz pull request pra mim que eu agradeço 😄.
+Faz pull request pra mim que eu agradeço.
 
 ---
 
