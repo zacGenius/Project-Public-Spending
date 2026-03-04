@@ -7,5 +7,5 @@ SELECT
     AVG(pago) AS ticket_medio
     MIN(pago) AS menor_pagamento,
     MAX(pago) AS maior_pagamento
-FROM {{ ref('int_gastos_normalizados') }}
+FROM {{ ref('int_gastos_normalizado') }}
 GROUP BY 1, 2, 3

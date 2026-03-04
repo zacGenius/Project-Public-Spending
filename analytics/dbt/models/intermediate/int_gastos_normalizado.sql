@@ -6,3 +6,4 @@ SELECT
 FROM {{ ref('stg_gastos') }} g
 LEFT JOIN {{ ref('de_para_orgaos') }} d 
     ON g.orgao = d.nome_variante
+    
