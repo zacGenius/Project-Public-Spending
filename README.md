@@ -2,7 +2,7 @@
 
 E aí! Eu sou o Isaac Camilo, mas pode me chamar de Zac (GitHub: [zacgenius](https://github.com/zacgenius), LinkedIn: [isaaccami](https://www.linkedin.com/in/isaaccami/)).
 
-Este repo é minha *caixinha de ferramentas* para brincar com dados de gastos públicos do Brasil. Se você está curioso em ver como montar um pipeline completo — da captura do CSV até um dashboard interativo passando por Postgres, dbt e Airflow — tá no lugar certo.
+Este repo é minha *caixinha de ferramentas* para brincar com dados de gastos públicos do Brasil. Se você está curioso em ver como montar um pipeline completo, da captura do CSV até um dashboard interativo passando por Postgres, dbt e Airflow, tá no lugar certo.
 
 O fluxo básico foi pensado assim:
 
@@ -12,7 +12,7 @@ O fluxo básico foi pensado assim:
 4. **Visualização**: abrir um app Streamlit com dois painéis simples (gastos por órgão e evolução anual).
 5. **Orquestração opcional**: botar tudo isso pra rodar com Airflow diariamente.
 
-Se você só quer entender os conceitos, dá pra olhar os scripts e ler os comentários — tudo tá bem comentado.
+Se você só quer entender os conceitos, dá pra olhar os scripts e ler os comentários, tudo tá bem comentado.
 
 ---
 
@@ -88,7 +88,7 @@ python -m pipelines.ingestion.ingestion
 python -m pipelines.transformation.transformation
 ```
 
-Se o processo quebrar, olha os logs no terminal — eles mostram o arquivo que falhou e qual coluna está fora do esquema. Ajusta o esquema em `pipelines/transformation/schemas.py` e roda de novo.
+Se o processo quebrar, olha os logs no terminal, eles mostram o arquivo que falhou e qual coluna está fora do esquema. Ajusta o esquema em `pipelines/transformation/schemas.py` e roda de novo.
 
 ### 5. roda o dbt
 
